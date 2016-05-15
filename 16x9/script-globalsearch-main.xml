@@ -38,6 +38,9 @@
 			<control type="label" id="220">
 				<include>HiddenControl</include>
 			</control>
+			<control type="label" id="230">
+				<include>HiddenControl</include>
+			</control>
 			<control type="label" id="190">
 				<include>HiddenControl</include>
 			</control>
@@ -214,6 +217,11 @@
 									<param name="LabelID" value="$LOCALIZE[344]" />
 									<param name="VisibleID" value="219" />
 								</include>
+								<include content="SearchItems">
+									<param name="ItemID" value="231" />
+									<param name="LabelID" value="$LOCALIZE[20348]" />
+									<param name="VisibleID" value="239" />
+								</include>
 							</content>
 						</control>
 						<!-- Lower group -->
@@ -284,6 +292,15 @@
 									<label>$INFO[Container(211).ListItem.Property(Year),,[COLOR 00ffffff]/[/COLOR]]</label>
 									<visible>Control.IsVisible(211) + !String.IsEmpty(Container(211).ListItem.Property(Year))</visible>
 								</control>
+								<control type="label">
+									<width>auto</width>
+									<height>24</height>
+									<font>Med24Num</font>
+									<aligny>bottom</aligny>
+									<textcolor>ffbebebe</textcolor>
+									<label>$INFO[Container(231).ListItem.Property(Year),,[COLOR 00ffffff]/[/COLOR]]</label>
+									<visible>Control.IsVisible(231) + !String.IsEmpty(Container(231).ListItem.Property(Year))</visible>
+								</control>
 								<control type="image">
 									<top>2</top>
 									<width>147</width>
@@ -309,11 +326,19 @@
 									<visible>Control.IsVisible(211) + !String.IsEmpty(Container(211).ListItem.Property(UserRating))</visible>
 								</control>
 								<control type="image">
+									<top>2</top>
+									<width>147</width>
+									<height>24</height>
+									<texture>$INFO[Container(231).ListItem.Property(UserRating),rating/rating,.png]</texture>
+									<aspectratio align="left">keep</aspectratio>
+									<visible>Control.IsVisible(231) + !String.IsEmpty(Container(231).ListItem.Property(UserRating))</visible>
+								</control>
+								<control type="image">
 									<top>3</top>
 									<width>48</width>
 									<height>23</height>
 									<texture>views/imdb.png</texture>
-									<visible>[Control.IsVisible(111) + !String.IsEmpty(Container(111).ListItem.Property(Rating))] | [Control.IsVisible(211) + !String.IsEmpty(Container(211).ListItem.Property(Rating))]</visible>
+									<visible>[Control.IsVisible(111) + !String.IsEmpty(Container(111).ListItem.Property(Rating))] | [Control.IsVisible(211) + !String.IsEmpty(Container(211).ListItem.Property(Rating))] | [Control.IsVisible(231) + !String.IsEmpty(Container(231).ListItem.Property(Rating))]</visible>
 								</control>
 								<control type="image">
 									<top>3</top>
@@ -353,6 +378,16 @@
 									<visible>Control.IsVisible(211) + !String.IsEmpty(Container(211).ListItem.Property(Rating))</visible>
 								</control>
 								<control type="label">
+									<top>-8</top>
+									<width>auto</width>
+									<height>24</height>
+									<font>Bold24Num</font>
+									<aligny>bottom</aligny>
+									<textcolor>ffdadada</textcolor>
+									<label>$INFO[Container(231).ListItem.Property(Rating),,/10]</label>
+									<visible>Control.IsVisible(231) + !String.IsEmpty(Container(231).ListItem.Property(Rating))</visible>
+								</control>
+								<control type="label">
 									<width>auto</width>
 									<height>24</height>
 									<font>Med24</font>
@@ -372,7 +407,7 @@
 								</control>
 							</control>
 							<control type="group">
-								<visible>Control.IsVisible(111) | Control.IsVisible(121) | Control.IsVisible(141) | Control.IsVisible(211)</visible>
+								<visible>Control.IsVisible(111) | Control.IsVisible(121) | Control.IsVisible(141) | Control.IsVisible(211) | Control.IsVisible(231)</visible>
 								<control type="textbox">
 									<top>145</top>
 									<width>1192</width>
@@ -409,7 +444,7 @@
 								</control>
 							</control>
 							<control type="group">
-								<visible>!Control.IsVisible(111) + !Control.IsVisible(121) + !Control.IsVisible(141) + !Control.IsVisible(211)</visible>
+								<visible>!Control.IsVisible(111) + !Control.IsVisible(121) + !Control.IsVisible(141) + !Control.IsVisible(211) + !Control.IsVisible(231)</visible>
 								<control type="textbox">
 									<top>103</top>
 									<width>1192</width>
@@ -485,6 +520,10 @@
 					<include content="SearchPosterList">
 						<param name="GroupID" value="219" />
 						<param name="ListID" value="211" />
+					</include>
+					<include content="SearchPosterList">
+						<param name="GroupID" value="239" />
+						<param name="ListID" value="231" />
 					</include>
 				</control>
 			</control>

@@ -54,7 +54,7 @@
 				<pagecontrol>3000</pagecontrol>
 				<autoscroll>false</autoscroll>
 				<textcolor>ffdadada</textcolor>
-				<label>[B][COLOR ffffffff]$INFO[Control.GetLabel(1),,[CR]][/B][/COLOR][LIGHT]$INFO[Control.GetLabel(5)][/LIGHT]</label>
+				<label>$VAR[TextViewerDescription]</label>
 			</control>
 			<!-- Arrow down -->
 			<control type="image">

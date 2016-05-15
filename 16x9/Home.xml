@@ -536,7 +536,7 @@
 				<content>
 					<item>
 						<onclick>noop</onclick>
-						<label>480</label>
+						<label>14206</label>
 						<icon>settings/icon_appearance.png</icon>
 					</item>
 					<item>
@@ -546,18 +546,23 @@
 					</item>
 					<item>
 						<onclick>noop</onclick>
-						<label>3</label>
-						<icon>settings/icon_videos.png</icon>
+						<label>14200</label>
+						<icon>settings/icon_player.png</icon>
 					</item>
 					<item>
 						<onclick>noop</onclick>
-						<label>2</label>
-						<icon>settings/icon_music.png</icon>
+						<label>14202</label>
+						<icon>settings/icon_library.png</icon>
 					</item>
 					<item>
 						<onclick>noop</onclick>
-						<label>8</label>
-						<icon>settings/icon_weather.png</icon>
+						<label>13000</label>
+						<icon>settings/icon_system.png</icon>
+					</item>
+					<item>
+						<onclick>noop</onclick>
+						<label>14036</label>
+						<icon>settings/icon_service.png</icon>
 					</item>
 				</content>
 			</control>

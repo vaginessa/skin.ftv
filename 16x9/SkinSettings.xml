@@ -48,7 +48,7 @@
 					<font>Light32</font>
 					<aligny>bottom</aligny>
 					<textcolor>ff505050</textcolor>
-					<label>$NUMBER[9]</label>
+					<label>$NUMBER[7]</label>
 				</control>
 			</control>
 			<control type="group">
@@ -117,7 +117,7 @@
 						<width>300</width>
 						<height>300</height>
 						<aspectratio align="center" aligny="center">keep</aspectratio>
-						<texture>settings/icon_videos.png</texture>
+						<texture>settings/icon_player.png</texture>
 					</control>
 					<control type="image">
 						<left>-24</left>
@@ -181,7 +181,7 @@
 					<height>32</height>
 					<font>Bold34</font>
 					<textcolor>ffdadada</textcolor>
-					<label>480</label>
+					<label>14206</label>
 				</control>
 				<control type="image">
 					<left>-13</left>

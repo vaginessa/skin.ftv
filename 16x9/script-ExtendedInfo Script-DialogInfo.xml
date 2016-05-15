@@ -105,7 +105,7 @@
 					<scroll>true</scroll>
 					<textcolor>ffdadada</textcolor>
 					<scrollspeed>100</scrollspeed>
-					<label>$INFO[Window.Property(title)]</label>
+					<label>$INFO[Window.Property(label)]</label>
 					<include>DialogVideoInfoAnimation</include>
 				</control>
 				<!-- Born / Role -->
@@ -157,7 +157,7 @@
 						<onleft>7000</onleft>
 						<onright>8</onright>
 						<onfocus>ClearProperty(FadeResume,home)</onfocus>
-						<onclick>RunScript(script.toolbox,info=textviewer,header=,text='$ESCINFO[Window.Property(Biography)]')</onclick>
+						<onclick>RunScript(script.toolbox,info=textviewer,header='empty',text='$ESCINFO[Window.Property(Biography)]')</onclick>
 						<visible>Control.IsVisible(96) + !String.IsEmpty(Window.Property(Biography))</visible>
 						<include>DialogVideoInfoAnimation</include>
 						<texturefocus>views/more_fo.png</texturefocus>
@@ -197,7 +197,7 @@
 				<height>32</height>
 				<font>Bold30</font>
 				<textcolor>$VAR[ExtendedInfoLabelColor]</textcolor>
-				<label>$INFO[Window.Property(title),$LOCALIZE[31204] ]</label>
+				<label>$INFO[Window.Property(label),$LOCALIZE[31204] ]</label>
 				<visible>String.IsEmpty(Window(home).Property(StarredInTV)) + !String.IsEmpty(Container(150).ListItem.Label) + !Control.HasFocus(150)</visible>
 				<animation delay="400" effect="fade" end="100" start="0" time="200">Visible</animation>
 				<animation effect="fade" end="0" start="100" time="0">Hidden</animation>
@@ -487,7 +487,7 @@
 				<height>32</height>
 				<font>Bold30</font>
 				<textcolor>$VAR[ExtendedInfoLabelColor]</textcolor>
-				<label>$INFO[Window.Property(title),Titles with ]</label>
+				<label>$INFO[Window.Property(label),Titles with ]</label>
 				<visible>!String.IsEmpty(Window(home).Property(StarredInTV)) + !String.IsEmpty(Container(250).ListItem.Label) + !Control.HasFocus(250)</visible>
 				<animation delay="400" effect="fade" end="100" start="0" time="200">Visible</animation>
 				<animation effect="fade" end="0" start="100" time="0">Hidden</animation>

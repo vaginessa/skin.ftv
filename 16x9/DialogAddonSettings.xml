@@ -120,8 +120,8 @@
 				<textoffsetx>40</textoffsetx>
 				<width>878</width>
 				<height>84</height>
-				<font>Light32</font>
-				<textcolor>ffbebebe</textcolor>
+				<font>Bold30</font>
+				<textcolor>ffdadada</textcolor>
 				<label>-</label>
 			</control>
 			<!-- Default seperator -->

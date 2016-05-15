@@ -484,8 +484,7 @@ msgstr ""
 
 msgctxt "#31115"
 msgid ""
-"Change the skin, set language and region, change file listing options and "
-"set up a screensaver."
+"Configure your Skin, Region, Control, Screensaver, and Master Lock settings."
 msgstr ""
 
 msgctxt "#31116"
@@ -494,23 +493,20 @@ msgstr ""
 
 msgctxt "#31117"
 msgid ""
-"Manage your video library, set video playback options, change video listing "
-"options and set subtitle fonts."
+"Configure the handling and playback settings for Video, Music, and Pictures."
 msgstr ""
 
 msgctxt "#31118"
 msgid ""
-"Manage your music library, set music playback options, change music listing "
-"options, and setup song submission."
+"Configure the media list display, information, and database settings."
 msgstr ""
 
 msgctxt "#31119"
 msgid ""
-"Manage your weather addons and set cities to collect weather information."
 msgstr ""
 
 msgctxt "#31120"
-msgid "Set picture listing options and configure slideshow settings."
+msgid ""
 msgstr ""
 
 msgctxt "#31121"

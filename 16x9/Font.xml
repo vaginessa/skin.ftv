@@ -4,27 +4,27 @@
 		<!-- OSD -->
 		<font>
 			<name>OSD40</name>
-			<filename>Amazon-Ember-Regular.ttf</filename>
+			<filename>Roboto-Regular.ttf</filename>
 			<size>40</size>
 		</font>
 		<font>
 			<name>OSD35</name>
-			<filename>Amazon-Ember-Light.ttf</filename>
+			<filename>Roboto-Regular.ttf</filename>
 			<size>35</size>
 		</font>
 		<font>
 			<name>OSD32</name>
-			<filename>Amazon-Ember-Light.ttf</filename>
+			<filename>Roboto-Regular.ttf</filename>
 			<size>32</size>
 		</font>
 		<font>
-			<name>OSD31</name>
-			<filename>Amazon-Ember-Light.ttf</filename>
-			<size>31</size>
+			<name>OSD32</name>
+			<filename>Roboto-Regular.ttf</filename>
+			<size>32</size>
 		</font>
 		<font>
 			<name>OSD20</name>
-			<filename>Amazon-Ember-Light.ttf</filename>
+			<filename>Roboto-Regular.ttf</filename>
 			<size>20</size>
 		</font>
 		<!-- Regular -->
@@ -49,6 +49,11 @@
 			<name>Reg32</name>
 			<filename>HelveticaNeue.ttf</filename>
 			<size>32</size>
+		</font>
+		<font>
+			<name>Reg28</name>
+			<filename>HelveticaNeue.ttf</filename>
+			<size>28</size>
 		</font>
 		<font>
 			<name>Reg27</name>
@@ -397,9 +402,9 @@
 			<size>32</size>
 		</font>
 		<font>
-			<name>OSD31</name>
+			<name>OSD32</name>
 			<filename>Roboto-Light.ttf</filename>
-			<size>31</size>
+			<size>32</size>
 		</font>
 		<font>
 			<name>OSD20</name>
@@ -770,11 +775,11 @@
 			<size>32</size>
 		</font>
 		<font>
-			<name>OSD31</name>
+			<name>OSD32</name>
 			<filename>Arial.ttf</filename>
 			<aspect>0.9</aspect>
 			<style>lighten</style>
-			<size>31</size>
+			<size>32</size>
 		</font>
 		<font>
 			<name>OSD20</name>

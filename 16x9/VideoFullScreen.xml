@@ -46,10 +46,10 @@
 					</control>
 					<control type="label">
 						<left>116</left>
-						<top>68</top>
+						<top>72</top>
 						<width>278</width>
 						<height>36</height>
-						<font>OSD31</font>
+						<font>OSD32</font>
 						<scroll>false</scroll>
 						<textcolor>ffd2d2d2</textcolor>
 						<shadowcolor>80000000</shadowcolor>
@@ -87,10 +87,10 @@
 					</control>
 					<control type="label">
 						<left>116</left>
-						<top>68</top>
+						<top>72</top>
 						<width>278</width>
 						<height>36</height>
-						<font>OSD31</font>
+						<font>OSD32</font>
 						<scroll>false</scroll>
 						<textcolor>ffd2d2d2</textcolor>
 						<shadowcolor>80000000</shadowcolor>
@@ -849,45 +849,6 @@
 					<height>122</height>
 					<texture>common/spinner.gif</texture>
 				</control>
-			</control>
-		</control>
-		<control type="group">
-			<left>80</left>
-			<top>200</top>
-			<width>1620</width>
-			<height>274</height>
-			<!-- Row 1 label -->
-			<control id="10" type="label">
-				<left>20</left>
-				<top>20</top>
-				<width>1580</width>
-				<height>50</height>
-				<font>Reg27</font>
-				<textcolor>ffffffff</textcolor>
-				<shadowcolor>ff000000</shadowcolor>
-				<label>-</label>
-			</control>
-			<!-- Row 2 label -->
-			<control id="11" type="label">
-				<left>20</left>
-				<top>110</top>
-				<width>1580</width>
-				<height>50</height>
-				<font>Reg27</font>
-				<textcolor>ffffffff</textcolor>
-				<shadowcolor>ff000000</shadowcolor>
-				<label>-</label>
-			</control>
-			<!-- Row 3 label -->
-			<control id="12" type="label">
-				<left>20</left>
-				<top>200</top>
-				<width>1580</width>
-				<height>50</height>
-				<font>Reg27</font>
-				<textcolor>ffffffff</textcolor>
-				<shadowcolor>ff000000</shadowcolor>
-				<label>-</label>
 			</control>
 		</control>
 		<!-- X-Ray diffuse -->

@@ -860,6 +860,17 @@
 				<font>font13</font>
 				<align>right</align>
 				<label>$INFO[Container.Content,[COLOR FF00FF00]Content - [/COLOR]]</label>
+				<visible>!Window.IsVisible(DialogMusicInfo.xml) + !Window.IsVisible(DialogVideoInfo.xml)</visible>
+			</control>
+			<!-- DBTYPE label -->
+			<control type="label">
+				<top>48</top>
+				<height>21</height>
+				<textcolor>FFFF0000</textcolor>
+				<shadowcolor>FF000000</shadowcolor>
+				<font>font13</font>
+				<align>right</align>
+				<label>$INFO[ListItem.DBTYPE,[COLOR FF00FF00]DBTYPE - [/COLOR]]</label>
 			</control>
 		</control>
 	</controls>

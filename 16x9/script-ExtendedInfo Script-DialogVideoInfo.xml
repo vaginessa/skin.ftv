@@ -126,7 +126,7 @@
 				<scroll>true</scroll>
 				<textcolor>ffdadada</textcolor>
 				<scrollspeed>100</scrollspeed>
-				<label>$INFO[Window.Property(Title)]</label>
+				<label>$INFO[Window.Property(label)]</label>
 				<include>DialogVideoInfoAnimation</include>
 			</control>
 			<!-- Year / Runtime / Rating -->
@@ -239,7 +239,7 @@
 					<onleft>7000</onleft>
 					<onright>8</onright>
 					<onfocus>ClearProperty(FadeResume,home)</onfocus>
-					<onclick>RunScript(script.toolbox,info=textviewer,header=,text='$ESCINFO[Window.Property(Plot)]')</onclick>
+					<onclick>RunScript(script.toolbox,info=textviewer,header='empty',text='$ESCINFO[Window.Property(Plot)]')</onclick>
 					<include>DialogVideoInfoAnimation</include>
 					<texturefocus>views/more_fo.png</texturefocus>
 					<texturenofocus>views/more_nf.png</texturenofocus>

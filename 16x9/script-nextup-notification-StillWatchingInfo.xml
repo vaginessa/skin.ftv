@@ -106,34 +106,34 @@
 		</control>
 		<control type="group">
 			<left>1472</left>
-			<top>573</top>
+			<top>564</top>
 			<width>328</width>
 			<!--  Next up label -->
 			<control type="label">
 				<width>auto</width>
 				<height>50</height>
-				<font>Med40</font>
+				<font>OSD40</font>
 				<textcolor>ffffffff</textcolor>
 				<shadowcolor>ff080808</shadowcolor>
 				<label>31164</label>
 			</control>
 			<!-- Next episode thumb -->
 			<control type="image">
-				<top>70</top>
+				<top>76</top>
 				<width>328</width>
 				<height>245</height>
 				<texture>views/episode_fallback.png</texture>
 				<aspectratio>scale</aspectratio>
 			</control>
 			<control type="image">
-				<top>70</top>
+				<top>76</top>
 				<width>328</width>
 				<height>245</height>
 				<aspectratio>scale</aspectratio>
 				<texture>$VAR[StillWatchingThumb]</texture>
 			</control>
 			<control type="image">
-				<top>70</top>
+				<top>76</top>
 				<width>328</width>
 				<height>245</height>
 				<aspectratio align="center">scale</aspectratio>
@@ -143,34 +143,34 @@
 			<!-- Next episode countdown -->
 			<control type="image">
 				<left>109</left>
-				<top>68</top>
+				<top>142</top>
 				<width>110</width>
 				<height>110</height>
 				<texture>$VAR[NextEpisodeCountdown]</texture>
 			</control>
 			<control type="image">
-				<top>315</top>
+				<top>321</top>
 				<width>328</width>
 				<height>68</height>
 				<texture>osd/nextup/background.png</texture>
 			</control>
 			<!--  Next episode label -->
 			<control type="label">
-				<top>329</top>
+				<top>335</top>
 				<width>328</width>
 				<height>40</height>
-				<font>Light28</font>
+				<font>Reg28</font>
 				<align>center</align>
 				<textcolor>ff000000</textcolor>
 				<label>$INFO[Control.GetLabel(4009),Ep. ]</label>
 			</control>
 			<!--  Close NextUp label -->
 			<control type="label">
-				<right>55</right>
-				<top>414</top>
+				<right>52</right>
+				<top>424</top>
 				<width>328</width>
 				<height>40</height>
-				<font>Light27</font>
+				<font>OSD32</font>
 				<align>right</align>
 				<textcolor>ffffffff</textcolor>
 				<shadowcolor>ff080808</shadowcolor>
@@ -179,7 +179,7 @@
 			<!--  Close NextUp image -->
 			<control type="image">
 				<right>0</right>
-				<top>413</top>
+				<top>423</top>
 				<width>44</width>
 				<height>44</height>
 				<texture>osd/nextup/back.png</texture>
