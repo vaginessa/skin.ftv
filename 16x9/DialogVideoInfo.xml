@@ -154,7 +154,7 @@
 				<scroll>true</scroll>
 				<textcolor>ffdadada</textcolor>
 				<scrollspeed>100</scrollspeed>
-				<label>$INFO[Window(home).Property(TVShowID)]</label>
+				<label>$VAR[VideoInfoLabel]</label>
 				<include>DialogVideoInfoAnimation</include>
 			</control>
 			<!-- Year / Runtime / Rating -->

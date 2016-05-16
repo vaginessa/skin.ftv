@@ -80,7 +80,7 @@
 				<textoffsetx>40</textoffsetx>
 				<textcolor>ff505153</textcolor>
 				<focusedcolor>ffffaf37</focusedcolor>
-				<selectedcolor2>ffffffff</selectedcolor2>
+				<selectedcolor>ffffffff</selectedcolor>
 				<texturefocus border="3">settings/button_focus.png</texturefocus>
 				<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
 				<aligny>center</aligny>
