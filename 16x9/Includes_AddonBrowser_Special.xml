@@ -355,21 +355,46 @@
 			<control type="group">
 				<left>1354</left>
 				<top>232</top>
-				<control type="label">
-					<width>472</width>
+				<width>472</width>
+				<control type="fadelabel">
+					<width>344</width>
 					<height>38</height>
 					<font>Med34</font>
-					<scroll>true</scroll>
+					<scrollout>false</scrollout>
+					<scrollspeed>40</scrollspeed>
+					<pauseatend>2000</pauseatend>
 					<textcolor>ffdadada</textcolor>
 					<label>$INFO[ListItem.Label]</label>
 				</control>
-				<control type="label">
-					<top>50</top>
-					<width>472</width>
+				<control type="fadelabel">
+					<top>54</top>
+					<width>344</width>
 					<height>30</height>
 					<font>Light26</font>
+					<scrollout>false</scrollout>
+					<scrollspeed>40</scrollspeed>
+					<pauseatend>2000</pauseatend>
 					<textcolor>ff6a6c70</textcolor>
 					<label>$INFO[ListItem.AddonCreator]</label>
+				</control>
+				<control type="label">
+					<right>0</right>
+					<width>108</width>
+					<height>38</height>
+					<font>Light35</font>
+					<align>right</align>
+					<textcolor>ffb0b1b2</textcolor>
+					<label>289</label>
+				</control>
+				<control type="label">
+					<right>0</right>
+					<top>54</top>
+					<width>108</width>
+					<height>30</height>
+					<font>Light26</font>
+					<align>right</align>
+					<textcolor>ff6a6c70</textcolor>
+					<label fallback="N/A">$INFO[Container(51).ListItem.AddonSize]</label>
 				</control>
 				<control type="image">
 					<top>128</top>

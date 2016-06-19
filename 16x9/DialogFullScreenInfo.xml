@@ -13,10 +13,9 @@
 		<!-- Hidden controls -->
 		<control type="button" id="99">
 			<include>HiddenControl</include>
-			<onup condition="String.IsEmpty(Window(home).Property(ShowXRay))">SetProperty(ShowXRay,true,home)</onup>
-			<onup condition="!Player.Paused">Pause</onup>
+			<onup condition="!String.IsEmpty(Container(1000).ListItem.Label) + String.IsEmpty(Window(home).Property(ShowXRay))">SetProperty(ShowXRay,true,home)</onup>
+			<onup condition="!String.IsEmpty(Container(1000).ListItem.Label) + !Player.Paused">Pause</onup>
 			<onup>1000</onup>
-			<visible>!String.IsEmpty(Container(1000).ListItem.Label)</visible>
 		</control>
 		<control type="group">
 			<right>100</right>
@@ -62,7 +61,7 @@
 			</control>
 		</control>
 		<control type="group">
-			<visible>!Window.IsVisible(script-ExtendedInfo Script-DialogInfo.xml) + !Window.IsVisible(script-ExtendedInfo Script-DialogVideoInfo.xml)</visible>
+			<visible>!Window.IsVisible(script-script.extendedinfo-DialogInfo.xml) + !Window.IsVisible(script-script.extendedinfo-DialogVideoInfo.xml)</visible>
 			<animation delay="800" effect="fade" end="100" start="0" time="200">Visible</animation>
 			<animation effect="slide" end="0,-1080" start="0,0" time="0" condition="String.IsEmpty(Window(home).Property(ShowXRay))">Conditional</animation>
 			<control type="group">

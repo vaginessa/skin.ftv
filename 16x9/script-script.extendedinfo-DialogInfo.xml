@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window>
-	<!-- script-ExtendedInfo Script-DialogInfo.xml -->
+	<!-- script-script.extendedinfo-DialogInfo.xml -->
 	<defaultcontrol always="true">7000</defaultcontrol>
 	<onunload>ClearProperty(StarredInTV,home)</onunload>
 	<animation effect="fade" end="100" start="100" time="200">WindowClose</animation>

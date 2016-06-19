@@ -304,22 +304,6 @@
 						<texturefocus border="13,5,6,8">views/button_fo.png</texturefocus>
 						<texturenofocus border="13,3,6,6">views/button_nf.png</texturenofocus>
 					</control>
-					<!-- Changelog Button -->
-					<control id="10" type="button">
-						<width min="124" max="204">auto</width>
-						<wrapmultiline>true</wrapmultiline>
-						<height>116</height>
-						<onup>Close</onup>
-						<ondown condition="Control.IsVisible(50)">50</ondown>
-						<font>Med24</font>
-						<label>$LOCALIZE[31050]</label>
-						<textoffsetx>28</textoffsetx>
-						<textcolor>ffdadada</textcolor>
-						<focusedcolor>ff222222</focusedcolor>
-						<texturefocus border="13,5,6,8">views/button_fo.png</texturefocus>
-						<texturenofocus border="13,3,6,6">views/button_nf.png</texturenofocus>
-						<visible>Control.IsEnabled(10)</visible>
-					</control>
 				</control>
 			</control>
 			<control type="group">
@@ -403,6 +387,16 @@
 						<textcolor>ff8f8f8f</textcolor>
 						<label>[COLOR ffdadada]$LOCALIZE[126][/COLOR][CR]$INFO[ListItem.Property(Addon.Status)]</label>
 						<visible>!String.IsEmpty(ListItem.Property(Addon.Status))</visible>
+					</control>
+					<control type="textbox">
+						<width>470</width>
+						<height>auto</height>
+						<align>left</align>
+						<font>Light30</font>
+						<autoscroll>false</autoscroll>
+						<textcolor>ff8f8f8f</textcolor>
+						<label>[COLOR ffdadada]$LOCALIZE[289][/COLOR][CR]$INFO[ListItem.AddonSize]</label>
+						<visible>!String.IsEmpty(ListItem.AddonSize)</visible>
 					</control>
 					<control type="textbox">
 						<width>470</width>
