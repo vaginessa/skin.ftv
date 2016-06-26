@@ -194,24 +194,6 @@
 						<texturenofocus border="13,3,6,6">views/button_nf.png</texturenofocus>
 						<enabled>!ListItem.IsParentFolder</enabled>
 					</control>
-					<control id="2003" type="button">
-						<top>110</top>
-						<width>249</width>
-						<height>100</height>
-						<onleft>Back</onleft>
-						<onright>2004</onright>
-						<onup>2002</onup>
-						<ondown>2005</ondown>
-						<onclick>ReplaceWindow(MusicFiles)</onclick>
-						<font>Med24</font>
-						<wrapmultiline>true</wrapmultiline>
-						<label>$LOCALIZE[31087]</label>
-						<textoffsetx>28</textoffsetx>
-						<textcolor>ffdadada</textcolor>
-						<focusedcolor>ff222222</focusedcolor>
-						<texturefocus border="13,5,6,8">views/button_fo.png</texturefocus>
-						<texturenofocus border="13,3,6,6">views/button_nf.png</texturenofocus>
-					</control>
 					<control id="2004" type="button">
 						<left>247</left>
 						<top>110</top>

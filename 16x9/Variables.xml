@@ -1539,8 +1539,8 @@
 		<value condition="Window.IsVisible(pvr) + Control.IsVisible(15)">$INFO[Control.GetLabel(31)]</value>
 		<value condition="Window.IsVisible(pvr) + Control.IsVisible(16)">$INFO[Control.GetLabel(31)]</value>
 		<value condition="Window.IsVisible(pvr) + Control.IsVisible(17)">$LOCALIZE[137]</value>
-		<value condition="[Window.IsVisible(musiclibrary) | Window.IsVisible(musicfiles)]">$LOCALIZE[14202]</value>
-		<value condition="Window.IsVisible(videolibrary)">$LOCALIZE[14200]</value>
+		<value condition="Window.IsVisible(Music)">$LOCALIZE[14202]</value>
+		<value condition="Window.IsVisible(Videos)">$LOCALIZE[14200]</value>
 		<value condition="Window.IsVisible(pictures)">$LOCALIZE[14036]</value>
 		<value condition="Window.IsVisible(programs)">$LOCALIZE[0]</value>
 		<value condition="[Window.IsVisible(settings) | Window.IsVisible(SettingsCategory.xml) | Window.IsVisible(skinsettings) | Window.IsVisible(systeminfo) | Window.IsVisible(addonbrowser) | Window.IsVisible(profiles) | Window.IsVisible(filemanager)]">$LOCALIZE[5]</value>
