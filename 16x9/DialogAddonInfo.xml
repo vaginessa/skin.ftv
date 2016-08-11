@@ -222,6 +222,23 @@
 						<texturenofocus border="13,3,6,6">views/button_nf.png</texturenofocus>
 						<visible>Control.IsEnabled(12)</visible>
 					</control>
+					<!-- What's new Button -->
+					<control id="10" type="button">
+						<width min="104" max="204">auto</width>
+						<wrapmultiline>true</wrapmultiline>
+						<height>116</height>
+						<onup>Close</onup>
+						<ondown condition="Control.IsVisible(50)">50</ondown>
+						<onclick>RunScript(script.toolbox,info=textviewer,header='empty',text='$ESCINFO[ListItem.AddonNews]')</onclick>
+						<font>Med24</font>
+						<label>24054</label>
+						<textoffsetx>28</textoffsetx>
+						<textcolor>ffdadada</textcolor>
+						<focusedcolor>ff222222</focusedcolor>
+						<texturefocus border="13,5,6,8">views/button_fo.png</texturefocus>
+						<texturenofocus border="13,3,6,6">views/button_nf.png</texturenofocus>
+						<visible>!String.IsEmpty(ListItem.AddonNews)</visible>
+					</control>
 					<!-- Configure Addon button -->
 					<control id="9" type="button">
 						<width min="124" max="204">auto</width>
@@ -306,23 +323,143 @@
 					</control>
 				</control>
 			</control>
+			<!-- Screenshots list -->
 			<control type="group">
-				<animation condition="!String.IsEmpty(Window(home).Property(AddonDetails))" effect="fade" end="0" start="100" time="0">Conditional</animation>
-				<animation effect="fade" end="100" start="0" time="200" delay="800">WindowOpen</animation>
-				<!-- Fanart -->
-				<control type="image">
-					<left>-48</left>
-					<top>456</top>
-					<width>761</width>
-					<height>470</height>
-					<texture border="66,66,51,51">views/shadow_nf.png</texture>
-					<visible>!String.IsEmpty(ListItem.Art(fanart))</visible>
+				<left>-748</left>
+				<top>265</top>
+				<control type="group">
+					<left>1812</left>
+					<top>0</top>
+					<visible>String.IsEmpty(Window(home).Property(AddonDetails)) + !Control.HasFocus(50) + !String.IsEmpty(Container(50).ListItem.Icon)</visible>
+					<animation center="480,1022" condition="!Control.HasFocus(50)" easing="inout" effect="zoom" end="81" start="100" time="300" tween="sine">Conditional</animation>
+					<animation center="150,288" condition="true" effect="zoom" end="85" start="85">Conditional</animation>
+					<control type="group">
+						<visible>!String.IsEmpty(Container(50).ListItemNoWrap(1).Icon)</visible>
+						<control type="image">
+							<top>48</top>
+							<width>853</width>
+							<height>480</height>
+							<aspectratio align="center">scale</aspectratio>
+							<texture background="true">$INFO[Container(50).ListItemNoWrap(1).Icon]</texture>
+						</control>
+						<control type="image">
+							<left>-48</left>
+							<centertop>288</centertop>
+							<width>949</width>
+							<height>576</height>
+							<texture border="66,66,51,51">views/shadow_nf.png</texture>
+						</control>
+					</control>
+					<control type="group">
+						<left>882</left>
+						<visible>!String.IsEmpty(Container(50).ListItemNoWrap(2).Icon)</visible>
+						<control type="image">
+							<top>48</top>
+							<width>853</width>
+							<height>480</height>
+							<aspectratio align="center">scale</aspectratio>
+							<texture background="true">$INFO[Container(50).ListItemNoWrap(2).Icon]</texture>
+						</control>
+						<control type="image">
+							<left>-48</left>
+							<centertop>288</centertop>
+							<width>949</width>
+							<height>576</height>
+							<texture border="66,66,51,51">views/shadow_nf.png</texture>
+						</control>
+					</control>
 				</control>
-				<control type="image">
-					<top>504</top>
-					<width>665</width>
-					<height>374</height>
-					<texture>$INFO[ListItem.Art(fanart)]</texture>
+				<control id="50" type="fixedlist">
+					<width>2600</width>
+					<height>576</height>
+					<onup>9001</onup>
+					<ondown>Back</ondown>
+					<onleft>7000</onleft>
+					<onright>noop</onright>
+					<onright condition="!Window.IsVisible(1103)">SetProperty(BounceRight,1,Home)</onright>
+					<onback>9001</onback>
+					<preloaditems>2</preloaditems>
+					<focusposition>1</focusposition>
+					<viewtype label="">list</viewtype>
+					<orientation>horizontal</orientation>
+					<scrolltime easing="inout" tween="sine">300</scrolltime>
+					<animation condition="Window.IsVisible(1103)" reversible="false" type="Conditional">
+						<effect easing="out" end="-20,0" start="0,0" time="60" tween="sine" type="slide" />
+						<effect delay="80" easing="out" end="20,0" start="0,0" time="120" tween="sine" type="slide" />
+					</animation>
+					<animation delay="300" effect="fade" end="100" start="0" time="300">Visible</animation>
+					<animation effect="fade" end="0" start="100" time="300">Hidden</animation>
+					<animation effect="fade" end="0" start="100" time="0" condition="!String.IsEmpty(Window(home).Property(AddonDetails))">Conditional</animation>
+					<animation center="480,1022" condition="!Control.HasFocus(50)" easing="inout" effect="zoom" end="81" start="100" time="300" tween="sine">Conditional</animation>
+					<itemlayout height="576" width="750">
+						<control type="group">
+							<visible>Control.HasFocus(50)</visible>
+							<animation center="416.5,288" condition="true" effect="zoom" end="85" start="85">Conditional</animation>
+							<control type="image">
+								<top>48</top>
+								<width>853</width>
+								<height>480</height>
+								<aspectratio align="center">scale</aspectratio>
+								<texture background="true">$INFO[ListItem.Icon]</texture>
+							</control>
+							<control type="image">
+								<left>-48</left>
+								<centertop>288</centertop>
+								<width>949</width>
+								<height>576</height>
+								<texture border="66,66,51,51">views/shadow_nf.png</texture>
+							</control>
+							<control type="image">
+								<top>48</top>
+								<width>853</width>
+								<height>480</height>
+								<texture>views/OverlayNF.png</texture>
+								<visible>Control.HasFocus(50)</visible>
+								<animation center="auto" easing="inout" effect="fade" end="100" start="0" time="300" tween="sine">VisibleChange</animation>
+							</control>
+						</control>
+					</itemlayout>
+					<focusedlayout height="576" width="750">
+						<control type="group">
+							<animation center="416.5,288" condition="Control.HasFocus(50) + [Container(50).OnNext | Container(50).OnPrevious]" easing="inout" effect="zoom" end="100" start="85" time="300" tween="sine">Focus</animation>
+							<animation center="416.5,288" condition="Control.HasFocus(50) + [Container(50).OnNext | Container(50).OnPrevious]" easing="inout" effect="zoom" end="85" start="100" time="300" tween="sine">UnFocus</animation>
+							<animation center="416.5,288" condition="!Control.HasFocus(50)" easing="inout" effect="zoom" end="85" start="100" time="300" tween="sine">Conditional</animation>
+							<control type="image">
+								<top>48</top>
+								<width>853</width>
+								<height>480</height>
+								<aspectratio align="center">scale</aspectratio>
+								<texture background="true">$INFO[ListItem.Icon]</texture>
+							</control>
+							<control type="image">
+								<left>-48</left>
+								<centertop>288</centertop>
+								<width>949</width>
+								<height>576</height>
+								<texture border="51">views/shadow_fo.png</texture>
+								<animation center="auto" condition="Control.HasFocus(50) | Container(50).OnNext | Container(50).OnPrevious" easing="inout" effect="fade" end="100" start="0" time="300" tween="sine">Focus</animation>
+								<animation center="auto" condition="Container(50).OnNext | Container(50).OnPrevious" easing="inout" effect="fade" end="0" start="100" time="300" tween="sine">UnFocus</animation>
+							</control>
+							<control type="image">
+								<left>-48</left>
+								<centertop>288</centertop>
+								<width>949</width>
+								<height>576</height>
+								<texture border="66,66,51,51">views/shadow_nf.png</texture>
+								<animation center="auto" condition="Control.HasFocus(50)" easing="inout" effect="fade" end="0" start="100" time="300" tween="sine">Focus</animation>
+								<animation center="auto" condition="Control.HasFocus(50)" easing="inout" effect="fade" end="100" start="0" time="300" tween="sine">UnFocus</animation>
+							</control>
+							<control type="image">
+								<top>48</top>
+								<width>853</width>
+								<height>480</height>
+								<texture>views/OverlayNF.png</texture>
+								<visible>Control.HasFocus(50)</visible>
+								<animation center="auto" condition="Control.HasFocus(50)" easing="inout" effect="fade" end="0" start="100" time="300" tween="sine">Focus</animation>
+								<animation center="auto" condition="Control.HasFocus(50)" easing="inout" effect="fade" end="100" start="0" time="300" tween="sine">UnFocus</animation>
+							</control>
+						</control>
+					</focusedlayout>
 				</control>
 			</control>
 			<control type="group">
@@ -405,8 +542,8 @@
 						<font>Light30</font>
 						<autoscroll>false</autoscroll>
 						<textcolor>ff8f8f8f</textcolor>
-						<label>[COLOR ffdadada]$LOCALIZE[24098][/COLOR][CR]$INFO[ListItem.Property(Addon.Broken)]</label>
-						<visible>!String.IsEmpty(ListItem.Property(Addon.Broken))</visible>
+						<label>[COLOR ffdadada]$LOCALIZE[24098][/COLOR][CR]$INFO[ListItem.AddonBroken]</label>
+						<visible>!String.IsEmpty(ListItem.AddonBroken)</visible>
 					</control>
 					<control type="textbox">
 						<width>470</width>
@@ -415,8 +552,8 @@
 						<font>Light30</font>
 						<autoscroll>false</autoscroll>
 						<textcolor>ff8f8f8f</textcolor>
-						<label>[COLOR ffdadada]$LOCALIZE[24052][/COLOR][CR]$INFO[ListItem.Property(Addon.Disclaimer)]</label>
-						<visible>!String.IsEmpty(ListItem.Property(Addon.Disclaimer))</visible>
+						<label>[COLOR ffdadada]$LOCALIZE[24052][/COLOR][CR]$INFO[ListItem.AddonDisclaimer]</label>
+						<visible>!String.IsEmpty(ListItem.AddonDisclaimer)</visible>
 					</control>
 				</control>
 			</control>

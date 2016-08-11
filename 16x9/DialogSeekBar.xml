@@ -329,16 +329,7 @@
 					<bottom>123</bottom>
 					<width>80</width>
 					<height>80</height>
-					<texture>osd/step_forward.png</texture>
-					<visible>[!String.IsEmpty(Player.SeekOffset) + !String.Contains(Player.SeekOffset,-)] | [!String.IsEmpty(Player.SeekStepSize) + !String.Contains(Player.SeekStepSize,-)]</visible>
-				</control>
-				<control type="image">
-					<left>97</left>
-					<bottom>123</bottom>
-					<width>80</width>
-					<height>80</height>
-					<texture>osd/step_back.png</texture>
-					<visible>[!String.IsEmpty(Player.SeekOffset) + String.Contains(Player.SeekOffset,-)] | [!String.IsEmpty(Player.SeekStepSize) + String.Contains(Player.SeekStepSize,-)]</visible>
+					<texture>$VAR[StepIcon]</texture>
 				</control>
 				<control type="label">
 					<centerleft>136</centerleft>

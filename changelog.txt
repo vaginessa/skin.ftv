@@ -1,3 +1,7 @@
+3.1.0
+
+Changed too much to list
+
 3.0.6
 
 Krypton work

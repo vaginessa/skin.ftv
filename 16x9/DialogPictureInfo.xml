@@ -118,7 +118,7 @@
 				<itemgap>10</itemgap>
 				<align>right</align>
 				<!-- OK Button -->
-				<control type="button" id="28">
+				<control type="button">
 					<width>311</width>
 					<height>76</height>
 					<aligny>top</aligny>

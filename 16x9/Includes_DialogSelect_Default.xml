@@ -223,12 +223,23 @@
 						<aspectratio aligny="center">keep</aspectratio>
 					</control>
 					<control type="label">
+						<top>30</top>
 						<left>192</left>
 						<width>626</width>
-						<height>140</height>
+						<height>42</height>
 						<font>Light32</font>
 						<textcolor>ff505153</textcolor>
 						<label>$INFO[ListItem.Label]</label>
+						<animation condition="String.IsEmpty(ListItem.Label2)" effect="slide" end="0,19">Conditional</animation>
+					</control>
+					<control type="label">
+						<top>74</top>
+						<left>192</left>
+						<width>626</width>
+						<height>34</height>
+						<font>Light24</font>
+						<textcolor>ff505153</textcolor>
+						<label>$INFO[ListItem.Label2]</label>
 					</control>
 				</itemlayout>
 				<focusedlayout height="140" width="858">
@@ -246,21 +257,45 @@
 						<aspectratio aligny="center">keep</aspectratio>
 					</control>
 					<control type="label">
+						<top>30</top>
 						<left>192</left>
 						<width>626</width>
-						<height>140</height>
+						<height>42</height>
 						<font>Light32</font>
 						<textcolor>ffffaf37</textcolor>
 						<label>$INFO[ListItem.Label]</label>
+						<animation condition="String.IsEmpty(ListItem.Label2)" effect="slide" end="0,19">Conditional</animation>
 						<visible>Control.HasFocus(6)</visible>
 					</control>
 					<control type="label">
+						<top>74</top>
 						<left>192</left>
 						<width>626</width>
-						<height>140</height>
+						<height>34</height>
+						<font>Light24</font>
+						<textcolor>ffffaf37</textcolor>
+						<label>$INFO[ListItem.Label2]</label>
+						<visible>Control.HasFocus(6)</visible>
+					</control>
+					<control type="label">
+						<top>30</top>
+						<left>192</left>
+						<width>626</width>
+						<height>42</height>
 						<font>Light32</font>
 						<textcolor>ff505153</textcolor>
 						<label>$INFO[ListItem.Label]</label>
+						<animation condition="String.IsEmpty(ListItem.Label2)" effect="slide" end="0,19">Conditional</animation>
+						<visible>!Control.HasFocus(6)</visible>
+					</control>
+					<control type="label">
+						<top>74</top>
+						<left>192</left>
+						<width>626</width>
+						<height>34</height>
+						<font>Light24</font>
+						<textcolor>ff505153</textcolor>
+						<label>$INFO[ListItem.Label2]</label>
 						<visible>!Control.HasFocus(6)</visible>
 					</control>
 				</focusedlayout>

@@ -502,11 +502,11 @@ msgid ""
 msgstr ""
 
 msgctxt "#31119"
-msgid ""
+msgid "Hardware decoding is active"
 msgstr ""
 
 msgctxt "#31120"
-msgid ""
+msgid "Hardware decoding is inactive"
 msgstr ""
 
 msgctxt "#31121"
@@ -1021,4 +1021,8 @@ msgstr ""
 
 msgctxt "#31246"
 msgid "Location"
+msgstr ""
+
+msgctxt "#31247"
+msgid "Media Processing Info"
 msgstr ""

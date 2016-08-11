@@ -188,8 +188,8 @@
 					<icon>settings/icon_player.png</icon>
 				</item>
 				<item>
-					<onclick>ActivateWindow(librarysettings)</onclick>
-					<label>14202</label>
+					<onclick>ActivateWindow(mediasettings)</onclick>
+					<label>14211</label>
 					<label2>$LOCALIZE[31118]</label2>
 					<icon>settings/icon_library.png</icon>
 				</item>

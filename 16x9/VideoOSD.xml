@@ -182,8 +182,11 @@
 					<height>64</height>
 					<font>-</font>
 					<texturefocus>osd/osd_rw_fo.png</texturefocus>
-					<texturenofocus>osd/osd_rw_nf.png</texturenofocus>
-					<onclick>PlayerControl(Rewind)</onclick>
+					<texturenofocus>osd/osd_rw_nf.png</texturenofocus>					
+					<onclick condition="!Player.Paused + !Player.IsTempo">PlayerControl(Rewind)</onclick>
+					<onclick condition="Player.Paused + Player.TempoEnabled">PlayerControl(Play)</onclick>
+					<onclick condition="Player.Paused + Player.TempoEnabled">PlayerControl(TempoDown)</onclick>
+					<onclick condition="Player.IsTempo + Player.TempoEnabled">PlayerControl(TempoDown)</onclick>
 				</control>
 				<!-- Stop -->
 				<control type="button" id="303">
@@ -213,7 +216,10 @@
 					<font>-</font>
 					<texturefocus>osd/osd_ff_fo.png</texturefocus>
 					<texturenofocus>osd/osd_ff_nf.png</texturenofocus>
-					<onclick>PlayerControl(Forward)</onclick>
+					<onclick condition="!Player.Paused + !Player.IsTempo">PlayerControl(Forward)</onclick>
+					<onclick condition="Player.Paused + Player.TempoEnabled">PlayerControl(Play)</onclick>
+					<onclick condition="Player.Paused + Player.TempoEnabled">PlayerControl(TempoUp)</onclick>
+					<onclick condition="Player.IsTempo + Player.TempoEnabled">PlayerControl(TempoUp)</onclick>
 				</control>
 				<!-- Next -->
 				<control type="button" id="306">

@@ -103,7 +103,7 @@
 						<font>Light28</font>
 						<textcolor>ff636466</textcolor>
 						<label>$INFO[ListItem.Artist]</label>
-						<visible>!String.IsEqual(ListItem.AlbumArtist,ListItem.Artist)</visible>
+						<visible>!String.IsEqual(ListItem.AlbumArtist,ListItem.Artist) | String.Contains(Container.FolderPath,singles) | String.Contains(Container.FolderPath,songs)</visible>
 					</control>
 				</itemlayout>
 				<focusedlayout height="101" width="1000">
@@ -155,7 +155,7 @@
 						<textcolor>ffe9a01e</textcolor>
 						<selectedcolor>ffe9a01e</selectedcolor>
 						<label>$INFO[ListItem.Artist]</label>
-						<visible>!String.IsEqual(ListItem.AlbumArtist,ListItem.Artist)</visible>
+						<visible>!String.IsEqual(ListItem.AlbumArtist,ListItem.Artist) | String.Contains(Container.FolderPath,singles) | String.Contains(Container.FolderPath,songs)</visible>
 					</control>
 				</focusedlayout>
 			</control>
@@ -181,7 +181,7 @@
 						<onleft>Back</onleft>
 						<onright>20</onright>
 						<onup>50</onup>
-						<ondown>2003</ondown>
+						<ondown>2004</ondown>
 						<onclick>SetFocus(50)</onclick>
 						<onclick>Info</onclick>
 						<onclick>SetProperty(OpenMusicInformation,1,home)</onclick>
@@ -195,13 +195,12 @@
 						<enabled>!ListItem.IsParentFolder</enabled>
 					</control>
 					<control id="2004" type="button">
-						<left>247</left>
 						<top>110</top>
 						<width>249</width>
 						<height>100</height>
 						<onleft>2003</onleft>
-						<onright>50</onright>
-						<onup>20</onup>
+						<onright>2005</onright>
+						<onup>2002</onup>
 						<ondown>3000</ondown>
 						<onclick>SetFocus(5001)</onclick>
 						<font>Med24</font>
@@ -213,25 +212,6 @@
 						<texturefocus border="13,5,6,8">views/button_fo.png</texturefocus>
 						<texturenofocus border="13,3,6,6">views/button_nf.png</texturenofocus>
 					</control>
-					<control id="2005" type="button">
-						<top>220</top>
-						<width>249</width>
-						<height>100</height>
-						<onleft>Back</onleft>
-						<onright>50</onright>
-						<onup>2003</onup>
-						<ondown>noop</ondown>
-						<onclick condition="!String.IsEqual(Playlist.Length(music),0)">ActivateWindow(musicplaylist)</onclick>
-						<font>Med24</font>
-						<wrapmultiline>true</wrapmultiline>
-						<label>$LOCALIZE[31088]</label>
-						<textoffsetx>28</textoffsetx>
-						<textcolor>ffdadada</textcolor>
-						<focusedcolor>ff222222</focusedcolor>
-						<visible>!String.IsEqual(Playlist.Length(music),0)</visible>
-						<texturefocus border="13,5,6,8">views/button_fo.png</texturefocus>
-						<texturenofocus border="13,3,6,6">views/button_nf.png</texturenofocus>
-					</control>
 					<control id="20" type="togglebutton">
 						<left>247</left>
 						<width>249</width>
@@ -239,7 +219,7 @@
 						<onleft>2002</onleft>
 						<onright>50</onright>
 						<onup>50</onup>
-						<ondown>2004</ondown>
+						<ondown>2005</ondown>
 						<onclick>SetFocus(50)</onclick>
 						<font>Med24</font>
 						<label>$LOCALIZE[31090]</label>
@@ -254,6 +234,26 @@
 						<texturenofocus border="13,3,6,6">views/button_nf.png</texturenofocus>
 						<alttexturefocus border="13,5,6,8">views/button_fo.png</alttexturefocus>
 						<alttexturenofocus border="13,3,6,6">views/button_nf.png</alttexturenofocus>
+					</control>
+					<control id="2005" type="button">
+						<left>247</left>
+						<top>110</top>
+						<width>249</width>
+						<height>100</height>
+						<onleft>2004</onleft>
+						<onright>50</onright>
+						<onup>20</onup>
+						<ondown>noop</ondown>
+						<onclick condition="!String.IsEqual(Playlist.Length(music),0)">ActivateWindow(musicplaylist)</onclick>
+						<font>Med24</font>
+						<wrapmultiline>true</wrapmultiline>
+						<label>$LOCALIZE[31088]</label>
+						<textoffsetx>28</textoffsetx>
+						<textcolor>ffdadada</textcolor>
+						<focusedcolor>ff222222</focusedcolor>
+						<visible>!String.IsEqual(Playlist.Length(music),0)</visible>
+						<texturefocus border="13,5,6,8">views/button_fo.png</texturefocus>
+						<texturenofocus border="13,3,6,6">views/button_nf.png</texturenofocus>
 					</control>
 				</control>
 			</control>

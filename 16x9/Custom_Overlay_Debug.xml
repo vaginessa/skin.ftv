@@ -87,16 +87,6 @@
 				<shadowcolor>FF000000</shadowcolor>
 				<font>font13</font>
 				<align>left</align>
-				<label>MyMusicPlaylist.xml</label>
-				<visible>Window.IsVisible(MyMusicPlaylist.xml)</visible>
-			</control>
-			<control type="label">
-				<width>780</width>
-				<height>21</height>
-				<textcolor>FF0000FF</textcolor>
-				<shadowcolor>FF000000</shadowcolor>
-				<font>font13</font>
-				<align>left</align>
 				<label>MyMusicPlaylistEditor.xml</label>
 				<visible>Window.IsVisible(MyMusicPlaylistEditor.xml)</visible>
 			</control>
@@ -119,6 +109,16 @@
 				<align>left</align>
 				<label>MyPics.xml</label>
 				<visible>Window.IsVisible(MyPics.xml)</visible>
+			</control>
+			<control type="label">
+				<width>780</width>
+				<height>21</height>
+				<textcolor>FF0000FF</textcolor>
+				<shadowcolor>FF000000</shadowcolor>
+				<font>font13</font>
+				<align>left</align>
+				<label>MyPlaylist.xml</label>
+				<visible>Window.IsVisible(MyPlaylist.xml)</visible>
 			</control>
 			<control type="label">
 				<width>780</width>
@@ -189,16 +189,6 @@
 				<align>left</align>
 				<label>MyVideoNav.xml</label>
 				<visible>Window.IsVisible(MyVideoNav.xml)</visible>
-			</control>
-			<control type="label">
-				<width>780</width>
-				<height>21</height>
-				<textcolor>FF0000FF</textcolor>
-				<shadowcolor>FF000000</shadowcolor>
-				<font>font13</font>
-				<align>left</align>
-				<label>MyVideoPlaylist.xml</label>
-				<visible>Window.IsVisible(MyVideoPlaylist.xml)</visible>
 			</control>
 			<control type="label">
 				<width>780</width>
@@ -430,6 +420,16 @@
 				<align>left</align>
 				<label>DialogPictureInfo.xml</label>
 				<visible>Window.IsVisible(DialogPictureInfo.xml)</visible>
+			</control>
+			<control type="label">
+				<width>780</width>
+				<height>21</height>
+				<textcolor>FF0000FF</textcolor>
+				<shadowcolor>FF000000</shadowcolor>
+				<font>font13</font>
+				<align>left</align>
+				<label>PlayerProcessInfo.xml</label>
+				<visible>Window.IsVisible(DialogPlayerProcessInfo.xml)</visible>
 			</control>
 			<control type="label">
 				<width>780</width>
