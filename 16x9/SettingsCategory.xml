@@ -595,7 +595,7 @@
 				<onleft>5</onleft>
 				<onright>noop</onright>
 				<onclick>RunScript(script.toolbox,info=textviewer,header='empty',text='$ESCINFO[Control.GetLabel(6)]')</onclick>
-				<visible>Control.IsVisible(96)</visible>
+				<visible>Control.IsVisible(96) + !String.IsEmpty(Control.GetLabel(6))</visible>
 				<texturefocus>views/more_fo.png</texturefocus>
 				<texturenofocus>views/more_nf.png</texturenofocus>
 			</control>

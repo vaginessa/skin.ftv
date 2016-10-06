@@ -49,13 +49,15 @@
 		<!--  Episode title -->
 		<control type="label">
 			<left>20</left>
-			<top>127</top>
+			<top>129</top>
 			<width>1880</width>
-			<height>40</height>
+			<height>80</height>
+			<aligny>top</aligny>
 			<align>center</align>
-			<font>Light26</font>
+			<font>OSD32</font>
 			<textcolor>fffe8e8e8</textcolor>
 			<shadowcolor>ff000000</shadowcolor>
+			<wrapmultiline>true</wrapmultiline>
 			<label>$INFO[VideoPlayer.Title]</label>
 			<visible>!String.IsEmpty(VideoPlayer.TVShowTitle)</visible>
 		</control>

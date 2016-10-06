@@ -67,13 +67,15 @@
 			<!--  Episode title -->
 			<control type="label">
 				<left>20</left>
-				<top>130</top>
+				<top>129</top>
 				<width>1880</width>
-				<height>40</height>
+				<height>80</height>
+				<aligny>top</aligny>
 				<align>center</align>
 				<font>OSD32</font>
 				<textcolor>fffe8e8e8</textcolor>
 				<shadowcolor>ff000000</shadowcolor>
+				<wrapmultiline>true</wrapmultiline>
 				<label>$INFO[VideoPlayer.Title]</label>
 				<visible>!String.IsEmpty(VideoPlayer.TVShowTitle)</visible>
 			</control>
@@ -182,7 +184,7 @@
 					<height>64</height>
 					<font>-</font>
 					<texturefocus>osd/osd_rw_fo.png</texturefocus>
-					<texturenofocus>osd/osd_rw_nf.png</texturenofocus>					
+					<texturenofocus>osd/osd_rw_nf.png</texturenofocus>
 					<onclick condition="!Player.Paused + !Player.IsTempo">PlayerControl(Rewind)</onclick>
 					<onclick condition="Player.Paused + Player.TempoEnabled">PlayerControl(Play)</onclick>
 					<onclick condition="Player.Paused + Player.TempoEnabled">PlayerControl(TempoDown)</onclick>

@@ -276,7 +276,7 @@
 		</control>
 		<control type="image">
 			<top>3</top>
-			<width>35</width>
+			<width>25</width>
 			<height>23</height>
 			<colordiffuse>ffdadada</colordiffuse>
 			<texture>rating/mpaa/r.png</texture>
