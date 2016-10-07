@@ -33,15 +33,17 @@
 				<width>600</width>
 				<height>336</height>
 				<!-- Rule Field -->
-				<control type="spincontrolex" id="15">
+				<control type="button" id="15">
 					<width>600</width>
 					<height>84</height>
 					<onleft>noop</onleft>
 					<onright>9001</onright>
 					<onup>noop</onup>
 					<ondown>16</ondown>
-					<font>-</font>
+					<font>Light32</font>
 					<textoffsetx>40</textoffsetx>
+					<textcolor>ff505153</textcolor>
+					<focusedcolor>ffffaf37</focusedcolor>
 					<texturefocus border="3">settings/button_focus.png</texturefocus>
 					<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
 					<aligny>center</aligny>
@@ -67,7 +69,7 @@
 					<visible>!Control.HasFocus(15)</visible>
 				</control>
 				<!-- Rule operator -->
-				<control type="spincontrolex" id="16">
+				<control type="button" id="16">
 					<top>84</top>
 					<width>600</width>
 					<height>84</height>
@@ -75,8 +77,10 @@
 					<onright>9001</onright>
 					<onup>15</onup>
 					<ondown>17</ondown>
-					<font>-</font>
+					<font>Light32</font>
 					<textoffsetx>40</textoffsetx>
+					<textcolor>ff505153</textcolor>
+					<focusedcolor>ffffaf37</focusedcolor>
 					<texturefocus border="3">settings/button_focus.png</texturefocus>
 					<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
 					<aligny>center</aligny>
@@ -106,7 +110,7 @@
 				<!-- Value edit -->
 				<control type="edit" id="17">
 					<top>168</top>
-					<width>600</width>
+					<width>400</width>
 					<height>84</height>
 					<onup>16</onup>
 					<onleft>noop</onleft>
