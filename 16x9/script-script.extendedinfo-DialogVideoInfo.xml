@@ -333,7 +333,6 @@
 				<control id="9001" type="button">
 					<width>0</width>
 					<height>0</height>
-					<label>-</label>
 					<onfocus>Right</onfocus>
 					<include>NoTextures</include>
 					<visible>!Control.HasFocus(8) + !Control.HasFocus(206)</visible>

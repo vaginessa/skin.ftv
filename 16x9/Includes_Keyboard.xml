@@ -1667,7 +1667,6 @@
 			<item>
 				<!-- Backspace -->
 				<onclick>SendClick(8)</onclick>
-				<label>-</label>
 				<icon>dialogs/keyboard_backspace_nf.png</icon>
 				<thumb>dialogs/keyboard_backspace_fo.png</thumb>
 				<visible>Control.IsVisible(8)</visible>
@@ -1675,7 +1674,6 @@
 			<item>
 				<!-- Space -->
 				<onclick>SendClick(32)</onclick>
-				<label>-</label>
 				<icon>dialogs/keyboard_space_nf.png</icon>
 				<thumb>dialogs/keyboard_space_fo.png</thumb>
 				<visible>Control.IsVisible(32)</visible>

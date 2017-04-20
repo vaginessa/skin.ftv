@@ -37,7 +37,6 @@
 		<height>66</height>
 		<align>left</align>
 		<aligny>center</aligny>
-		<label>-</label>
 		<font>Med22</font>
 		<textcolor>ffd8d8d8</textcolor>
 		<focusedcolor>ff000000</focusedcolor>
@@ -55,7 +54,6 @@
 		<align>left</align>
 		<aligny>center</aligny>
 		<font>Med22</font>
-		<label>-</label>
 		<textcolor>ffd8d8d8</textcolor>
 		<focusedcolor>ff000000</focusedcolor>
 		<selectedcolor>ffffffff</selectedcolor>
@@ -75,7 +73,6 @@
 		<height>66</height>
 		<align>left</align>
 		<aligny>center</aligny>
-		<label>-</label>
 		<font>Med22</font>
 		<textcolor>ffd8d8d8</textcolor>
 		<focusedcolor>ff000000</focusedcolor>

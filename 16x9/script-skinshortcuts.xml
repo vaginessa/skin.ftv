@@ -280,7 +280,6 @@
 					<focusedcolor>ffffaf37</focusedcolor>
 					<texturefocus border="3">settings/button_focus.png</texturefocus>
 					<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
-					<label>-</label>
 				</control>
 				<!-- Add item -->
 				<control type="button" id="301">

@@ -1,3 +1,8 @@
+4.0.0
+
+Changed duration variables for Leia changes
+Added description text for recently updated addons
+
 3.1.0
 
 Changed too much to list

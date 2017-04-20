@@ -170,7 +170,6 @@
 					<control id="2001" type="button">
 						<width>-8</width>
 						<height>0</height>
-						<label>-</label>
 						<onfocus>SetFocus(2002)</onfocus>
 						<include>NoTextures</include>
 						<visible>!Control.HasFocus(2002) + !Control.HasFocus(2003) + !Control.HasFocus(2004) + !Control.HasFocus(2005) + !Control.HasFocus(20)</visible>

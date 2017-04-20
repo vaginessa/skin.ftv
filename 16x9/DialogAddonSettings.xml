@@ -122,7 +122,6 @@
 				<height>84</height>
 				<font>Bold30</font>
 				<textcolor>ffdadada</textcolor>
-				<label>-</label>
 			</control>
 			<!-- Default seperator -->
 			<control id="6" type="image">
