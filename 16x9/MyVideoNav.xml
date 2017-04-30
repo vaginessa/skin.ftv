@@ -510,8 +510,8 @@
 						<font>Med24</font>
 						<aligny>bottom</aligny>
 						<textcolor>ffbebebe</textcolor>
-						<label>$VAR[DurationMinutes,, $LOCALIZE[31147]]</label>
-						<visible>!String.IsEmpty(ListItem.Duration) + Integer.IsGreater(ListItem.Duration,1)</visible>
+						<label>$VAR[DurationMinutes]</label>
+						<visible>!String.IsEmpty(ListItem.Duration)</visible>
 					</control>
 					<control type="label">
 						<width>auto</width>
