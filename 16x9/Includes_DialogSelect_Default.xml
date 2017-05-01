@@ -18,23 +18,23 @@
 			<animation condition="[Window.IsVisible(settingscategory.xml) | Window.IsVisible(addonbrowser)] + Control.IsVisible(5)" effect="slide" end="-43,-11">Conditional</animation>
 			<animation condition="[Window.IsVisible(settingscategory.xml) | Window.IsVisible(addonbrowser)] + !Control.IsVisible(5)" effect="slide" end="-283,-11">Conditional</animation>
 			<animation condition="[Window.IsVisible(settingscategory.xml) | Window.IsVisible(addonbrowser)]" reversible="false" type="WindowOpen">
-				<effect end="100" start="0" time="200" type="fade" />
-				<effect easing="inout" end="0,0" start="500,0" time="200" tween="sine" type="slide" />
+				<effect end="100" start="0" time="200" type="fade"/>
+				<effect easing="inout" end="0,0" start="500,0" time="200" tween="sine" type="slide"/>
 			</animation>
 			<animation condition="[Window.IsVisible(settingscategory.xml) | Window.IsVisible(addonbrowser)]" reversible="false" type="WindowClose">
-				<effect end="0" start="100" time="125" type="fade" />
-				<effect easing="inout" end="500,0" start="0,0" time="125" tween="sine" type="slide" />
+				<effect end="0" start="100" time="125" type="fade"/>
+				<effect easing="inout" end="500,0" start="0,0" time="125" tween="sine" type="slide"/>
 			</animation>
 			<animation condition="!Window.IsVisible(settingscategory.xml) + !Window.IsVisible(addonbrowser)" reversible="false" type="WindowOpen">
-				<effect end="100" start="0" time="200" type="fade" />
-				<effect easing="inout" end="0,0" start="0,-40" time="200" tween="sine" type="slide" />
-				<effect center="auto" easing="inout" end="100" start="84.5" time="200" tween="sine" type="zoom" />
+				<effect end="100" start="0" time="200" type="fade"/>
+				<effect easing="inout" end="0,0" start="0,-40" time="200" tween="sine" type="slide"/>
+				<effect center="auto" easing="inout" end="100" start="84.5" time="200" tween="sine" type="zoom"/>
 			</animation>
 			<animation condition="!Window.IsVisible(settingscategory.xml) + !Window.IsVisible(addonbrowser)" reversible="false" type="WindowClose">
-				<effect end="0" start="100" time="125" type="fade" />
+				<effect end="0" start="100" time="125" type="fade"/>
 			</animation>
 			<animation condition="!Control.IsVisible(5)" reversible="false" type="Conditional">
-				<effect end="239.5,0" start="239.5,0" time="0" type="slide" />
+				<effect end="239.5,0" start="239.5,0" time="0" type="slide"/>
 			</animation>
 			<control type="image">
 				<width>1437</width>
@@ -154,20 +154,20 @@
 			<visible>Control.IsVisible(6)</visible>
 			<animation condition="[Window.IsVisible(settingscategory.xml) | Window.IsVisible(addonbrowser)]" effect="slide" end="-43.5,-11">Conditional</animation>
 			<animation condition="[Window.IsVisible(settingscategory.xml) | Window.IsVisible(addonbrowser)]" reversible="false" type="WindowOpen">
-				<effect end="100" start="0" time="200" type="fade" />
-				<effect easing="inout" end="0,0" start="500,0" time="200" tween="sine" type="slide" />
+				<effect end="100" start="0" time="200" type="fade"/>
+				<effect easing="inout" end="0,0" start="500,0" time="200" tween="sine" type="slide"/>
 			</animation>
 			<animation condition="[Window.IsVisible(settingscategory.xml) | Window.IsVisible(addonbrowser)]" reversible="false" type="WindowClose">
-				<effect end="0" start="100" time="125" type="fade" />
-				<effect easing="inout" end="500,0" start="0,0" time="125" tween="sine" type="slide" />
+				<effect end="0" start="100" time="125" type="fade"/>
+				<effect easing="inout" end="500,0" start="0,0" time="125" tween="sine" type="slide"/>
 			</animation>
 			<animation condition="!Window.IsVisible(settingscategory.xml) + !Window.IsVisible(addonbrowser)" reversible="false" type="WindowOpen">
-				<effect end="100" start="0" time="200" type="fade" />
-				<effect easing="inout" end="0,0" start="0,-40" time="200" tween="sine" type="slide" />
-				<effect center="auto" easing="inout" end="100" start="90" time="200" tween="sine" type="zoom" />
+				<effect end="100" start="0" time="200" type="fade"/>
+				<effect easing="inout" end="0,0" start="0,-40" time="200" tween="sine" type="slide"/>
+				<effect center="auto" easing="inout" end="100" start="90" time="200" tween="sine" type="zoom"/>
 			</animation>
 			<animation condition="!Window.IsVisible(settingscategory.xml) + !Window.IsVisible(addonbrowser)" reversible="false" type="WindowClose">
-				<effect end="0" start="100" time="125" type="fade" />
+				<effect end="0" start="100" time="125" type="fade"/>
 			</animation>
 			<control type="image">
 				<width>1437</width>

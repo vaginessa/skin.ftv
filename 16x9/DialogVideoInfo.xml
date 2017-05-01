@@ -93,10 +93,10 @@
 				<height>8</height>
 				<info>ListItem.PercentPlayed</info>
 				<texturebg border="2">views/ProgressBack.png</texturebg>
-				<lefttexture>-</lefttexture>
+				<lefttexture/>
 				<midtexture border="2">views/ProgressBar.png</midtexture>
-				<righttexture>-</righttexture>
-				<overlaytexture>-</overlaytexture>
+				<righttexture/>
+				<overlaytexture/>
 				<visible>ListItem.IsResumable</visible>
 			</control>
 			<control type="image">
@@ -563,8 +563,8 @@
 					<textcolor>00ffffff</textcolor>
 					<focusedcolor>00ffffff</focusedcolor>
 					<visible>Control.IsVisible(8)</visible>
-					<texturefocus>-</texturefocus>
-					<texturenofocus>-</texturenofocus>
+					<texturefocus/>
+					<texturenofocus/>
 				</control>
 				<!-- User Rating Button -->
 				<control type="image">
@@ -613,8 +613,8 @@
 				<scrolltime easing="inout" tween="sine">300</scrolltime>
 				<visible>String.IsEmpty(Window(home).Property(Similar))</visible>
 				<animation condition="Window.IsVisible(1103)" reversible="false" type="Conditional">
-					<effect easing="out" end="-20,0" start="0,0" time="60" tween="sine" type="slide" />
-					<effect delay="80" easing="out" end="20,0" start="0,0" time="120" tween="sine" type="slide" />
+					<effect easing="out" end="-20,0" start="0,0" time="60" tween="sine" type="slide"/>
+					<effect delay="80" easing="out" end="20,0" start="0,0" time="120" tween="sine" type="slide"/>
 				</animation>
 				<animation effect="fade" end="100" start="0" time="300">Visible</animation>
 				<animation effect="fade" end="0" start="100" time="300">Hidden</animation>
@@ -1033,8 +1033,8 @@
 				<scrolltime easing="inout" tween="sine">300</scrolltime>
 				<visible>!String.IsEmpty(Window(home).Property(Similar))</visible>
 				<animation condition="Window.IsVisible(1103)" reversible="false" type="Conditional">
-					<effect easing="out" end="-20,0" start="0,0" time="60" tween="sine" type="slide" />
-					<effect delay="80" easing="out" end="20,0" start="0,0" time="120" tween="sine" type="slide" />
+					<effect easing="out" end="-20,0" start="0,0" time="60" tween="sine" type="slide"/>
+					<effect delay="80" easing="out" end="20,0" start="0,0" time="120" tween="sine" type="slide"/>
 				</animation>
 				<animation delay="300" effect="fade" end="100" start="0" time="300">Visible</animation>
 				<animation effect="fade" end="0" start="100" time="300">Hidden</animation>

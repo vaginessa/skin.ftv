@@ -323,18 +323,18 @@
 				<height>480</height>
 				<texture flipx="true">settings/shadow.png</texture>
 				<animation reversible="false" type="WindowOpen">
-					<effect easing="inout" end="100" start="0" time="125" tween="sine" type="fade" />
+					<effect easing="inout" end="100" start="0" time="125" tween="sine" type="fade"/>
 				</animation>
 				<animation reversible="false" type="WindowClose">
-					<effect easing="inout" end="0" start="100" time="125" tween="sine" type="fade" />
+					<effect easing="inout" end="0" start="100" time="125" tween="sine" type="fade"/>
 				</animation>
 			</control>
 			<control type="group">
 				<animation reversible="false" type="WindowOpen">
-					<effect center="0,240" easing="inout" end="100,100" start="0,100" time="125" tween="sine" type="zoom" />
+					<effect center="0,240" easing="inout" end="100,100" start="0,100" time="125" tween="sine" type="zoom"/>
 				</animation>
 				<animation reversible="false" type="WindowClose">
-					<effect center="0,240" easing="inout" end="0,100" start="100,100" time="125" tween="sine" type="zoom" />
+					<effect center="0,240" easing="inout" end="0,100" start="100,100" time="125" tween="sine" type="zoom"/>
 				</animation>
 				<control type="image">
 					<width>678</width>
@@ -344,10 +344,10 @@
 			</control>
 			<control type="group">
 				<animation reversible="false" type="WindowOpen">
-					<effect delay="200" easing="inout" end="100" start="0" time="125" tween="sine" type="fade" />
+					<effect delay="200" easing="inout" end="100" start="0" time="125" tween="sine" type="fade"/>
 				</animation>
 				<animation reversible="false" type="WindowClose">
-					<effect end="0" start="100" time="0" type="fade" />
+					<effect end="0" start="100" time="0" type="fade"/>
 				</animation>
 				<control id="50" type="list">
 					<width>638</width>
@@ -378,8 +378,8 @@
 					</itemlayout>
 					<focusedlayout height="120" width="638">
 						<control type="button">
-							<texturefocus>-</texturefocus>
-							<texturenofocus>-</texturenofocus>
+							<texturefocus/>
+							<texturenofocus/>
 							<onfocus>SetProperty(AddonBrowserValue,$INFO[ListItem.Label],home)</onfocus>
 						</control>
 						<control type="image">
@@ -432,12 +432,12 @@
 			<height>480</height>
 			<visible>Control.HasFocus(51) | Control.HasFocus(3002) | ControlGroup(9000).HasFocus</visible>
 			<animation reversible="false" type="Visible">
-				<effect end="100" start="0" time="200" type="fade" />
-				<effect easing="inout" end="0,0" start="500,0" time="200" tween="sine" type="slide" />
+				<effect end="100" start="0" time="200" type="fade"/>
+				<effect easing="inout" end="0,0" start="500,0" time="200" tween="sine" type="slide"/>
 			</animation>
 			<animation reversible="false" type="Hidden">
-				<effect end="0" start="100" time="100" type="fade" />
-				<effect easing="inout" end="500,0" start="0,0" time="200" tween="sine" type="slide" />
+				<effect end="0" start="100" time="100" type="fade"/>
+				<effect easing="inout" end="500,0" start="0,0" time="200" tween="sine" type="slide"/>
 			</animation>
 			<control type="group">
 				<animation condition="!String.IsEmpty(Container.FolderPath) + !String.EndsWith(Container.FolderPath,/)" delay="200" easing="inout" effect="slide" end="480,0" reversible="true" start="0,0" time="400" tween="sine">Conditional</animation>
@@ -593,10 +593,10 @@
 						<label>25001</label>
 						<texturefocus border="8">dialogs/DialogButtonFO.png</texturefocus>
 						<texturenofocus border="8">dialogs/DialogButtonNF.png</texturenofocus>
-						<textureradioonfocus>-</textureradioonfocus>
-						<textureradioonnofocus>-</textureradioonnofocus>
-						<textureradioofffocus>-</textureradioofffocus>
-						<textureradiooffnofocus>-</textureradiooffnofocus>
+						<textureradioonfocus/>
+						<textureradioonnofocus/>
+						<textureradioofffocus/>
+						<textureradiooffnofocus/>
 						<visible>Control.IsEnabled(7)</visible>
 					</control>
 					<control id="8" type="radiobutton">
@@ -616,10 +616,10 @@
 						<label>24999</label>
 						<texturefocus border="8">dialogs/DialogButtonFO.png</texturefocus>
 						<texturenofocus border="8">dialogs/DialogButtonNF.png</texturenofocus>
-						<textureradioonfocus>-</textureradioonfocus>
-						<textureradioonnofocus>-</textureradioonnofocus>
-						<textureradioofffocus>-</textureradioofffocus>
-						<textureradiooffnofocus>-</textureradiooffnofocus>
+						<textureradioonfocus/>
+						<textureradioonnofocus/>
+						<textureradioofffocus/>
+						<textureradiooffnofocus/>
 						<visible>Control.IsEnabled(8)</visible>
 					</control>
 				</control>

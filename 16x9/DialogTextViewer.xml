@@ -7,22 +7,22 @@
 	<onunload>ClearProperty(OpenTextViewer,home)</onunload>
 	<controls>
 		<control id="5" type="textbox">
-			<font>-</font>
+			<font/>
 		</control>
 		<!-- Heading -->
 		<control id="1" type="label">
-			<font>-</font>
+			<font/>
 		</control>
 		<!-- Background -->
 		<include>DialogTextBackgroundImage</include>
 		<control type="group">
 			<animation reversible="true" type="WindowOpen">
-				<effect center="auto" easing="inout" end="100" start="92" time="120" tween="sine" type="zoom" />
-				<effect easing="inout" end="100" start="0" time="120" tween="sine" type="fade" />
+				<effect center="auto" easing="inout" end="100" start="92" time="120" tween="sine" type="zoom"/>
+				<effect easing="inout" end="100" start="0" time="120" tween="sine" type="fade"/>
 			</animation>
 			<animation reversible="true" type="WindowClose">
-				<effect center="auto" easing="inout" end="92" start="100" time="120" tween="sine" type="zoom" />
-				<effect easing="inout" end="0" start="100" time="120" tween="sine" type="fade" />
+				<effect center="auto" easing="inout" end="92" start="100" time="120" tween="sine" type="zoom"/>
+				<effect easing="inout" end="0" start="100" time="120" tween="sine" type="fade"/>
 			</animation>
 			<!-- Plot background -->
 			<control type="image">

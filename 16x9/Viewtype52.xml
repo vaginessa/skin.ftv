@@ -22,8 +22,8 @@
 				<scrolltime easing="inout" tween="sine">300</scrolltime>
 				<visible>String.IsEmpty(Container.PluginName) + Container.Content(episodes)</visible>
 				<animation condition="Window.IsVisible(1103)" reversible="false" type="Conditional">
-					<effect easing="out" end="-20,0" start="0,0" time="60" tween="sine" type="slide" />
-					<effect delay="80" easing="out" end="20,0" start="0,0" time="120" tween="sine" type="slide" />
+					<effect easing="out" end="-20,0" start="0,0" time="60" tween="sine" type="slide"/>
+					<effect delay="80" easing="out" end="20,0" start="0,0" time="120" tween="sine" type="slide"/>
 				</animation>
 				<animation condition="Control.HasFocus(55) | Control.HasFocus(2003) | Control.HasFocus(2004) | Control.HasFocus(3001)" effect="fade" end="0" start="100" time="200">Conditional</animation>
 				<itemlayout height="576" width="572">
@@ -79,10 +79,10 @@
 							<height>12</height>
 							<info>ListItem.PercentPlayed</info>
 							<texturebg border="2">views/ProgressBack.png</texturebg>
-							<lefttexture>-</lefttexture>
+							<lefttexture/>
 							<midtexture border="2">views/ProgressBar.png</midtexture>
-							<righttexture>-</righttexture>
-							<overlaytexture>-</overlaytexture>
+							<righttexture/>
+							<overlaytexture/>
 							<visible>ListItem.IsResumable</visible>
 						</control>
 						<control type="image">
@@ -120,8 +120,8 @@
 				</itemlayout>
 				<focusedlayout height="576" width="572">
 					<control type="button">
-						<texturefocus>-</texturefocus>
-						<texturenofocus>-</texturenofocus>
+						<texturefocus/>
+						<texturenofocus/>
 						<onfocus>SetProperty(ContentEpisodes,1,home)</onfocus>
 						<onfocus condition="!String.IsEmpty(Window(home).Property(ButtonFocus))">ClearProperty(ButtonFocus,home)</onfocus>
 						<onfocus condition="ListItem.IsResumable">SetProperty(PercentRemaining,$VAR[PercentRemaining],home)</onfocus>
@@ -180,10 +180,10 @@
 							<height>12</height>
 							<info>ListItem.PercentPlayed</info>
 							<texturebg border="2">views/ProgressBack.png</texturebg>
-							<lefttexture>-</lefttexture>
+							<lefttexture/>
 							<midtexture border="2">views/ProgressBar.png</midtexture>
-							<righttexture>-</righttexture>
-							<overlaytexture>-</overlaytexture>
+							<righttexture/>
+							<overlaytexture/>
 							<visible>ListItem.IsResumable</visible>
 						</control>
 						<control type="image">

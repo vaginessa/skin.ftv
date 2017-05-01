@@ -3,5 +3,5 @@
 	<onload>ClearProperty(Fade,Home)</onload>
 	<visible>!String.IsEmpty(Window(Home).Property(Fade))</visible>
 	<animation effect="fade" start="100" end="0" time="180">WindowClose</animation>
-	<controls />
+	<controls/>
 </window>

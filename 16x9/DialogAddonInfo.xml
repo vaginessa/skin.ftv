@@ -383,8 +383,8 @@
 					<orientation>horizontal</orientation>
 					<scrolltime easing="inout" tween="sine">300</scrolltime>
 					<animation condition="Window.IsVisible(1103)" reversible="false" type="Conditional">
-						<effect easing="out" end="-20,0" start="0,0" time="60" tween="sine" type="slide" />
-						<effect delay="80" easing="out" end="20,0" start="0,0" time="120" tween="sine" type="slide" />
+						<effect easing="out" end="-20,0" start="0,0" time="60" tween="sine" type="slide"/>
+						<effect delay="80" easing="out" end="20,0" start="0,0" time="120" tween="sine" type="slide"/>
 					</animation>
 					<animation delay="300" effect="fade" end="100" start="0" time="300">Visible</animation>
 					<animation effect="fade" end="0" start="100" time="300">Hidden</animation>

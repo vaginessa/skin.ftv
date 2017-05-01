@@ -6,17 +6,17 @@
 	<animation effect="fade" end="100" start="100" time="200">WindowClose</animation>
 	<controls>
 		<!-- Hidden Lists -->
-		<control id="350" type="list" />
-		<control id="450" type="list" />
-		<control id="550" type="list" />
-		<control id="650" type="list" />
-		<control id="750" type="list" />
-		<control id="850" type="list" />
-		<control id="950" type="list" />
-		<control id="1050" type="list" />
-		<control id="1150" type="list" />
-		<control id="1250" type="list" />
-		<control id="1350" type="list" />
+		<control id="350" type="list"/>
+		<control id="450" type="list"/>
+		<control id="550" type="list"/>
+		<control id="650" type="list"/>
+		<control id="750" type="list"/>
+		<control id="850" type="list"/>
+		<control id="950" type="list"/>
+		<control id="1050" type="list"/>
+		<control id="1150" type="list"/>
+		<control id="1250" type="list"/>
+		<control id="1350" type="list"/>
 		<!-- Hidden Biography -->
 		<control type="textbox">
 			<left>-1200</left>
@@ -223,8 +223,8 @@
 				<scrolltime easing="inout" tween="sine">300</scrolltime>
 				<visible>String.IsEmpty(Window(home).Property(StarredInTV))</visible>
 				<animation condition="Window.IsVisible(1103)" reversible="false" type="Conditional">
-					<effect easing="out" end="-20,0" start="0,0" time="60" tween="sine" type="slide" />
-					<effect delay="80" easing="out" end="20,0" start="0,0" time="120" tween="sine" type="slide" />
+					<effect easing="out" end="-20,0" start="0,0" time="60" tween="sine" type="slide"/>
+					<effect delay="80" easing="out" end="20,0" start="0,0" time="120" tween="sine" type="slide"/>
 				</animation>
 				<animation effect="fade" end="100" start="0" time="300">Visible</animation>
 				<animation effect="fade" end="0" start="100" time="300">Hidden</animation>
@@ -527,8 +527,8 @@
 				<scrolltime easing="inout" tween="sine">300</scrolltime>
 				<visible>!String.IsEmpty(Window(home).Property(StarredInTV))</visible>
 				<animation condition="Window.IsVisible(1103)" reversible="false" type="Conditional">
-					<effect easing="out" end="-20,0" start="0,0" time="60" tween="sine" type="slide" />
-					<effect delay="80" easing="out" end="20,0" start="0,0" time="120" tween="sine" type="slide" />
+					<effect easing="out" end="-20,0" start="0,0" time="60" tween="sine" type="slide"/>
+					<effect delay="80" easing="out" end="20,0" start="0,0" time="120" tween="sine" type="slide"/>
 				</animation>
 				<animation delay="300" effect="fade" end="100" start="0" time="300">Visible</animation>
 				<animation effect="fade" end="0" start="100" time="300">Hidden</animation>

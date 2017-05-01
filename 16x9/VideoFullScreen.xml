@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window>
 	<!-- fullscreenvideo -->
-	<defaultcontrol>-</defaultcontrol>
+	<defaultcontrol/>
 	<onload>SetProperty(RefreshCastList,true,Home)</onload>
 	<controls>
 		<control id="99" type="group">
@@ -101,8 +101,8 @@
 			</control>
 			<control id="99" type="group">
 				<animation reversible="true" type="WindowOpen">
-					<effect end="100" start="0" time="200" type="fade" />
-					<effect delay="4200" end="0" start="100" time="200" type="fade" />
+					<effect end="100" start="0" time="200" type="fade"/>
+					<effect delay="4200" end="0" start="100" time="200" type="fade"/>
 				</animation>
 				<visible>!Window.IsActive(seekbar) + !Window.IsActive(fullscreeninfo) + !Window.IsActive(videoosd) + !Window.IsActive(musicosd) + !Window.IsActive(subtitlesearch) + !Window.IsVisible(script-nextup-notification-NextUpInfo.xml)</visible>
 				<control id="99" type="image">
@@ -178,10 +178,10 @@
 					<reveal>true</reveal>
 					<info>Player.ProgressCache</info>
 					<texturebg border="4">osd/progress_back.png</texturebg>
-					<lefttexture>-</lefttexture>
+					<lefttexture/>
 					<midtexture border="4">osd/progress_cache.png</midtexture>
-					<righttexture>-</righttexture>
-					<overlaytexture>-</overlaytexture>
+					<righttexture/>
+					<overlaytexture/>
 				</control>
 				<!--  Progress bar -->
 				<control id="99" type="progress">
@@ -192,10 +192,10 @@
 					<reveal>true</reveal>
 					<info>Player.Progress</info>
 					<texturebg border="4" colordiffuse="00ffffff">osd/progress_back.png</texturebg>
-					<lefttexture>-</lefttexture>
+					<lefttexture/>
 					<midtexture border="4">osd/progress_bar.png</midtexture>
-					<righttexture>-</righttexture>
-					<overlaytexture>-</overlaytexture>
+					<righttexture/>
+					<overlaytexture/>
 				</control>
 				<control id="99" type="grouplist">
 					<left>92</left>
@@ -273,11 +273,11 @@
 					<height>11</height>
 					<reveal>true</reveal>
 					<info>Player.Progress</info>
-					<texturebg>-</texturebg>
-					<lefttexture>-</lefttexture>
-					<midtexture>-</midtexture>
-					<righttexture>-</righttexture>
-					<overlaytexture>-</overlaytexture>
+					<texturebg/>
+					<lefttexture/>
+					<midtexture/>
+					<righttexture/>
+					<overlaytexture/>
 				</control>
 				<control id="2" type="grouplist">
 					<left>60</left>
@@ -765,7 +765,7 @@
 				<texture>osd/Pause.png</texture>
 				<visible>Player.Paused + !Player.Caching</visible>
 				<animation condition="System.IdleTime(2)" reversible="true" type="Conditional">
-					<effect type="fade" start="100" end="0" time="200" />
+					<effect type="fade" start="100" end="0" time="200"/>
 				</animation>
 			</control>
 			<control type="group" id="99">
@@ -774,9 +774,18 @@
 				<control type="image" id="99">
 					<centerleft>50%</centerleft>
 					<centertop>50%</centertop>
-					<width>122</width>
-					<height>122</height>
-					<texture>common/spinner.gif</texture>
+					<width>94</width>
+					<height>94</height>
+					<texture>common/spinner_outer.png</texture>
+					<animation effect="rotate" end="-360" center="auto" time="1120" loop="true" reversible="false" condition="true">Conditional</animation>
+				</control>
+				<control type="image" id="99">
+					<centerleft>50%</centerleft>
+					<centertop>50%</centertop>
+					<width>94</width>
+					<height>94</height>
+					<texture>common/spinner_inner.png</texture>
+					<animation effect="rotate" end="360" center="auto" time="1680" loop="true" reversible="false" condition="true">Conditional</animation>
 				</control>
 			</control>
 		</control>

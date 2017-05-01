@@ -173,54 +173,54 @@
 							</focusedlayout>
 							<content>
 								<include content="SearchItems">
-									<param name="ItemID" value="111" />
-									<param name="LabelID" value="$LOCALIZE[342]" />
-									<param name="VisibleID" value="119" />
+									<param name="ItemID" value="111"/>
+									<param name="LabelID" value="$LOCALIZE[342]"/>
+									<param name="VisibleID" value="119"/>
 								</include>
 								<include content="SearchItems">
-									<param name="ItemID" value="121" />
-									<param name="LabelID" value="$LOCALIZE[20343]" />
-									<param name="VisibleID" value="129" />
+									<param name="ItemID" value="121"/>
+									<param name="LabelID" value="$LOCALIZE[20343]"/>
+									<param name="VisibleID" value="129"/>
 								</include>
 								<include content="SearchItems">
-									<param name="ItemID" value="131" />
-									<param name="LabelID" value="$LOCALIZE[33054]" />
-									<param name="VisibleID" value="139" />
+									<param name="ItemID" value="131"/>
+									<param name="LabelID" value="$LOCALIZE[33054]"/>
+									<param name="VisibleID" value="139"/>
 								</include>
 								<include content="SearchItems">
-									<param name="ItemID" value="141" />
-									<param name="LabelID" value="$LOCALIZE[20360]" />
-									<param name="VisibleID" value="149" />
+									<param name="ItemID" value="141"/>
+									<param name="LabelID" value="$LOCALIZE[20360]"/>
+									<param name="VisibleID" value="149"/>
 								</include>
 								<include content="SearchItems">
-									<param name="ItemID" value="151" />
-									<param name="LabelID" value="$LOCALIZE[20389]" />
-									<param name="VisibleID" value="159" />
+									<param name="ItemID" value="151"/>
+									<param name="LabelID" value="$LOCALIZE[20389]"/>
+									<param name="VisibleID" value="159"/>
 								</include>
 								<include content="SearchItems">
-									<param name="ItemID" value="161" />
-									<param name="LabelID" value="$LOCALIZE[133]" />
-									<param name="VisibleID" value="169" />
+									<param name="ItemID" value="161"/>
+									<param name="LabelID" value="$LOCALIZE[133]"/>
+									<param name="VisibleID" value="169"/>
 								</include>
 								<include content="SearchItems">
-									<param name="ItemID" value="171" />
-									<param name="LabelID" value="$LOCALIZE[132]" />
-									<param name="VisibleID" value="179" />
+									<param name="ItemID" value="171"/>
+									<param name="LabelID" value="$LOCALIZE[132]"/>
+									<param name="VisibleID" value="179"/>
 								</include>
 								<include content="SearchItems">
-									<param name="ItemID" value="181" />
-									<param name="LabelID" value="$LOCALIZE[134]" />
-									<param name="VisibleID" value="189" />
+									<param name="ItemID" value="181"/>
+									<param name="LabelID" value="$LOCALIZE[134]"/>
+									<param name="VisibleID" value="189"/>
 								</include>
 								<include content="SearchItems">
-									<param name="ItemID" value="211" />
-									<param name="LabelID" value="$LOCALIZE[344]" />
-									<param name="VisibleID" value="219" />
+									<param name="ItemID" value="211"/>
+									<param name="LabelID" value="$LOCALIZE[344]"/>
+									<param name="VisibleID" value="219"/>
 								</include>
 								<include content="SearchItems">
-									<param name="ItemID" value="231" />
-									<param name="LabelID" value="$LOCALIZE[20348]" />
-									<param name="VisibleID" value="239" />
+									<param name="ItemID" value="231"/>
+									<param name="LabelID" value="$LOCALIZE[20348]"/>
+									<param name="VisibleID" value="239"/>
 								</include>
 							</content>
 						</control>
@@ -486,44 +486,44 @@
 				<!-- Lists group -->
 				<control type="group" id="9999">
 					<include content="SearchPosterList">
-						<param name="GroupID" value="119" />
-						<param name="ListID" value="111" />
+						<param name="GroupID" value="119"/>
+						<param name="ListID" value="111"/>
 					</include>
 					<include content="SearchPosterList">
-						<param name="GroupID" value="129" />
-						<param name="ListID" value="121" />
+						<param name="GroupID" value="129"/>
+						<param name="ListID" value="121"/>
 					</include>
 					<include content="SearchPosterList">
-						<param name="GroupID" value="139" />
-						<param name="ListID" value="131" />
+						<param name="GroupID" value="139"/>
+						<param name="ListID" value="131"/>
 					</include>
 					<include content="SearchWideList">
-						<param name="GroupID" value="149" />
-						<param name="ListID" value="141" />
+						<param name="GroupID" value="149"/>
+						<param name="ListID" value="141"/>
 					</include>
 					<include content="SearchWideList">
-						<param name="GroupID" value="159" />
-						<param name="ListID" value="151" />
+						<param name="GroupID" value="159"/>
+						<param name="ListID" value="151"/>
 					</include>
 					<include content="SearchSquareList">
-						<param name="GroupID" value="169" />
-						<param name="ListID" value="161" />
+						<param name="GroupID" value="169"/>
+						<param name="ListID" value="161"/>
 					</include>
 					<include content="SearchSquareList">
-						<param name="GroupID" value="179" />
-						<param name="ListID" value="171" />
+						<param name="GroupID" value="179"/>
+						<param name="ListID" value="171"/>
 					</include>
 					<include content="SearchSquareList">
-						<param name="GroupID" value="189" />
-						<param name="ListID" value="181" />
+						<param name="GroupID" value="189"/>
+						<param name="ListID" value="181"/>
 					</include>
 					<include content="SearchPosterList">
-						<param name="GroupID" value="219" />
-						<param name="ListID" value="211" />
+						<param name="GroupID" value="219"/>
+						<param name="ListID" value="211"/>
 					</include>
 					<include content="SearchPosterList">
-						<param name="GroupID" value="239" />
-						<param name="ListID" value="231" />
+						<param name="GroupID" value="239"/>
+						<param name="ListID" value="231"/>
 					</include>
 				</control>
 			</control>
@@ -537,9 +537,18 @@
 			<control type="image">
 				<centerleft>50%</centerleft>
 				<centertop>50%</centertop>
-				<width>122</width>
-				<height>122</height>
-				<texture>common/spinner.gif</texture>
+				<width>94</width>
+				<height>94</height>
+				<texture>common/spinner_outer.png</texture>
+				<animation effect="rotate" end="-360" center="auto" time="1120" loop="true" reversible="false" condition="true">Conditional</animation>
+			</control>
+			<control type="image">
+				<centerleft>50%</centerleft>
+				<centertop>50%</centertop>
+				<width>94</width>
+				<height>94</height>
+				<texture>common/spinner_inner.png</texture>
+				<animation effect="rotate" end="360" center="auto" time="1680" loop="true" reversible="false" condition="true">Conditional</animation>
 			</control>
 		</control>
 	</controls>

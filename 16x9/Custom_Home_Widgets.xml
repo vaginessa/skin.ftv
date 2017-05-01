@@ -86,12 +86,12 @@
 		<include>DialogTextBackgroundImage</include>
 		<control type="group">
 			<animation reversible="true" type="WindowOpen">
-				<effect center="auto" easing="inout" end="100" start="92" time="120" tween="sine" type="zoom" />
-				<effect easing="inout" end="100" start="0" time="120" tween="sine" type="fade" />
+				<effect center="auto" easing="inout" end="100" start="92" time="120" tween="sine" type="zoom"/>
+				<effect easing="inout" end="100" start="0" time="120" tween="sine" type="fade"/>
 			</animation>
 			<animation reversible="true" type="WindowClose">
-				<effect center="auto" easing="inout" end="92" start="100" time="120" tween="sine" type="zoom" />
-				<effect easing="inout" end="0" start="100" time="120" tween="sine" type="fade" />
+				<effect center="auto" easing="inout" end="92" start="100" time="120" tween="sine" type="zoom"/>
+				<effect easing="inout" end="0" start="100" time="120" tween="sine" type="fade"/>
 			</animation>
 			<!-- Main group -->
 			<control type="group">
@@ -198,35 +198,27 @@
 					<content>
 						<item>
 							<label>#1</label>
-							<onclick>noop</onclick>
 						</item>
 						<item>
 							<label>#2</label>
-							<onclick>noop</onclick>
 						</item>
 						<item>
 							<label>#3</label>
-							<onclick>noop</onclick>
 						</item>
 						<item>
 							<label>#4</label>
-							<onclick>noop</onclick>
 						</item>
 						<item>
 							<label>#5</label>
-							<onclick>noop</onclick>
 						</item>
 						<item>
 							<label>#6</label>
-							<onclick>noop</onclick>
 						</item>
 						<item>
 							<label>#7</label>
-							<onclick>noop</onclick>
 						</item>
 						<item>
 							<label>#8</label>
-							<onclick>noop</onclick>
 						</item>
 					</content>
 				</control>

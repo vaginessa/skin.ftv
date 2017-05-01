@@ -16,18 +16,18 @@
 			<include>HiddenControl</include>
 		</control>
 		<!-- Hidden Lists -->
-		<control id="250" type="list" />
-		<control id="350" type="list" />
-		<control id="450" type="list" />
-		<control id="550" type="list" />
-		<control id="650" type="list" />
-		<control id="750" type="list" />
-		<control id="850" type="list" />
-		<control id="950" type="list" />
-		<control id="1050" type="list" />
-		<control id="1150" type="list" />
-		<control id="1250" type="list" />
-		<control id="1350" type="list" />
+		<control id="250" type="list"/>
+		<control id="350" type="list"/>
+		<control id="450" type="list"/>
+		<control id="550" type="list"/>
+		<control id="650" type="list"/>
+		<control id="750" type="list"/>
+		<control id="850" type="list"/>
+		<control id="950" type="list"/>
+		<control id="1050" type="list"/>
+		<control id="1150" type="list"/>
+		<control id="1250" type="list"/>
+		<control id="1350" type="list"/>
 		<!-- Hidden Plot -->
 		<control type="textbox">
 			<left>-1200</left>
@@ -396,8 +396,8 @@
 				<scrolltime easing="inout" tween="sine">300</scrolltime>
 				<visible>String.IsEmpty(Window(home).Property(Similar))</visible>
 				<animation condition="Window.IsVisible(1103)" reversible="false" type="Conditional">
-					<effect easing="out" end="-20,0" start="0,0" time="60" tween="sine" type="slide" />
-					<effect delay="80" easing="out" end="20,0" start="0,0" time="120" tween="sine" type="slide" />
+					<effect easing="out" end="-20,0" start="0,0" time="60" tween="sine" type="slide"/>
+					<effect delay="80" easing="out" end="20,0" start="0,0" time="120" tween="sine" type="slide"/>
 				</animation>
 				<animation effect="fade" end="100" start="0" time="300">Visible</animation>
 				<animation effect="fade" end="0" start="100" time="300">Hidden</animation>
@@ -460,8 +460,8 @@
 				</itemlayout>
 				<focusedlayout height="576" width="300">
 					<control type="button">
-						<texturefocus>-</texturefocus>
-						<texturenofocus>-</texturenofocus>
+						<texturefocus/>
+						<texturenofocus/>
 						<onfocus condition="String.IsEmpty(Window(home).Property(ExActor1))">SetProperty(ExActor1,$INFO[Container(1000).ListItemNoWrap(0).Label],home)</onfocus>
 						<onfocus condition="String.IsEmpty(Window(home).Property(ExActor2))">SetProperty(ExActor2,$INFO[Container(1000).ListItemNoWrap(1).Label],home)</onfocus>
 						<onfocus condition="String.IsEmpty(Window(home).Property(ExActor3))">SetProperty(ExActor3,$INFO[Container(1000).ListItemNoWrap(2).Label],home)</onfocus>
@@ -824,8 +824,8 @@
 				<scrolltime easing="inout" tween="sine">300</scrolltime>
 				<visible>!String.IsEmpty(Window(home).Property(Similar))</visible>
 				<animation condition="Window.IsVisible(1103)" reversible="false" type="Conditional">
-					<effect easing="out" end="-20,0" start="0,0" time="60" tween="sine" type="slide" />
-					<effect delay="80" easing="out" end="20,0" start="0,0" time="120" tween="sine" type="slide" />
+					<effect easing="out" end="-20,0" start="0,0" time="60" tween="sine" type="slide"/>
+					<effect delay="80" easing="out" end="20,0" start="0,0" time="120" tween="sine" type="slide"/>
 				</animation>
 				<animation delay="300" effect="fade" end="100" start="0" time="300">Visible</animation>
 				<animation effect="fade" end="0" start="100" time="300">Hidden</animation>

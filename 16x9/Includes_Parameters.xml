@@ -64,10 +64,10 @@
 				<reveal>true</reveal>
 				<info>System.Progressbar</info>
 				<texturebg border="4">dialogs/progress_back.png</texturebg>
-				<lefttexture>-</lefttexture>
+				<lefttexture/>
 				<midtexture border="4">dialogs/progress_bar.png</midtexture>
-				<righttexture>-</righttexture>
-				<overlaytexture>-</overlaytexture>
+				<righttexture/>
+				<overlaytexture/>
 				<visible>Window.IsVisible(progressdialog)</visible>
 			</control>
 			<!-- Button grouplist -->
@@ -156,16 +156,16 @@
 				<scrolltime easing="inout" tween="sine">300</scrolltime>
 				<visible allowhiddenfocus="true">Container(999).HasFocus(1$PARAM[ListID])</visible>
 				<animation reversible="false" type="Hidden">
-					<effect center="357,540" easing="out" end="98" start="100" time="180" tween="linear" type="zoom" />
-					<effect easing="out" end="0" start="100" time="180" tween="linear" type="fade" />
+					<effect center="357,540" easing="out" end="98" start="100" time="180" tween="linear" type="zoom"/>
+					<effect easing="out" end="0" start="100" time="180" tween="linear" type="fade"/>
 				</animation>
 				<animation condition="Window.IsVisible(1103)" reversible="false" type="Conditional">
-					<effect easing="out" end="-20,0" start="0,0" time="60" tween="sine" type="slide" />
-					<effect delay="80" easing="out" end="20,0" start="0,0" time="120" tween="sine" type="slide" />
+					<effect easing="out" end="-20,0" start="0,0" time="60" tween="sine" type="slide"/>
+					<effect delay="80" easing="out" end="20,0" start="0,0" time="120" tween="sine" type="slide"/>
 				</animation>
 				<animation reversible="false" type="Visible">
-					<effect center="357,540" delay="280" easing="in" end="100" start="98" time="180" tween="sine" type="zoom" />
-					<effect delay="280" easing="in" end="100" start="0" time="180" tween="sine" type="fade" />
+					<effect center="357,540" delay="280" easing="in" end="100" start="98" time="180" tween="sine" type="zoom"/>
+					<effect delay="280" easing="in" end="100" start="0" time="180" tween="sine" type="fade"/>
 				</animation>
 				<itemlayout height="576" width="300">
 					<control type="group">
@@ -287,16 +287,16 @@
 				<scrolltime easing="inout" tween="sine">300</scrolltime>
 				<visible allowhiddenfocus="true">Container(999).HasFocus(1$PARAM[ListID])</visible>
 				<animation reversible="false" type="Hidden">
-					<effect center="357,540" easing="out" end="98" start="100" time="180" tween="linear" type="zoom" />
-					<effect easing="out" end="0" start="100" time="180" tween="linear" type="fade" />
+					<effect center="357,540" easing="out" end="98" start="100" time="180" tween="linear" type="zoom"/>
+					<effect easing="out" end="0" start="100" time="180" tween="linear" type="fade"/>
 				</animation>
 				<animation condition="Window.IsVisible(1103)" reversible="false" type="Conditional">
-					<effect easing="out" end="-20,0" start="0,0" time="60" tween="sine" type="slide" />
-					<effect delay="80" easing="out" end="20,0" start="0,0" time="120" tween="sine" type="slide" />
+					<effect easing="out" end="-20,0" start="0,0" time="60" tween="sine" type="slide"/>
+					<effect delay="80" easing="out" end="20,0" start="0,0" time="120" tween="sine" type="slide"/>
 				</animation>
 				<animation reversible="false" type="Visible">
-					<effect center="357,540" delay="280" easing="in" end="100" start="98" time="180" tween="sine" type="zoom" />
-					<effect delay="280" easing="in" end="100" start="0" time="180" tween="sine" type="fade" />
+					<effect center="357,540" delay="280" easing="in" end="100" start="98" time="180" tween="sine" type="zoom"/>
+					<effect delay="280" easing="in" end="100" start="0" time="180" tween="sine" type="fade"/>
 				</animation>
 				<itemlayout height="576" width="572">
 					<control type="group">
@@ -450,16 +450,16 @@
 				<scrolltime easing="inout" tween="sine">300</scrolltime>
 				<visible allowhiddenfocus="true">Container(999).HasFocus(1$PARAM[ListID])</visible>
 				<animation reversible="false" type="Hidden">
-					<effect center="357,540" easing="out" end="98" start="100" time="180" tween="linear" type="zoom" />
-					<effect easing="out" end="0" start="100" time="180" tween="linear" type="fade" />
+					<effect center="357,540" easing="out" end="98" start="100" time="180" tween="linear" type="zoom"/>
+					<effect easing="out" end="0" start="100" time="180" tween="linear" type="fade"/>
 				</animation>
 				<animation condition="Window.IsVisible(1103)" reversible="false" type="Conditional">
-					<effect easing="out" end="-20,0" start="0,0" time="60" tween="sine" type="slide" />
-					<effect delay="80" easing="out" end="20,0" start="0,0" time="120" tween="sine" type="slide" />
+					<effect easing="out" end="-20,0" start="0,0" time="60" tween="sine" type="slide"/>
+					<effect delay="80" easing="out" end="20,0" start="0,0" time="120" tween="sine" type="slide"/>
 				</animation>
 				<animation reversible="false" type="Visible">
-					<effect center="357,540" delay="280" easing="in" end="100" start="98" time="180" tween="sine" type="zoom" />
-					<effect delay="280" easing="in" end="100" start="0" time="180" tween="sine" type="fade" />
+					<effect center="357,540" delay="280" easing="in" end="100" start="98" time="180" tween="sine" type="zoom"/>
+					<effect delay="280" easing="in" end="100" start="0" time="180" tween="sine" type="fade"/>
 				</animation>
 				<itemlayout height="576" width="436">
 					<control type="group">
@@ -576,16 +576,16 @@
 			<scrolltime easing="inout" tween="sine">300</scrolltime>
 			<visible allowhiddenfocus="true">Container(999).HasFocus(1$PARAM[ListID])</visible>
 			<animation reversible="false" type="Hidden">
-				<effect center="357,540" easing="out" end="98" start="100" time="180" tween="linear" type="zoom" />
-				<effect easing="out" end="0" start="100" time="180" tween="linear" type="fade" />
+				<effect center="357,540" easing="out" end="98" start="100" time="180" tween="linear" type="zoom"/>
+				<effect easing="out" end="0" start="100" time="180" tween="linear" type="fade"/>
 			</animation>
 			<animation condition="Window.IsVisible(1103)" reversible="false" type="Conditional">
-				<effect easing="out" end="-20,0" start="0,0" time="60" tween="sine" type="slide" />
-				<effect delay="80" easing="out" end="20,0" start="0,0" time="120" tween="sine" type="slide" />
+				<effect easing="out" end="-20,0" start="0,0" time="60" tween="sine" type="slide"/>
+				<effect delay="80" easing="out" end="20,0" start="0,0" time="120" tween="sine" type="slide"/>
 			</animation>
 			<animation reversible="false" type="Visible">
-				<effect center="357,540" delay="280" easing="in" end="100" start="98" time="180" tween="sine" type="zoom" />
-				<effect delay="280" easing="in" end="100" start="0" time="180" tween="sine" type="fade" />
+				<effect center="357,540" delay="280" easing="in" end="100" start="98" time="180" tween="sine" type="zoom"/>
+				<effect delay="280" easing="in" end="100" start="0" time="180" tween="sine" type="fade"/>
 			</animation>
 			<itemlayout height="576" width="300">
 				<control type="group">

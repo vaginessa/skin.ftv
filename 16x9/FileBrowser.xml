@@ -4,7 +4,7 @@
 	<defaultcontrol always="true">450</defaultcontrol>
 	<controls>
 		<control id="411" type="label">
-			<font>-</font>
+			<font/>
 		</control>
 		<include>DialogBackgroundImage</include>
 		<control type="group">
@@ -14,20 +14,20 @@
 			<height>480</height>
 			<animation condition="Window.IsVisible(settingscategory.xml) | Window.IsVisible(addonbrowser)" effect="slide" end="-93.5,-11">Conditional</animation>
 			<animation condition="Window.IsVisible(settingscategory.xml) | Window.IsVisible(addonbrowser)" reversible="false" type="WindowOpen">
-				<effect end="100" start="0" time="200" type="fade" />
-				<effect easing="inout" end="0,0" start="500,0" time="200" tween="sine" type="slide" />
+				<effect end="100" start="0" time="200" type="fade"/>
+				<effect easing="inout" end="0,0" start="500,0" time="200" tween="sine" type="slide"/>
 			</animation>
 			<animation condition="Window.IsVisible(settingscategory.xml) | Window.IsVisible(addonbrowser)" reversible="false" type="WindowClose">
-				<effect end="0" start="100" time="125" type="fade" />
-				<effect easing="inout" end="500,0" start="0,0" time="125" tween="sine" type="slide" />
+				<effect end="0" start="100" time="125" type="fade"/>
+				<effect easing="inout" end="500,0" start="0,0" time="125" tween="sine" type="slide"/>
 			</animation>
 			<animation condition="!Window.IsVisible(settingscategory.xml) + !Window.IsVisible(addonbrowser)" reversible="false" type="WindowOpen">
-				<effect end="100" start="0" time="200" type="fade" />
-				<effect easing="inout" end="0,0" start="0,-40" time="200" tween="sine" type="slide" />
-				<effect center="auto" easing="inout" end="100" start="84.5" time="200" tween="sine" type="zoom" />
+				<effect end="100" start="0" time="200" type="fade"/>
+				<effect easing="inout" end="0,0" start="0,-40" time="200" tween="sine" type="slide"/>
+				<effect center="auto" easing="inout" end="100" start="84.5" time="200" tween="sine" type="zoom"/>
 			</animation>
 			<animation condition="!Window.IsVisible(settingscategory.xml) + !Window.IsVisible(addonbrowser)" reversible="false" type="WindowClose">
-				<effect end="0" start="100" time="125" type="fade" />
+				<effect end="0" start="100" time="125" type="fade"/>
 			</animation>
 			<control type="image">
 				<width>1337</width>
@@ -337,10 +337,10 @@
 					<label>749</label>
 					<texturefocus border="8">dialogs/DialogButtonFO.png</texturefocus>
 					<texturenofocus border="8">dialogs/DialogButtonNF.png</texturenofocus>
-					<textureradioonfocus>-</textureradioonfocus>
-					<textureradioonnofocus>-</textureradioonnofocus>
-					<textureradioofffocus>-</textureradioofffocus>
-					<textureradiooffnofocus>-</textureradiooffnofocus>
+					<textureradioonfocus/>
+					<textureradioonnofocus/>
+					<textureradioofffocus/>
+					<textureradiooffnofocus/>
 					<visible>Control.IsEnabled(416)</visible>
 				</control>
 			</control>

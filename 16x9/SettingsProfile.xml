@@ -257,12 +257,12 @@
 			<width>958</width>
 			<height>480</height>
 			<animation reversible="false" type="WindowOpen">
-				<effect end="100" start="0" time="200" type="fade" />
-				<effect easing="inout" end="0,0" start="500,0" time="200" tween="sine" type="slide" />
+				<effect end="100" start="0" time="200" type="fade"/>
+				<effect easing="inout" end="0,0" start="500,0" time="200" tween="sine" type="slide"/>
 			</animation>
 			<animation reversible="false" type="WindowClose">
-				<effect end="0" start="100" time="100" type="fade" />
-				<effect easing="inout" end="500,0" start="0,0" time="200" tween="sine" type="slide" />
+				<effect end="0" start="100" time="100" type="fade"/>
+				<effect easing="inout" end="500,0" start="0,0" time="200" tween="sine" type="slide"/>
 			</animation>
 			<control type="image">
 				<width>1361</width>
@@ -353,12 +353,12 @@
 					<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
 					<radioposx>447</radioposx>
 					<radioposy>13</radioposy>
-					<radiowidth />
-					<radioheight />
-					<textureradioonfocus>-</textureradioonfocus>
-					<textureradioonnofocus>-</textureradioonnofocus>
-					<textureradioofffocus>-</textureradioofffocus>
-					<textureradiooffnofocus>-</textureradiooffnofocus>
+					<radiowidth/>
+					<radioheight/>
+					<textureradioonfocus/>
+					<textureradioonnofocus/>
+					<textureradioofffocus/>
+					<textureradiooffnofocus/>
 					<label>20096</label>
 				</control>
 				<!-- Auto login -->

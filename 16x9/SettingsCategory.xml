@@ -8,7 +8,7 @@
 	<onload condition="String.IsEqual(Window(settings).Property(SettingsCurrentItem),7)">SetFocus(9001)</onload>
 	<controls>
 		<control id="6" type="label">
-			<font>-</font>
+			<font/>
 		</control>
 		<!-- Heading / Current item / Total items -->
 		<control type="grouplist">
@@ -332,18 +332,18 @@
 				<height>480</height>
 				<texture flipx="true">settings/shadow.png</texture>
 				<animation condition="!Window.Previous(systeminfo) + !Window.Previous(profiles)" reversible="false" type="WindowOpen">
-					<effect easing="inout" end="100" start="0" time="125" tween="sine" type="fade" />
+					<effect easing="inout" end="100" start="0" time="125" tween="sine" type="fade"/>
 				</animation>
 				<animation condition="!Window.Next(systeminfo) + !Window.Next(profiles)" reversible="false" type="WindowClose">
-					<effect easing="inout" end="0" start="100" time="125" tween="sine" type="fade" />
+					<effect easing="inout" end="0" start="100" time="125" tween="sine" type="fade"/>
 				</animation>
 			</control>
 			<control type="group">
 				<animation condition="!Window.Previous(systeminfo) + !Window.Previous(profiles)" reversible="false" type="WindowOpen">
-					<effect center="0,240" easing="inout" end="100,100" start="0,100" time="125" tween="sine" type="zoom" />
+					<effect center="0,240" easing="inout" end="100,100" start="0,100" time="125" tween="sine" type="zoom"/>
 				</animation>
 				<animation condition="!Window.Next(systeminfo) + !Window.Next(profiles)" reversible="false" type="WindowClose">
-					<effect center="0,240" easing="inout" end="0,100" start="100,100" time="125" tween="sine" type="zoom" />
+					<effect center="0,240" easing="inout" end="0,100" start="100,100" time="125" tween="sine" type="zoom"/>
 				</animation>
 				<control type="image">
 					<width>678</width>
@@ -354,10 +354,10 @@
 			<control type="group">
 				<visible>!String.IsEqual(Window(settings).Property(SettingsCurrentItem),7)</visible>
 				<animation reversible="false" type="WindowOpen">
-					<effect delay="200" easing="inout" end="100" start="0" time="125" tween="sine" type="fade" />
+					<effect delay="200" easing="inout" end="100" start="0" time="125" tween="sine" type="fade"/>
 				</animation>
 				<animation reversible="false" type="WindowClose">
-					<effect end="0" start="100" time="0" type="fade" />
+					<effect end="0" start="100" time="0" type="fade"/>
 				</animation>
 				<control id="3" type="grouplist">
 					<width>638</width>
@@ -394,10 +394,10 @@
 			<control type="group">
 				<visible>String.IsEqual(Window(settings).Property(SettingsCurrentItem),7)</visible>
 				<animation condition="!Window.Previous(systeminfo) + !Window.Previous(profiles)" reversible="false" type="WindowOpen">
-					<effect delay="200" easing="inout" end="100" start="0" time="125" tween="sine" type="fade" />
+					<effect delay="200" easing="inout" end="100" start="0" time="125" tween="sine" type="fade"/>
 				</animation>
 				<animation condition="!Window.Next(systeminfo) + !Window.Next(profiles)" reversible="false" type="WindowClose">
-					<effect end="0" start="100" time="0" type="fade" />
+					<effect end="0" start="100" time="0" type="fade"/>
 				</animation>
 				<control id="9001" type="grouplist">
 					<width>638</width>
@@ -522,16 +522,16 @@
 			<height>480</height>
 			<visible>ControlGroup(5).HasFocus | Control.HasFocus(3000)</visible>
 			<animation reversible="false" type="Visible">
-				<effect end="100" start="0" time="200" type="fade" />
-				<effect easing="inout" end="0,0" start="500,0" time="200" tween="sine" type="slide" />
+				<effect end="100" start="0" time="200" type="fade"/>
+				<effect easing="inout" end="0,0" start="500,0" time="200" tween="sine" type="slide"/>
 			</animation>
 			<animation reversible="false" type="Hidden">
-				<effect end="0" start="100" time="100" type="fade" />
-				<effect easing="inout" end="500,0" start="0,0" time="200" tween="sine" type="slide" />
+				<effect end="0" start="100" time="100" type="fade"/>
+				<effect easing="inout" end="500,0" start="0,0" time="200" tween="sine" type="slide"/>
 			</animation>
 			<animation condition="Window.Next(skinsettings)" reversible="false" type="WindowClose">
-				<effect end="0" start="100" time="100" type="fade" />
-				<effect easing="inout" end="500,0" start="0,0" time="200" tween="sine" type="slide" />
+				<effect end="0" start="100" time="100" type="fade"/>
+				<effect easing="inout" end="500,0" start="0,0" time="200" tween="sine" type="slide"/>
 			</animation>
 			<control type="image">
 				<width>1437</width>

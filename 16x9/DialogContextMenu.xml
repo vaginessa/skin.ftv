@@ -3,7 +3,7 @@
 	<!-- contextmenu -->
 	<defaultcontrol always="true">996</defaultcontrol>
 	<coordinates>
-		<origin x="0" y="0" />
+		<origin x="0" y="0"/>
 	</coordinates>
 	<controls>
 		<!-- Background -->

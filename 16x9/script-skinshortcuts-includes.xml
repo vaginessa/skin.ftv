@@ -79,6 +79,8 @@
 			<thumb />
 			<property name="labelID">videos</property>
 			<property name="defaultID">videos</property>
+			<property name="widgetName">Widget Group 3</property>
+			<property name="widget">widget3</property>
 			<onclick>ActivateWindow(Videos,root)</onclick>
 			<property name="path">ActivateWindow(Videos,root)</property>
 			<property name="list">root</property>

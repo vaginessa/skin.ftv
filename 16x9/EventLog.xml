@@ -33,8 +33,8 @@
 			<defaultcontrol always="true">0</defaultcontrol>
 			<scrolltime easing="inout" tween="sine">300</scrolltime>
 			<animation condition="Window.IsVisible(1103)" reversible="false" type="Conditional">
-				<effect easing="out" end="-20,0" start="0,0" time="60" tween="sine" type="slide" />
-				<effect delay="80" easing="out" end="20,0" start="0,0" time="120" tween="sine" type="slide" />
+				<effect easing="out" end="-20,0" start="0,0" time="60" tween="sine" type="slide"/>
+				<effect delay="80" easing="out" end="20,0" start="0,0" time="120" tween="sine" type="slide"/>
 			</animation>
 			<animation condition="String.IsEmpty(Window(home).Property(MainMenuFocus)) + String.IsEmpty(Window(home).Property(FocusRow)) + Window.Previous(home)" easing="inout" effect="slide" end="0,0" start="193,10" time="540" tween="sine">WindowOpen</animation>
 			<animation condition="String.IsEmpty(Window(home).Property(MainMenuFocus)) + String.IsEqual(Window(home).Property(FocusRow),1_2) + Window.Previous(home)" easing="inout" effect="slide" end="0,0" start="497,-175" time="540" tween="sine">WindowOpen</animation>
@@ -358,12 +358,12 @@
 		<control type="group">
 			<visible>ControlGroup(5000).HasFocus</visible>
 			<animation reversible="true" type="Visible">
-				<effect center="auto" easing="inout" end="100" start="92" time="120" tween="sine" type="zoom" />
-				<effect easing="inout" end="100" start="0" time="120" tween="sine" type="fade" />
+				<effect center="auto" easing="inout" end="100" start="92" time="120" tween="sine" type="zoom"/>
+				<effect easing="inout" end="100" start="0" time="120" tween="sine" type="fade"/>
 			</animation>
 			<animation reversible="true" type="Hidden">
-				<effect center="auto" easing="inout" end="92" start="100" time="120" tween="sine" type="zoom" />
-				<effect easing="inout" end="0" start="100" time="120" tween="sine" type="fade" />
+				<effect center="auto" easing="inout" end="92" start="100" time="120" tween="sine" type="zoom"/>
+				<effect easing="inout" end="0" start="100" time="120" tween="sine" type="fade"/>
 			</animation>
 			<!-- Controls -->
 			<control type="grouplist" id="5000">

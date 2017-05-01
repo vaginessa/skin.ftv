@@ -727,12 +727,12 @@
 		<control type="group">
 			<visible>ControlGroup(5000).HasFocus</visible>
 			<animation reversible="true" type="Visible">
-				<effect center="auto" easing="inout" end="100" start="92" time="120" tween="sine" type="zoom" />
-				<effect easing="inout" end="100" start="0" time="120" tween="sine" type="fade" />
+				<effect center="auto" easing="inout" end="100" start="92" time="120" tween="sine" type="zoom"/>
+				<effect easing="inout" end="100" start="0" time="120" tween="sine" type="fade"/>
 			</animation>
 			<animation reversible="true" type="Hidden">
-				<effect center="auto" easing="inout" end="92" start="100" time="120" tween="sine" type="zoom" />
-				<effect easing="inout" end="0" start="100" time="120" tween="sine" type="fade" />
+				<effect center="auto" easing="inout" end="92" start="100" time="120" tween="sine" type="zoom"/>
+				<effect easing="inout" end="0" start="100" time="120" tween="sine" type="fade"/>
 			</animation>
 			<!-- Controls -->
 			<control type="grouplist" id="5000">
@@ -956,10 +956,10 @@
 					<focusedcolor>ffffaf37</focusedcolor>
 					<texturefocus border="3">dialogs/OptionsBackgroundButtonFO.png</texturefocus>
 					<texturenofocus border="3">dialogs/OptionsBackgroundButtonNF.png</texturenofocus>
-					<textureradioonfocus>-</textureradioonfocus>
-					<textureradioonnofocus>-</textureradioonnofocus>
-					<textureradioofffocus>-</textureradioofffocus>
-					<textureradiooffnofocus>-</textureradiooffnofocus>
+					<textureradioonfocus/>
+					<textureradioonnofocus/>
+					<textureradioofffocus/>
+					<textureradiooffnofocus/>
 					<visible>Container.CanFilterAdvanced</visible>
 				</control>
 				<control type="image" id="5012">

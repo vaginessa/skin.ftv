@@ -55,9 +55,9 @@
 		</control>
 		<control type="group">
 			<animation type="WindowOpen">
-				<effect end="0,-1080" start="0,-1080" time="800" type="slide" />
-				<effect delay="800" end="0,1080" start="0,0" time="0" type="slide" />
-				<effect delay="800" end="100" start="0" time="120" type="fade" />
+				<effect end="0,-1080" start="0,-1080" time="800" type="slide"/>
+				<effect delay="800" end="0,1080" start="0,0" time="0" type="slide"/>
+				<effect delay="800" end="100" start="0" time="120" type="fade"/>
 			</animation>
 			<!-- Show / Time -->
 			<control type="grouplist">
@@ -139,25 +139,25 @@
 				</focusedlayout>
 				<content>
 					<include content="NextAiredItems">
-						<param name="ItemID" value="200" />
+						<param name="ItemID" value="200"/>
 					</include>
 					<include content="NextAiredItems">
-						<param name="ItemID" value="201" />
+						<param name="ItemID" value="201"/>
 					</include>
 					<include content="NextAiredItems">
-						<param name="ItemID" value="202" />
+						<param name="ItemID" value="202"/>
 					</include>
 					<include content="NextAiredItems">
-						<param name="ItemID" value="203" />
+						<param name="ItemID" value="203"/>
 					</include>
 					<include content="NextAiredItems">
-						<param name="ItemID" value="204" />
+						<param name="ItemID" value="204"/>
 					</include>
 					<include content="NextAiredItems">
-						<param name="ItemID" value="205" />
+						<param name="ItemID" value="205"/>
 					</include>
 					<include content="NextAiredItems">
-						<param name="ItemID" value="206" />
+						<param name="ItemID" value="206"/>
 					</include>
 				</content>
 			</control>
@@ -208,25 +208,25 @@
 		<!-- Lists group -->
 		<control type="group" id="9999">
 			<include content="NextAiredLists">
-				<param name="ListID" value="200" />
+				<param name="ListID" value="200"/>
 			</include>
 			<include content="NextAiredLists">
-				<param name="ListID" value="201" />
+				<param name="ListID" value="201"/>
 			</include>
 			<include content="NextAiredLists">
-				<param name="ListID" value="202" />
+				<param name="ListID" value="202"/>
 			</include>
 			<include content="NextAiredLists">
-				<param name="ListID" value="203" />
+				<param name="ListID" value="203"/>
 			</include>
 			<include content="NextAiredLists">
-				<param name="ListID" value="204" />
+				<param name="ListID" value="204"/>
 			</include>
 			<include content="NextAiredLists">
-				<param name="ListID" value="205" />
+				<param name="ListID" value="205"/>
 			</include>
 			<include content="NextAiredLists">
-				<param name="ListID" value="206" />
+				<param name="ListID" value="206"/>
 			</include>
 		</control>
 	</controls>

@@ -9,7 +9,7 @@
 			<control type="group">
 				<visible>Player.Paused + !Player.Forwarding + !Player.Rewinding</visible>
 				<animation condition="System.IdleTime(4) + !Player.Caching" reversible="true" type="Conditional">
-					<effect end="0" start="100" time="200" type="fade" />
+					<effect end="0" start="100" time="200" type="fade"/>
 				</animation>
 				<control type="image">
 					<width>1980</width>
@@ -100,7 +100,7 @@
 					<texture>osd/Pause.png</texture>
 					<visible>Player.Paused + !Player.Caching</visible>
 					<animation condition="System.IdleTime(2)" reversible="true" type="Conditional">
-						<effect end="0" start="100" time="200" type="fade" />
+						<effect end="0" start="100" time="200" type="fade"/>
 					</animation>
 				</control>
 				<control type="group">
@@ -109,9 +109,18 @@
 					<control type="image">
 						<centerleft>50%</centerleft>
 						<centertop>50%</centertop>
-						<width>122</width>
-						<height>122</height>
-						<texture>common/spinner.gif</texture>
+						<width>94</width>
+						<height>94</height>
+						<texture>common/spinner_outer.png</texture>
+						<animation effect="rotate" end="-360" center="auto" time="1120" loop="true" reversible="false" condition="true">Conditional</animation>
+					</control>
+					<control type="image">
+						<centerleft>50%</centerleft>
+						<centertop>50%</centertop>
+						<width>94</width>
+						<height>94</height>
+						<texture>common/spinner_inner.png</texture>
+						<animation effect="rotate" end="360" center="auto" time="1680" loop="true" reversible="false" condition="true">Conditional</animation>
 					</control>
 				</control>
 				<control type="image">
@@ -129,10 +138,10 @@
 					<reveal>true</reveal>
 					<info>Player.ProgressCache</info>
 					<texturebg border="4">osd/progress_back.png</texturebg>
-					<lefttexture>-</lefttexture>
+					<lefttexture/>
 					<midtexture border="4">osd/progress_cache.png</midtexture>
-					<righttexture>-</righttexture>
-					<overlaytexture>-</overlaytexture>
+					<righttexture/>
+					<overlaytexture/>
 				</control>
 				<!--  Progress bar -->
 				<control type="progress">
@@ -143,10 +152,10 @@
 					<reveal>true</reveal>
 					<info>Player.Progress</info>
 					<texturebg border="4" colordiffuse="00ffffff">osd/progress_back.png</texturebg>
-					<lefttexture>-</lefttexture>
+					<lefttexture/>
 					<midtexture border="4">osd/progress_bar.png</midtexture>
-					<righttexture>-</righttexture>
-					<overlaytexture>-</overlaytexture>
+					<righttexture/>
+					<overlaytexture/>
 				</control>
 				<control type="grouplist">
 					<left>92</left>
@@ -237,10 +246,10 @@
 					<reveal>true</reveal>
 					<info>Player.ProgressCache</info>
 					<texturebg border="4">osd/progress_back.png</texturebg>
-					<lefttexture>-</lefttexture>
+					<lefttexture/>
 					<midtexture border="4">osd/progress_cache.png</midtexture>
-					<righttexture>-</righttexture>
-					<overlaytexture>-</overlaytexture>
+					<righttexture/>
+					<overlaytexture/>
 				</control>
 				<!--  Progress bar -->
 				<control id="2" type="progress">
@@ -251,10 +260,10 @@
 					<reveal>true</reveal>
 					<info>Player.Progress</info>
 					<texturebg border="4" colordiffuse="00ffffff">osd/progress_back.png</texturebg>
-					<lefttexture>-</lefttexture>
+					<lefttexture/>
 					<midtexture border="4">osd/progress_bar.png</midtexture>
-					<righttexture>-</righttexture>
-					<overlaytexture>-</overlaytexture>
+					<righttexture/>
+					<overlaytexture/>
 				</control>
 				<control type="grouplist">
 					<left>92</left>
@@ -343,7 +352,7 @@
 					<visible>[!String.IsEmpty(Player.SeekOffset) + String.Contains(Player.SeekOffset,-)] | [!String.IsEmpty(Player.SeekStepSize) + String.Contains(Player.SeekStepSize,-)]</visible>
 				</control>
 				<control type="label">
-					<centerleft>136</centerleft>
+					<centerleft>137</centerleft>
 					<bottom>141</bottom>
 					<width>50</width>
 					<height>40</height>
@@ -351,6 +360,18 @@
 					<font>OSD20</font>
 					<textcolor>ffe5e4e5</textcolor>
 					<label>$VAR[SeekOffset]</label>
+					<visible>$EXP[SeekOffsetLargeLabel]</visible>
+				</control>
+				<control type="label">
+					<centerleft>137</centerleft>
+					<bottom>140</bottom>
+					<width>60</width>
+					<height>40</height>
+					<align>center</align>
+					<font>OSD16</font>
+					<textcolor>ffe5e4e5</textcolor>
+					<label>$VAR[SeekOffset]</label>
+					<visible>$EXP[SeekOffsetSmallLabel]</visible>
 				</control>
 				<control type="slider" id="401">
 					<left>92</left>

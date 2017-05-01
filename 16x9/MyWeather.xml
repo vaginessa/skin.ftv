@@ -7,12 +7,12 @@
 		<control type="group">
 			<left>128</left>
 			<animation type="WindowOpen">
-				<effect end="0,0" start="200,0" time="200" type="slide" />
-				<effect end="100" start="0" time="200" type="fade" />
+				<effect end="0,0" start="200,0" time="200" type="slide"/>
+				<effect end="100" start="0" time="200" type="fade"/>
 			</animation>
 			<animation type="WindowClose">
-				<effect end="200,0" start="0,0" time="200" type="slide" />
-				<effect end="0" start="100" time="200" type="fade" />
+				<effect end="200,0" start="0,0" time="200" type="slide"/>
+				<effect end="0" start="100" time="200" type="fade"/>
 			</animation>
 			<control type="image">
 				<width>1664</width>
@@ -112,7 +112,7 @@
 						<control type="label">
 							<width>1002</width>
 							<height>4</height>
-							<font>-</font>
+							<font/>
 						</control>
 						<control type="textbox">
 							<width>1002</width>
@@ -125,7 +125,7 @@
 						<control type="label">
 							<width>1002</width>
 							<height>4</height>
-							<font>-</font>
+							<font/>
 						</control>
 						<control type="label">
 							<width>1002</width>
@@ -214,42 +214,36 @@
 						</focusedlayout>
 						<content>
 							<item>
-								<onclick>noop</onclick>
 								<label>$VAR[Day0]</label>
 								<label2>$INFO[Window(Weather).Property(Day0.LowTemp),,°]  $INFO[Window(Weather).Property(Day0.HighTemp),,°]</label2>
 								<icon>$INFO[Window(Weather).Property(Day0.FanartCode),weather/icons/,.png]</icon>
 								<visible>!String.IsEmpty(Window(Weather).Property(Day0.Outlook))</visible>
 							</item>
 							<item>
-								<onclick>noop</onclick>
 								<label>$VAR[Day1]</label>
 								<label2>$INFO[Window(Weather).Property(Day1.LowTemp),,°]  $INFO[Window(Weather).Property(Day1.HighTemp),,°]</label2>
 								<icon>$INFO[Window(Weather).Property(Day1.FanartCode),weather/icons/,.png]</icon>
 								<visible>!String.IsEmpty(Window(Weather).Property(Day1.Outlook))</visible>
 							</item>
 							<item>
-								<onclick>noop</onclick>
 								<label>$VAR[Day2]</label>
 								<label2>$INFO[Window(Weather).Property(Day2.LowTemp),,°]  $INFO[Window(Weather).Property(Day2.HighTemp),,°]</label2>
 								<icon>$INFO[Window(Weather).Property(Day2.FanartCode),weather/icons/,.png]</icon>
 								<visible>!String.IsEmpty(Window(Weather).Property(Day2.Outlook))</visible>
 							</item>
 							<item>
-								<onclick>noop</onclick>
 								<label>$VAR[Day3]</label>
 								<label2>$INFO[Window(Weather).Property(Day3.LowTemp),,°]  $INFO[Window(Weather).Property(Day3.HighTemp),,°]</label2>
 								<icon>$INFO[Window(Weather).Property(Day3.FanartCode),weather/icons/,.png]</icon>
 								<visible>!String.IsEmpty(Window(Weather).Property(Day3.Outlook))</visible>
 							</item>
 							<item>
-								<onclick>noop</onclick>
 								<label>$VAR[Day4]</label>
 								<label2>$INFO[Window(Weather).Property(Day4.LowTemp),,°]  $INFO[Window(Weather).Property(Day4.HighTemp),,°]</label2>
 								<icon>$INFO[Window(Weather).Property(Day4.FanartCode),weather/icons/,.png]</icon>
 								<visible>!String.IsEmpty(Window(Weather).Property(Day4.Outlook))</visible>
 							</item>
 							<item>
-								<onclick>noop</onclick>
 								<label>$VAR[Day5]</label>
 								<label2>$INFO[Window(Weather).Property(Day5.LowTemp),,°]  $INFO[Window(Weather).Property(Day5.HighTemp),,°]</label2>
 								<icon>$INFO[Window(Weather).Property(Day5.FanartCode),weather/icons/,.png]</icon>

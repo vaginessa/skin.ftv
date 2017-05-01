@@ -52,8 +52,8 @@
 				<scrolltime easing="inout" tween="sine">300</scrolltime>
 				<visible>String.IsEqual(Container.FolderPath,addons://all/) | String.Contains(Container.FolderPath,addons://all/category)</visible>
 				<animation condition="Window.IsVisible(1103)" reversible="false" type="Conditional">
-					<effect easing="out" end="-20,0" start="0,0" time="60" tween="sine" type="slide" />
-					<effect delay="80" easing="out" end="20,0" start="0,0" time="120" tween="sine" type="slide" />
+					<effect easing="out" end="-20,0" start="0,0" time="60" tween="sine" type="slide"/>
+					<effect delay="80" easing="out" end="20,0" start="0,0" time="120" tween="sine" type="slide"/>
 				</animation>
 				<animation condition="String.IsEmpty(Window(home).Property(MainMenuFocus)) + String.IsEmpty(Window(home).Property(FocusRow))" easing="inout" effect="slide" end="0,0" start="193,10" time="540" tween="sine">WindowOpen</animation>
 				<animation condition="String.IsEmpty(Window(home).Property(MainMenuFocus)) + String.IsEqual(Window(home).Property(FocusRow),1_2)" easing="inout" effect="slide" end="0,0" start="497,-175" time="540" tween="sine">WindowOpen</animation>
@@ -107,8 +107,8 @@
 				</itemlayout>
 				<focusedlayout height="576" width="436">
 					<control type="button">
-						<texturefocus>-</texturefocus>
-						<texturenofocus>-</texturenofocus>
+						<texturefocus/>
+						<texturenofocus/>
 						<onfocus>SetProperty(Category,$INFO[Container(50).ListItem.Label],home)</onfocus>
 					</control>
 					<control type="group">

@@ -257,12 +257,12 @@
 			<width>958</width>
 			<height>480</height>
 			<animation reversible="false" type="WindowOpen">
-				<effect end="100" start="0" time="200" type="fade" />
-				<effect easing="inout" end="0,0" start="500,0" time="200" tween="sine" type="slide" />
+				<effect end="100" start="0" time="200" type="fade"/>
+				<effect easing="inout" end="0,0" start="500,0" time="200" tween="sine" type="slide"/>
 			</animation>
 			<animation reversible="false" type="WindowClose">
-				<effect end="0" start="100" time="100" type="fade" />
-				<effect easing="inout" end="500,0" start="0,0" time="200" tween="sine" type="slide" />
+				<effect end="0" start="100" time="100" type="fade"/>
+				<effect easing="inout" end="500,0" start="0,0" time="200" tween="sine" type="slide"/>
 			</animation>
 			<control type="image">
 				<width>1437</width>
@@ -521,34 +521,34 @@
 		</control>
 		<!-- Hidden labels -->
 		<control id="2" type="label">
-			<font>-</font>
+			<font/>
 		</control>
 		<control id="3" type="label">
-			<font>-</font>
+			<font/>
 		</control>
 		<control id="4" type="label">
-			<font>-</font>
+			<font/>
 		</control>
 		<control id="5" type="label">
-			<font>-</font>
+			<font/>
 		</control>
 		<control id="6" type="label">
-			<font>-</font>
+			<font/>
 		</control>
 		<control id="7" type="label">
-			<font>-</font>
+			<font/>
 		</control>
 		<control id="8" type="label">
-			<font>-</font>
+			<font/>
 		</control>
 		<control id="9" type="label">
-			<font>-</font>
+			<font/>
 		</control>
 		<control id="10" type="label">
-			<font>-</font>
+			<font/>
 		</control>
 		<control id="11" type="label">
-			<font>-</font>
+			<font/>
 		</control>
 	</controls>
 </window>
