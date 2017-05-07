@@ -8,6 +8,7 @@
 	<onload condition="Window.Previous(home) + system.getbool(filelists.showparentdiritems)">Control.Move(50,1)</onload>
 	<onunload condition="Window.Next(home)">Control.Move(50,$INFO[Container.CurrentItem,-])</onunload>
 	<onunload condition="Window.Next(home) + !system.getbool(filelists.showparentdiritems)">Control.Move(50,1)</onunload>
+	<views>50</views>
 	<controls>
 		<control id="20" type="radiobutton">
 			<include>HiddenControl</include>

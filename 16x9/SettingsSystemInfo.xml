@@ -27,7 +27,7 @@
 				<font>Med32</font>
 				<aligny>bottom</aligny>
 				<textcolor>ffdadada</textcolor>
-				<label>$NUMBER[7]</label>
+				<label>$NUMBER[8]</label>
 			</control>
 			<control type="label">
 				<top>14</top>
@@ -45,7 +45,7 @@
 				<font>Light32</font>
 				<aligny>bottom</aligny>
 				<textcolor>ff505050</textcolor>
-				<label>$NUMBER[7]</label>
+				<label>$NUMBER[8]</label>
 			</control>
 		</control>
 		<control type="group">
@@ -379,6 +379,7 @@
 					<focusedcolor>ffffaf37</focusedcolor>
 					<texturefocus border="3">settings/button_focus.png</texturefocus>
 					<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
+					<onclick>RunScript(script.toolbox,info=textviewer,header='empty',text='$ESCINFO[System.PrivacyPolicy]')</onclick>
 				</control>
 			</control>
 			<control type="grouplist">
@@ -513,9 +514,10 @@
 				<aligny>top</aligny>
 				<label>$INFO[System.PrivacyPolicy]</label>
 				<textcolor>ffdadada</textcolor>
-		<autoscroll delay="4000" repeat="6000" time="2000">True</autoscroll>
+				<autoscroll delay="4000" repeat="6000" time="2000">True</autoscroll>
 				<animation delay="100" effect="fade" end="100" start="0" time="200">WindowOpen</animation>
 				<animation effect="fade" end="0" start="100" time="0">WindowClose</animation>
+				<animation effect="fade" end="0" start="100" time="200" condition="Window.IsVisible(textviewer)">Conditional</animation>
 				<visible>Control.HasFocus(100)</visible>
 			</control>
 		</control>

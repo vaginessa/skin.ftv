@@ -144,7 +144,7 @@
 					<font>Bold32</font>
 					<textcolor>ffebebeb</textcolor>
 					<label>[B]HD[/B]</label>
-					<visible>Integer.IsGreater(VideoPlayer.VideoResolution,719)</visible>
+					<visible>String.IsEqual(VideoPlayer.VideoResolution,720) | String.IsEqual(VideoPlayer.VideoResolution,1080) | String.IsEqual(VideoPlayer.VideoResolution,4K)</visible>
 				</control>
 				<!--  Resolution label -->
 				<control type="label">
@@ -269,7 +269,8 @@
 					<focusedcolor>ffffc04b</focusedcolor>
 					<texturefocus/>
 					<texturenofocus/>
-					<onclick>SetFocus(200)</onclick>
+					<onclick>Close</onclick>
+					<onclick>StereoMode</onclick>
 					<visible>VideoPlayer.IsStereoscopic</visible>
 				</control>
 				<!-- DVD menu -->
