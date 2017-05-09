@@ -469,7 +469,11 @@
 				<focusposition>1</focusposition>
 				<viewtype label="">list</viewtype>
 				<orientation>horizontal</orientation>
-				<include>WindowHomeFadeAnimation</include>
+				<animation effect="fade" end="100" start="100" time="0">WindowClose</animation>
+				<animation effect="fade" end="100" start="0" time="200" condition="!Window.IsActive(favourites)">Conditional</animation>
+				<animation effect="fade" end="0" start="100" time="0" condition="Window.IsActive(favourites)">Conditional</animation>
+				<animation effect="fade" end="100" start="0" time="200" condition="!Window.IsActive(shutdownmenu)">Conditional</animation>
+				<animation effect="fade" end="0" start="100" time="0" condition="Window.IsActive(shutdownmenu)">Conditional</animation>
 				<include>HomeWidgetsAnimation</include>
 				<visible>String.IsEqual(Container(99).ListItem.Property(defaultID),settings)</visible>
 				<itemlayout height="497" width="300">
