@@ -389,8 +389,8 @@
 						<textcolor>00ffffff</textcolor>
 						<focusedcolor>00ffffff</focusedcolor>
 						<visible>Control.IsVisible(6)</visible>
-						<texturefocus/>
-						<texturenofocus/>
+						<texturefocus>-</texturefocus>
+						<texturenofocus>-</texturenofocus>
 					</control>
 					<!-- User Rating Button -->
 					<control type="image">

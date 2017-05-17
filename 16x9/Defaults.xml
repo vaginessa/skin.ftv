@@ -42,10 +42,10 @@
 		<focusedcolor>ff000000</focusedcolor>
 		<selectedcolor>ffffffff</selectedcolor>
 		<disabledcolor>DisabledColor</disabledcolor>
-		<texturefocus/>
-		<texturenofocus/>
-		<alttexturenofocus/>
-		<alttexturefocus/>
+		<texturefocus>-</texturefocus>
+		<texturenofocus>-</texturenofocus>
+		<alttexturenofocus>-</alttexturenofocus>
+		<alttexturefocus>-</alttexturefocus>
 		<pulseonselect>false</pulseonselect>
 	</default>
 	<default type="radiobutton">
@@ -62,10 +62,10 @@
 		<radioheight>58</radioheight>
 		<radiowidth/>
 		<radioheight/>
-		<textureradioonfocus/>
-		<textureradioonnofocus/>
-		<textureradioofffocus/>
-		<textureradiooffnofocus/>
+		<textureradioonfocus>-</textureradioonfocus>
+		<textureradioonnofocus>-</textureradioonnofocus>
+		<textureradioofffocus>-</textureradioofffocus>
+		<textureradiooffnofocus>-</textureradiooffnofocus>
 		<pulseonselect>false</pulseonselect>
 	</default>
 	<default type="spincontrolex">
@@ -80,8 +80,8 @@
 		<disabledcolor>DisabledColor</disabledcolor>
 		<spinwidth>32</spinwidth>
 		<spinheight>21</spinheight>
-		<texturenofocus/>
-		<texturefocus/>
+		<texturenofocus>-</texturenofocus>
+		<texturefocus>-</texturefocus>
 		<textureup>dialogs/SpinUpNF.png</textureup>
 		<texturedown>dialogs/SpinDownNF.png</texturedown>
 		<textureupfocus>dialogs/SpinUpFO.png</textureupfocus>
@@ -142,10 +142,10 @@
 	<default type="progress">
 		<height>44</height>
 		<texturebg border="4">osd/progress_back.png</texturebg>
-		<lefttexture/>
+		<lefttexture>-</lefttexture>
 		<midtexture border="4">osd/progress_bar.png</midtexture>
-		<righttexture/>
-		<overlaytexture/>
+		<righttexture>-</righttexture>
+		<overlaytexture>-</overlaytexture>
 	</default>
 	<default type="textbox">
 		<font>Reg27</font>
@@ -161,7 +161,7 @@
 		<selectedcolor>ffffffff</selectedcolor>
 		<disabledcolor>DisabledColor</disabledcolor>
 		<invalidcolor>DisabledColor</invalidcolor>
-		<texturefocus/>
+		<texturefocus>-</texturefocus>
 		<pulseonselect>no</pulseonselect>
 		<hinttext>...</hinttext>
 	</default>

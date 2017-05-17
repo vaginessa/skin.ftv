@@ -2,7 +2,7 @@
 <window>
 	<!-- visualisation -->
 	<backgroundcolor>0xff12161b</backgroundcolor>
-	<defaultcontrol/>
+	<defaultcontrol>-</defaultcontrol>
 	<onload condition="System.HasAddon(script.artistslideshow)">RunScript(script.artistslideshow)</onload>
 	<controls>
 		<!-- Fanart -->
@@ -134,7 +134,7 @@
 						<width>26</width>
 						<height>22</height>
 						<texture>osd/visualistion_shuffle.png</texture>
-						<visible>String.IsEqual(Playlist.Random,$LOCALIZE[16041])</visible>
+						<visible>String.IsEqual(Playlist.Random,$LOCALIZE[590])</visible>
 					</control>
 					<control type="image">
 						<top>5</top>

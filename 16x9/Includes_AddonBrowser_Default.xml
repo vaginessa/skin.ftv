@@ -42,7 +42,7 @@
 				<font>Light32</font>
 				<aligny>bottom</aligny>
 				<textcolor>ff505050</textcolor>
-				<label>$NUMBER[8]</label>
+				<label>$NUMBER[7]</label>
 			</control>
 		</control>
 		<control type="group">
@@ -378,8 +378,8 @@
 					</itemlayout>
 					<focusedlayout height="120" width="638">
 						<control type="button">
-							<texturefocus/>
-							<texturenofocus/>
+							<texturefocus>-</texturefocus>
+							<texturenofocus>-</texturenofocus>
 							<onfocus>SetProperty(AddonBrowserValue,$INFO[ListItem.Label],home)</onfocus>
 						</control>
 						<control type="image">
@@ -593,10 +593,10 @@
 						<label>25001</label>
 						<texturefocus border="8">dialogs/DialogButtonFO.png</texturefocus>
 						<texturenofocus border="8">dialogs/DialogButtonNF.png</texturenofocus>
-						<textureradioonfocus/>
-						<textureradioonnofocus/>
-						<textureradioofffocus/>
-						<textureradiooffnofocus/>
+						<textureradioonfocus>-</textureradioonfocus>
+						<textureradioonnofocus>-</textureradioonnofocus>
+						<textureradioofffocus>-</textureradioofffocus>
+						<textureradiooffnofocus>-</textureradiooffnofocus>
 						<visible>Control.IsEnabled(7)</visible>
 					</control>
 					<control id="8" type="radiobutton">
@@ -616,10 +616,10 @@
 						<label>24999</label>
 						<texturefocus border="8">dialogs/DialogButtonFO.png</texturefocus>
 						<texturenofocus border="8">dialogs/DialogButtonNF.png</texturenofocus>
-						<textureradioonfocus/>
-						<textureradioonnofocus/>
-						<textureradioofffocus/>
-						<textureradiooffnofocus/>
+						<textureradioonfocus>-</textureradioonfocus>
+						<textureradioonnofocus>-</textureradioonnofocus>
+						<textureradioofffocus>-</textureradioofffocus>
+						<textureradiooffnofocus>-</textureradiooffnofocus>
 						<visible>Control.IsEnabled(8)</visible>
 					</control>
 				</control>

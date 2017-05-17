@@ -101,7 +101,7 @@
 	<include name="osd_padding">
 		<height>82</height>
 		<width>17.36</width>
-		<texture/>
+		<texture>-</texture>
 	</include>
 	<!-- Hidden Home List -->
 	<include name="HiddenHomeList">
@@ -127,18 +127,18 @@
 	</include>
 	<!-- No textures -->
 	<include name="NoTextures">
-		<texturefocus/>
-		<texturenofocus/>
-		<alttexturenofocus/>
-		<alttexturefocus/>
-		<textureradioonfocus/>
-		<textureradioonnofocus/>
-		<textureradioofffocus/>
-		<textureradiooffnofocus/>
-		<textureup/>
-		<texturedown/>
-		<textureupfocus/>
-		<texturedownfocus/>
+		<texturefocus>-</texturefocus>
+		<texturenofocus>-</texturenofocus>
+		<alttexturenofocus>-</alttexturenofocus>
+		<alttexturefocus>-</alttexturefocus>
+		<textureradioonfocus>-</textureradioonfocus>
+		<textureradioonnofocus>-</textureradioonnofocus>
+		<textureradioofffocus>-</textureradioofffocus>
+		<textureradiooffnofocus>-</textureradiooffnofocus>
+		<textureup>-</textureup>
+		<texturedown>-</texturedown>
+		<textureupfocus>-</textureupfocus>
+		<texturedownfocus>-</texturedownfocus>
 	</include>
 	<!-- Hidden control -->
 	<include name="HiddenControl">
@@ -146,14 +146,14 @@
 		<top>-10</top>
 		<width>1</width>
 		<height>1</height>
-		<font/>
-		<texture/>
-		<texturefocus/>
-		<texturenofocus/>
-		<alttexturenofocus/>
-		<alttexturefocus/>
-		<textureradiofocus/>
-		<textureradionofocus/>
+		<font>-</font>
+		<texture>-</texture>
+		<texturefocus>-</texturefocus>
+		<texturenofocus>-</texturenofocus>
+		<alttexturenofocus>-</alttexturenofocus>
+		<alttexturefocus>-</alttexturefocus>
+		<textureradiofocus>-</textureradiofocus>
+		<textureradionofocus>-</textureradionofocus>
 	</include>
 	<!-- BBFC Ratings -->
 	<include name="Rating_BBFC">

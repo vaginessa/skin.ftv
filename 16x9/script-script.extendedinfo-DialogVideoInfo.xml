@@ -460,8 +460,8 @@
 				</itemlayout>
 				<focusedlayout height="576" width="300">
 					<control type="button">
-						<texturefocus/>
-						<texturenofocus/>
+						<texturefocus>-</texturefocus>
+						<texturenofocus>-</texturenofocus>
 						<onfocus condition="String.IsEmpty(Window(home).Property(ExActor1))">SetProperty(ExActor1,$INFO[Container(1000).ListItemNoWrap(0).Label],home)</onfocus>
 						<onfocus condition="String.IsEmpty(Window(home).Property(ExActor2))">SetProperty(ExActor2,$INFO[Container(1000).ListItemNoWrap(1).Label],home)</onfocus>
 						<onfocus condition="String.IsEmpty(Window(home).Property(ExActor3))">SetProperty(ExActor3,$INFO[Container(1000).ListItemNoWrap(2).Label],home)</onfocus>

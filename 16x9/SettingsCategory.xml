@@ -4,11 +4,11 @@
 	<backgroundcolor>0xff12161b</backgroundcolor>
 	<onload>ClearProperty(SettingHeading,home)</onload>
 	<onload>ClearProperty(SettingInfo,home)</onload>
-	<onload condition="!String.IsEqual(Window(settings).Property(SettingsCurrentItem),8)">SetFocus(3)</onload>
-	<onload condition="String.IsEqual(Window(settings).Property(SettingsCurrentItem),8)">SetFocus(9001)</onload>
+	<onload condition="!String.IsEqual(Window(settings).Property(SettingsCurrentItem),7)">SetFocus(3)</onload>
+	<onload condition="String.IsEqual(Window(settings).Property(SettingsCurrentItem),7)">SetFocus(9001)</onload>
 	<controls>
 		<control id="6" type="label">
-			<font/>
+			<font>-</font>
 		</control>
 		<!-- Heading / Current item / Total items -->
 		<control type="grouplist">
@@ -51,7 +51,7 @@
 				<font>Light32</font>
 				<aligny>bottom</aligny>
 				<textcolor>ff505050</textcolor>
-				<label>$NUMBER[8]</label>
+				<label>$NUMBER[7]</label>
 			</control>
 		</control>
 		<control type="group">
@@ -101,7 +101,7 @@
 			<control type="group">
 				<left>523</left>
 				<top>289</top>
-				<visible>!String.IsEqual(Window(settings).Property(SettingsCurrentItem),8)</visible>
+				<visible>!String.IsEqual(Window(settings).Property(SettingsCurrentItem),7)</visible>
 				<control type="group">
 					<width>333</width>
 					<height>497</height>
@@ -140,7 +140,7 @@
 			<control type="group">
 				<left>823</left>
 				<top>289</top>
-				<visible>!Window.IsVisible(servicesettings) + !String.IsEqual(Window(settings).Property(SettingsCurrentItem),8)</visible>
+				<visible>!Window.IsVisible(servicesettings) + !String.IsEqual(Window(settings).Property(SettingsCurrentItem),7)</visible>
 				<control type="group">
 					<width>333</width>
 					<height>497</height>
@@ -179,7 +179,7 @@
 			<control type="group">
 				<left>1123</left>
 				<top>289</top>
-				<visible>!Window.IsVisible(systemsettings) + !Window.IsVisible(servicesettings) + !String.IsEqual(Window(settings).Property(SettingsCurrentItem),8)</visible>
+				<visible>!Window.IsVisible(systemsettings) + !Window.IsVisible(servicesettings) + !String.IsEqual(Window(settings).Property(SettingsCurrentItem),7)</visible>
 				<control type="group">
 					<width>333</width>
 					<height>497</height>
@@ -218,7 +218,7 @@
 			<control type="group">
 				<left>1423</left>
 				<top>289</top>
-				<visible>!Window.IsVisible(gamesettings) + !Window.IsVisible(systemsettings) + !Window.IsVisible(servicesettings) + !String.IsEqual(Window(settings).Property(SettingsCurrentItem),8)</visible>
+				<visible>!Window.IsVisible(mediasettings) + !Window.IsVisible(systemsettings) + !Window.IsVisible(servicesettings) + !String.IsEqual(Window(settings).Property(SettingsCurrentItem),7)</visible>
 				<control type="group">
 					<width>333</width>
 					<height>497</height>
@@ -257,7 +257,7 @@
 			<control type="group">
 				<left>1723</left>
 				<top>289</top>
-				<visible>!Window.IsVisible(mediasettings) + !Window.IsVisible(gamesettings) + !Window.IsVisible(systemsettings) + !Window.IsVisible(servicesettings) + !String.IsEqual(Window(settings).Property(SettingsCurrentItem),8)</visible>
+				<visible>!Window.IsVisible(playersettings) + !Window.IsVisible(mediasettings) + !Window.IsVisible(systemsettings) + !Window.IsVisible(servicesettings) + !String.IsEqual(Window(settings).Property(SettingsCurrentItem),7)</visible>
 				<control type="group">
 					<width>333</width>
 					<height>497</height>
@@ -284,45 +284,6 @@
 						<height>300</height>
 						<aspectratio align="center" aligny="center">keep</aspectratio>
 						<texture>$VAR[SettingsIcon5]</texture>
-					</control>
-					<control type="image">
-						<left>-24</left>
-						<width>320</width>
-						<height>480</height>
-						<texture>views/OverlayNF.png</texture>
-					</control>
-				</control>
-			</control>
-			<control type="group">
-				<left>2123</left>
-				<top>289</top>
-				<visible>!Window.IsVisible(playersettings) + !Window.IsVisible(mediasettings) + !Window.IsVisible(gamesettings) + !Window.IsVisible(systemsettings) + !Window.IsVisible(servicesettings) + !String.IsEqual(Window(settings).Property(SettingsCurrentItem),8)</visible>
-				<control type="group">
-					<width>333</width>
-					<height>497</height>
-					<animation center="134,240" condition="True" effect="zoom" end="84.5" start="84.5">Conditional</animation>
-					<control type="image">
-						<left>-24</left>
-						<width>333</width>
-						<height>497</height>
-						<texture border="1,1,14,18">settings/settings_tile.png</texture>
-					</control>
-					<control type="label">
-						<left>-10</left>
-						<top>28</top>
-						<width>276</width>
-						<height>32</height>
-						<font>Bold34</font>
-						<textcolor>ffdadada</textcolor>
-						<label>$VAR[SettingsLabel6]</label>
-					</control>
-					<control type="image">
-						<left>-13</left>
-						<top>123</top>
-						<width>300</width>
-						<height>300</height>
-						<aspectratio align="center" aligny="center">keep</aspectratio>
-						<texture>$VAR[SettingsIcon6]</texture>
 					</control>
 					<control type="image">
 						<left>-24</left>
@@ -391,7 +352,7 @@
 				</control>
 			</control>
 			<control type="group">
-				<visible>!String.IsEqual(Window(settings).Property(SettingsCurrentItem),8)</visible>
+				<visible>!String.IsEqual(Window(settings).Property(SettingsCurrentItem),7)</visible>
 				<animation reversible="false" type="WindowOpen">
 					<effect delay="200" easing="inout" end="100" start="0" time="125" tween="sine" type="fade"/>
 				</animation>
@@ -431,7 +392,7 @@
 				</control>
 			</control>
 			<control type="group">
-				<visible>String.IsEqual(Window(settings).Property(SettingsCurrentItem),8)</visible>
+				<visible>String.IsEqual(Window(settings).Property(SettingsCurrentItem),7)</visible>
 				<animation condition="!Window.Previous(systeminfo) + !Window.Previous(profiles)" reversible="false" type="WindowOpen">
 					<effect delay="200" easing="inout" end="100" start="0" time="125" tween="sine" type="fade"/>
 				</animation>

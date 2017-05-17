@@ -35,9 +35,9 @@
 							<onleft>noop</onleft>
 							<onright>noop</onright>
 							<onfocus condition="String.IsEmpty(Control.GetLabel(312).Index(1))">SetFocus(1000)</onfocus>
-							<font/>
-							<texturefocus/>
-							<texturenofocus/>
+							<font>-</font>
+							<texturefocus>-</texturefocus>
+							<texturenofocus>-</texturenofocus>
 						</control>
 						<!-- Edit -->
 						<control id="312" type="edit">
@@ -928,11 +928,11 @@
 								<onup>32</onup>
 								<ondown>309</ondown>
 								<label>20178</label>
-								<texturenofocus/>
-								<textureradioonfocus/>
-								<textureradioonnofocus/>
-								<textureradioofffocus/>
-								<textureradiooffnofocus/>
+								<texturenofocus>-</texturenofocus>
+								<textureradioonfocus>-</textureradioonfocus>
+								<textureradioonnofocus>-</textureradioonnofocus>
+								<textureradioofffocus>-</textureradioofffocus>
+								<textureradiooffnofocus>-</textureradiooffnofocus>
 								<include>KeyboardButtons</include>
 							</control>
 							<!-- Caps lock -->
@@ -941,11 +941,11 @@
 								<onup>8</onup>
 								<ondown>301</ondown>
 								<label>20179</label>
-								<texturenofocus/>
-								<textureradioonfocus/>
-								<textureradioonnofocus/>
-								<textureradioofffocus/>
-								<textureradiooffnofocus/>
+								<texturenofocus>-</texturenofocus>
+								<textureradioonfocus>-</textureradioonfocus>
+								<textureradioonnofocus>-</textureradioonnofocus>
+								<textureradioofffocus>-</textureradioofffocus>
+								<textureradiooffnofocus>-</textureradiooffnofocus>
 								<include>KeyboardButtons</include>
 							</control>
 							<!-- Symbols -->
@@ -954,11 +954,11 @@
 								<onup>306</onup>
 								<ondown>300</ondown>
 								<label>#$</label>
-								<texturenofocus/>
-								<textureradioonfocus/>
-								<textureradioonnofocus/>
-								<textureradioofffocus/>
-								<textureradiooffnofocus/>
+								<texturenofocus>-</texturenofocus>
+								<textureradioonfocus>-</textureradioonfocus>
+								<textureradioonnofocus>-</textureradioonnofocus>
+								<textureradioofffocus>-</textureradioofffocus>
+								<textureradiooffnofocus>-</textureradiooffnofocus>
 								<include>KeyboardButtons</include>
 							</control>
 							<!-- IP address -->

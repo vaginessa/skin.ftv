@@ -198,27 +198,35 @@
 					<content>
 						<item>
 							<label>#1</label>
+							<onclick>noop</onclick>
 						</item>
 						<item>
 							<label>#2</label>
+							<onclick>noop</onclick>
 						</item>
 						<item>
 							<label>#3</label>
+							<onclick>noop</onclick>
 						</item>
 						<item>
 							<label>#4</label>
+							<onclick>noop</onclick>
 						</item>
 						<item>
 							<label>#5</label>
+							<onclick>noop</onclick>
 						</item>
 						<item>
 							<label>#6</label>
+							<onclick>noop</onclick>
 						</item>
 						<item>
 							<label>#7</label>
+							<onclick>noop</onclick>
 						</item>
 						<item>
 							<label>#8</label>
+							<onclick>noop</onclick>
 						</item>
 					</content>
 				</control>

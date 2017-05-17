@@ -5,9 +5,9 @@
 	<backgroundcolor>0xff12161b</backgroundcolor>
 	<defaultcontrol always="true">570</defaultcontrol>
 	<onload condition="!String.Contains(Control.GetLabel(22),*) | String.IsEmpty(Skin.String(HigherLevels))">Skin.SetString(HigherLevels,off)</onload>
-	<onload condition="Window.Previous(home) + Container.HasParent">Control.Move(570,1)</onload>
+	<onload condition="Window.Previous(home) + system.getbool(filelists.showparentdiritems)">Control.Move(570,1)</onload>
 	<onunload condition="Window.Next(home)">Control.Move(570,$INFO[Container.CurrentItem,-])</onunload>
-	<onunload condition="Window.Next(home) + !Container.HasParent">Control.Move(570,1)</onunload>
+	<onunload condition="Window.Next(home) + !system.getbool(filelists.showparentdiritems)">Control.Move(570,1)</onunload>
 	<views>570</views>
 	<controls>
 		<!-- Hidden Button -->

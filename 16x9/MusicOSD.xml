@@ -64,10 +64,10 @@
 				<reveal>true</reveal>
 				<info>Player.Progress</info>
 				<texturebg border="4">osd/progress_back.png</texturebg>
-				<lefttexture/>
+				<lefttexture>-</lefttexture>
 				<midtexture border="4">osd/progress_bar.png</midtexture>
-				<righttexture/>
-				<overlaytexture/>
+				<righttexture>-</righttexture>
+				<overlaytexture>-</overlaytexture>
 			</control>
 			<control type="grouplist">
 				<left>92</left>
@@ -118,7 +118,7 @@
 				<control type="button" id="301">
 					<width>64</width>
 					<height>64</height>
-					<font/>
+					<font>-</font>
 					<texturefocus>osd/osd_prev_fo.png</texturefocus>
 					<texturenofocus>osd/osd_prev_nf.png</texturenofocus>
 					<onclick>PlayerControl(Previous)</onclick>
@@ -127,7 +127,7 @@
 				<control type="button" id="302">
 					<width>64</width>
 					<height>64</height>
-					<font/>
+					<font>-</font>
 					<texturefocus>osd/osd_rw_fo.png</texturefocus>
 					<texturenofocus>osd/osd_rw_nf.png</texturenofocus>
 					<onclick>PlayerControl(Rewind)</onclick>
@@ -136,7 +136,7 @@
 				<control type="button" id="303">
 					<width>64</width>
 					<height>64</height>
-					<font/>
+					<font>-</font>
 					<texturefocus>osd/osd_stop_fo.png</texturefocus>
 					<texturenofocus>osd/osd_stop_nf.png</texturenofocus>
 					<onclick>PlayerControl(Stop)</onclick>
@@ -145,7 +145,7 @@
 				<control type="togglebutton" id="304">
 					<width>64</width>
 					<height>64</height>
-					<font/>
+					<font>-</font>
 					<texturefocus>osd/osd_pause_fo.png</texturefocus>
 					<texturenofocus>osd/osd_pause_nf.png</texturenofocus>
 					<usealttexture>Player.Paused | Player.Forwarding | Player.Rewinding</usealttexture>
@@ -157,7 +157,7 @@
 				<control type="button" id="305">
 					<width>64</width>
 					<height>64</height>
-					<font/>
+					<font>-</font>
 					<texturefocus>osd/osd_ff_fo.png</texturefocus>
 					<texturenofocus>osd/osd_ff_nf.png</texturenofocus>
 					<onclick>PlayerControl(Forward)</onclick>
@@ -166,7 +166,7 @@
 				<control type="button" id="306">
 					<width>64</width>
 					<height>64</height>
-					<font/>
+					<font>-</font>
 					<texturefocus>osd/osd_next_fo.png</texturefocus>
 					<texturenofocus>osd/osd_next_nf.png</texturenofocus>
 					<onclick>PlayerControl(Next)</onclick>
@@ -205,8 +205,8 @@
 					<shadowcolor>ff000000</shadowcolor>
 					<focusedcolor>ffffc04b</focusedcolor>
 					<label>24013</label>
-					<texturefocus/>
-					<texturenofocus/>
+					<texturefocus>-</texturefocus>
+					<texturenofocus>-</texturenofocus>
 					<onclick>Close</onclick>
 					<onclick condition="String.IsEmpty(Skin.String(LyricAddon))">Skin.SetAddon(LyricAddon,xbmc.python.lyrics)</onclick>
 					<onclick condition="!String.IsEmpty(Skin.String(LyricAddon))">XBMC.RunScript($INFO[Skin.String(LyricAddon)])</onclick>
@@ -220,8 +220,8 @@
 					<shadowcolor>ff000000</shadowcolor>
 					<focusedcolor>ffffc04b</focusedcolor>
 					<label>559</label>
-					<texturefocus/>
-					<texturenofocus/>
+					<texturefocus>-</texturefocus>
+					<texturenofocus>-</texturenofocus>
 					<onclick>Close</onclick>
 					<onclick>ActivateWindow(MusicPlaylist)</onclick>
 				</control>
@@ -234,8 +234,8 @@
 					<shadowcolor>ff000000</shadowcolor>
 					<focusedcolor>ffffc04b</focusedcolor>
 					<label>$LOCALIZE[486]$INFO[Playlist.Repeat, : ]</label>
-					<texturefocus/>
-					<texturenofocus/>
+					<texturefocus>-</texturefocus>
+					<texturenofocus>-</texturenofocus>
 					<onclick>PlayerControl(Repeat)</onclick>
 				</control>
 				<!-- Random -->
@@ -246,9 +246,9 @@
 					<textcolor>ffffffff</textcolor>
 					<shadowcolor>ff000000</shadowcolor>
 					<focusedcolor>ffffc04b</focusedcolor>
-					<label>$LOCALIZE[590]$INFO[Playlist.Random, : ]</label>
-					<texturefocus/>
-					<texturenofocus/>
+					<label>$LOCALIZE[191]$INFO[Playlist.Random, : ]</label>
+					<texturefocus>-</texturefocus>
+					<texturenofocus>-</texturenofocus>
 					<onclick>PlayerControl(Random)</onclick>
 				</control>
 			</control>
@@ -275,8 +275,8 @@
 					<shadowcolor>ff000000</shadowcolor>
 					<focusedcolor>ffffc04b</focusedcolor>
 					<label>31235</label>
-					<texturefocus/>
-					<texturenofocus/>
+					<texturefocus>-</texturefocus>
+					<texturenofocus>-</texturenofocus>
 					<onclick>SetProperty(SetUserRating,music,home)</onclick>
 					<onclick>setrating</onclick>
 				</control>
@@ -290,8 +290,8 @@
 					<shadowcolor>ff000000</shadowcolor>
 					<focusedcolor>ffffc04b</focusedcolor>
 					<label>12006</label>
-					<texturefocus/>
-					<texturenofocus/>
+					<texturefocus>-</texturefocus>
+					<texturenofocus>-</texturenofocus>
 				</control>
 				<!-- Visualisation presets list -->
 				<control type="button" id="12">
@@ -303,8 +303,8 @@
 					<shadowcolor>ff000000</shadowcolor>
 					<focusedcolor>ffffc04b</focusedcolor>
 					<label>$LOCALIZE[31047]</label>
-					<texturefocus/>
-					<texturenofocus/>
+					<texturefocus>-</texturefocus>
+					<texturenofocus>-</texturenofocus>
 					<onclick>ActivateWindow(122)</onclick>
 				</control>
 				<!-- Visualisation settings -->
@@ -317,8 +317,8 @@
 					<shadowcolor>ff000000</shadowcolor>
 					<focusedcolor>ffffc04b</focusedcolor>
 					<label>$LOCALIZE[250] $LOCALIZE[21417]</label>
-					<texturefocus/>
-					<texturenofocus/>
+					<texturefocus>-</texturefocus>
+					<texturenofocus>-</texturenofocus>
 					<onclick>Addon.Default.OpenSettings(xbmc.player.musicviz)</onclick>
 				</control>
 			</control>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window>
 	<!-- fullscreenvideo -->
-	<defaultcontrol/>
+	<defaultcontrol>-</defaultcontrol>
 	<onload>SetProperty(RefreshCastList,true,Home)</onload>
 	<controls>
 		<control id="99" type="group">
@@ -178,10 +178,10 @@
 					<reveal>true</reveal>
 					<info>Player.ProgressCache</info>
 					<texturebg border="4">osd/progress_back.png</texturebg>
-					<lefttexture/>
+					<lefttexture>-</lefttexture>
 					<midtexture border="4">osd/progress_cache.png</midtexture>
-					<righttexture/>
-					<overlaytexture/>
+					<righttexture>-</righttexture>
+					<overlaytexture>-</overlaytexture>
 				</control>
 				<!--  Progress bar -->
 				<control id="99" type="progress">
@@ -192,10 +192,10 @@
 					<reveal>true</reveal>
 					<info>Player.Progress</info>
 					<texturebg border="4" colordiffuse="00ffffff">osd/progress_back.png</texturebg>
-					<lefttexture/>
+					<lefttexture>-</lefttexture>
 					<midtexture border="4">osd/progress_bar.png</midtexture>
-					<righttexture/>
-					<overlaytexture/>
+					<righttexture>-</righttexture>
+					<overlaytexture>-</overlaytexture>
 				</control>
 				<control id="99" type="grouplist">
 					<left>92</left>
@@ -273,11 +273,11 @@
 					<height>11</height>
 					<reveal>true</reveal>
 					<info>Player.Progress</info>
-					<texturebg/>
-					<lefttexture/>
-					<midtexture/>
-					<righttexture/>
-					<overlaytexture/>
+					<texturebg>-</texturebg>
+					<lefttexture>-</lefttexture>
+					<midtexture>-</midtexture>
+					<righttexture>-</righttexture>
+					<overlaytexture>-</overlaytexture>
 				</control>
 				<control id="2" type="grouplist">
 					<left>60</left>

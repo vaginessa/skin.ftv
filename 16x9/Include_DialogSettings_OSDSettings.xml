@@ -41,8 +41,8 @@
 				<shadowcolor>ff000000</shadowcolor>
 				<focusedcolor>ffffc04b</focusedcolor>
 				<disabledcolor>88ffffff</disabledcolor>
-				<texturefocus/>
-				<texturenofocus/>
+				<texturefocus>-</texturefocus>
+				<texturenofocus>-</texturenofocus>
 			</control>
 			<!-- Default radiobutton -->
 			<control type="radiobutton" id="8">
@@ -53,15 +53,15 @@
 				<shadowcolor>ff000000</shadowcolor>
 				<focusedcolor>ffffc04b</focusedcolor>
 				<disabledcolor>88ffffff</disabledcolor>
-				<texturefocus/>
-				<texturenofocus/>
+				<texturefocus>-</texturefocus>
+				<texturenofocus>-</texturenofocus>
 				<radioposx>708</radioposx>
 				<radiowidth/>
 				<radioheight/>
-				<textureradioonfocus/>
-				<textureradioonnofocus/>
-				<textureradioofffocus/>
-				<textureradiooffnofocus/>
+				<textureradioonfocus>-</textureradioonfocus>
+				<textureradioonnofocus>-</textureradioonnofocus>
+				<textureradioofffocus>-</textureradioofffocus>
+				<textureradiooffnofocus>-</textureradiooffnofocus>
 			</control>
 			<!-- Default spincontrolex -->
 			<control type="spincontrolex" id="9">
@@ -72,8 +72,8 @@
 				<shadowcolor>ff000000</shadowcolor>
 				<focusedcolor>ffffc04b</focusedcolor>
 				<disabledcolor>88ffffff</disabledcolor>
-				<texturefocus/>
-				<texturenofocus/>
+				<texturefocus>-</texturefocus>
+				<texturenofocus>-</texturenofocus>
 			</control>
 			<!-- Default sliderex -->
 			<control type="sliderex" id="13">
@@ -84,8 +84,8 @@
 				<shadowcolor>ff000000</shadowcolor>
 				<focusedcolor>ffffc04b</focusedcolor>
 				<disabledcolor>88ffffff</disabledcolor>
-				<texturefocus/>
-				<texturenofocus/>
+				<texturefocus>-</texturefocus>
+				<texturenofocus>-</texturenofocus>
 				<sliderwidth>200</sliderwidth>
 				<sliderheight>11</sliderheight>
 			</control>

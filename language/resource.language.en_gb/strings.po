@@ -1034,11 +1034,3 @@ msgstr ""
 msgctxt "#31249"
 msgid "View add-ons that have recently been updated."
 msgstr ""
-
-msgctxt "#31250"
-msgid "Configure various game settings."
-msgstr ""
-
-msgctxt "#31251"
-msgid "Watchlist"
-msgstr ""

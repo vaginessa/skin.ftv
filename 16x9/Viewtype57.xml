@@ -71,6 +71,13 @@
 					</control>
 				</itemlayout>
 				<focusedlayout height="576" width="300">
+					<control type="button">
+						<texturefocus>-</texturefocus>
+						<texturenofocus>-</texturenofocus>
+						<onfocus>ClearProperty(TVShowID,home)</onfocus>
+						<onfocus>ClearProperty(PercentRemaining,home)</onfocus>
+						<onfocus condition="ListItem.IsResumable">SetProperty(PercentRemaining,$VAR[PercentRemaining],home)</onfocus>
+					</control>
 					<control type="group">
 						<animation center="150,288" easing="inout" effect="zoom" end="100" start="85" time="300" tween="sine">Focus</animation>
 						<animation center="150,288" condition="Container(57).OnNext | Container(57).OnPrevious" easing="inout" effect="zoom" end="85" start="100" time="300" tween="sine">UnFocus</animation>

@@ -84,7 +84,7 @@
 				<height>28</height>
 				<font>Med20</font>
 				<textcolor>ffbcbcbc</textcolor>
-				<label>$VAR[PercentRemaining]</label>
+				<label>$INFO[Window(home).Property(PercentRemaining)]</label>
 				<visible>ListItem.IsResumable</visible>
 			</control>
 			<control type="progress">
@@ -93,10 +93,10 @@
 				<height>8</height>
 				<info>ListItem.PercentPlayed</info>
 				<texturebg border="2">views/ProgressBack.png</texturebg>
-				<lefttexture/>
+				<lefttexture>-</lefttexture>
 				<midtexture border="2">views/ProgressBar.png</midtexture>
-				<righttexture/>
-				<overlaytexture/>
+				<righttexture>-</righttexture>
+				<overlaytexture>-</overlaytexture>
 				<visible>ListItem.IsResumable</visible>
 			</control>
 			<control type="image">
@@ -222,9 +222,9 @@
 					<top>2</top>
 					<width>147</width>
 					<height>24</height>
-					<texture>$INFO[ListItem.UserRating,rating/rating,.png]</texture>
+					<texture>$INFO[Window(home).Property(TVShowRating),rating/rating,.png]</texture>
 					<aspectratio align="left">keep</aspectratio>
-					<visible>!String.IsEmpty(ListItem.UserRating) + String.IsEmpty(ListItem.Rating) + !String.IsEqual(ListItem.DBTYPE,episode)</visible>
+					<visible>!String.IsEmpty(Window(home).Property(TVShowRating)) + String.IsEmpty(ListItem.Rating) + !String.IsEqual(ListItem.DBTYPE,episode)</visible>
 				</control>
 				<control type="image">
 					<top>4</top>
@@ -563,8 +563,8 @@
 					<textcolor>00ffffff</textcolor>
 					<focusedcolor>00ffffff</focusedcolor>
 					<visible>Control.IsVisible(8)</visible>
-					<texturefocus/>
-					<texturenofocus/>
+					<texturefocus>-</texturefocus>
+					<texturenofocus>-</texturenofocus>
 				</control>
 				<!-- User Rating Button -->
 				<control type="image">

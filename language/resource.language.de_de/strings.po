@@ -1036,3 +1036,7 @@ msgstr "Kürzlich aktualisierte Addons anzeigen"
 msgctxt "#31250"
 msgid "Configure various game settings."
 msgstr "Konfiguriere verschiedene Spieleinstellungen"
+
+msgctxt "#31251"
+msgid "Watchlist"
+msgstr ""

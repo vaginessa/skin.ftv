@@ -4,7 +4,7 @@
 	<defaultcontrol always="true">450</defaultcontrol>
 	<controls>
 		<control id="411" type="label">
-			<font/>
+			<font>-</font>
 		</control>
 		<include>DialogBackgroundImage</include>
 		<control type="group">
@@ -337,10 +337,10 @@
 					<label>749</label>
 					<texturefocus border="8">dialogs/DialogButtonFO.png</texturefocus>
 					<texturenofocus border="8">dialogs/DialogButtonNF.png</texturenofocus>
-					<textureradioonfocus/>
-					<textureradioonnofocus/>
-					<textureradioofffocus/>
-					<textureradiooffnofocus/>
+					<textureradioonfocus>-</textureradioonfocus>
+					<textureradioonnofocus>-</textureradioonnofocus>
+					<textureradioofffocus>-</textureradioofffocus>
+					<textureradiooffnofocus>-</textureradiooffnofocus>
 					<visible>Control.IsEnabled(416)</visible>
 				</control>
 			</control>

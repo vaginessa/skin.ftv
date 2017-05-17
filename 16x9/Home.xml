@@ -12,7 +12,7 @@
 		<control type="group">
 			<!-- Hidden control to load weather conditions -->
 			<control type="label">
-				<font/>
+				<font>-</font>
 				<label>$INFO[Weather.Conditions]</label>
 			</control>
 			<control id="9001" type="list">
@@ -86,8 +86,8 @@
 				</itemlayout>
 				<focusedlayout height="128" width="284">
 					<control type="button">
-						<texturefocus/>
-						<texturenofocus/>
+						<texturefocus>-</texturefocus>
+						<texturenofocus>-</texturenofocus>
 						<onfocus>ClearProperty(WidgetHasFocus,Home)</onfocus>
 						<onfocus>SetProperty(MainMenuFocus,1,home)</onfocus>
 						<onfocus condition="!String.IsEqual(Container(99).ListItem.Property(defaultID),Window(home).Property(MainFocus))">ClearProperty(MainFocus)</onfocus>
@@ -419,6 +419,7 @@
 				</focusedlayout>
 				<content>
 					<item>
+						<onclick>noop</onclick>
 						<label>$INFO[Window(Weather).Property(Day0.Title)]</label>
 						<label2>$INFO[Window(Weather).Property(Day0.LowTemp),$LOCALIZE[391] ,°]    $INFO[Window(Weather).Property(Day0.HighTemp),$LOCALIZE[393] ,°]</label2>
 						<icon>$INFO[Window(Weather).Property(Day0.FanartCode),weather/icons/,.png]</icon>
@@ -427,6 +428,7 @@
 						<visible>!String.IsEmpty(Window(Weather).Property(Day0.Outlook))</visible>
 					</item>
 					<item>
+						<onclick>noop</onclick>
 						<label>$INFO[Window(Weather).Property(Day1.Title)]</label>
 						<label2>$INFO[Window(Weather).Property(Day1.LowTemp),$LOCALIZE[391] ,°]    $INFO[Window(Weather).Property(Day1.HighTemp),$LOCALIZE[393] ,°]</label2>
 						<icon>$INFO[Window(Weather).Property(Day1.FanartCode),weather/icons/,.png]</icon>
@@ -435,6 +437,7 @@
 						<visible>!String.IsEmpty(Window(Weather).Property(Day1.Outlook))</visible>
 					</item>
 					<item>
+						<onclick>noop</onclick>
 						<label>$INFO[Window(Weather).Property(Day2.Title)]</label>
 						<label2>$INFO[Window(Weather).Property(Day2.LowTemp),$LOCALIZE[391] ,°]    $INFO[Window(Weather).Property(Day2.HighTemp),$LOCALIZE[393] ,°]</label2>
 						<icon>$INFO[Window(Weather).Property(Day2.FanartCode),weather/icons/,.png]</icon>
@@ -443,6 +446,7 @@
 						<visible>!String.IsEmpty(Window(Weather).Property(Day2.Outlook))</visible>
 					</item>
 					<item>
+						<onclick>noop</onclick>
 						<label>$INFO[Window(Weather).Property(Day3.Title)]</label>
 						<label2>$INFO[Window(Weather).Property(Day3.LowTemp),$LOCALIZE[391] ,°]    $INFO[Window(Weather).Property(Day3.HighTemp),$LOCALIZE[393] ,°]</label2>
 						<icon>$INFO[Window(Weather).Property(Day3.FanartCode),weather/icons/,.png]</icon>
@@ -451,6 +455,7 @@
 						<visible>!String.IsEmpty(Window(Weather).Property(Day3.Outlook))</visible>
 					</item>
 					<item>
+						<onclick>noop</onclick>
 						<label>$INFO[Window(Weather).Property(Day4.Title)]</label>
 						<label2>$INFO[Window(Weather).Property(Day4.LowTemp),$LOCALIZE[391] ,°]    $INFO[Window(Weather).Property(Day4.HighTemp),$LOCALIZE[393] ,°]</label2>
 						<icon>$INFO[Window(Weather).Property(Day4.FanartCode),weather/icons/,.png]</icon>
@@ -534,26 +539,32 @@
 				</focusedlayout>
 				<content>
 					<item>
+						<onclick>noop</onclick>
 						<label>14206</label>
 						<icon>settings/icon_appearance.png</icon>
 					</item>
 					<item>
+						<onclick>noop</onclick>
 						<label>24001</label>
 						<icon>settings/icon_addons.png</icon>
 					</item>
 					<item>
+						<onclick>noop</onclick>
 						<label>14200</label>
 						<icon>settings/icon_player.png</icon>
 					</item>
 					<item>
+						<onclick>noop</onclick>
 						<label>14211</label>
 						<icon>settings/icon_library.png</icon>
 					</item>
 					<item>
-						<label>15016</label>
-						<icon>settings/icon_games.png</icon>
+						<onclick>noop</onclick>
+						<label>13000</label>
+						<icon>settings/icon_system.png</icon>
 					</item>
 					<item>
+						<onclick>noop</onclick>
 						<label>14036</label>
 						<icon>settings/icon_service.png</icon>
 					</item>

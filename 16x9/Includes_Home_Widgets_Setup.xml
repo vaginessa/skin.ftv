@@ -1616,14 +1616,6 @@
 				<property name="ArtLogo1">$INFO[Container(1001).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(1001).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(1001).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(100).NumItems,2) + Container(100).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(100).NumItems,2) + Container(100).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(100).NumItems,2) + Container(100).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(100).NumItems,2) + Container(100).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(100).NumItems,2) + Container(100).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(1000-WidgetAction-1)]</onclick>
 			</item>
 			<item>
@@ -1663,14 +1655,6 @@
 				<property name="ArtLogo1">$INFO[Container(1002).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(1002).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(1002).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(100).NumItems,2) + Container(100).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(100).NumItems,2) + Container(100).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(100).NumItems,2) + Container(100).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(100).NumItems,2) + Container(100).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(100).NumItems,2) + Container(100).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(1000-WidgetAction-2)]</onclick>
 			</item>
 			<item>
@@ -1710,14 +1694,6 @@
 				<property name="ArtLogo1">$INFO[Container(1003).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(1003).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(1003).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(100).NumItems,2) + Container(100).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(100).NumItems,2) + Container(100).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(100).NumItems,2) + Container(100).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(100).NumItems,2) + Container(100).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(100).NumItems,2) + Container(100).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(1000-WidgetAction-3)]</onclick>
 			</item>
 			<item>
@@ -1757,14 +1733,6 @@
 				<property name="ArtLogo1">$INFO[Container(1004).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(1004).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(1004).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(100).NumItems,2) + Container(100).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(100).NumItems,2) + Container(100).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(100).NumItems,2) + Container(100).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(100).NumItems,2) + Container(100).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(100).NumItems,2) + Container(100).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(1000-WidgetAction-4)]</onclick>
 			</item>
 			<item>
@@ -1804,14 +1772,6 @@
 				<property name="ArtLogo1">$INFO[Container(1005).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(1005).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(1005).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(100).NumItems,2) + Container(100).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(100).NumItems,2) + Container(100).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(100).NumItems,2) + Container(100).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(100).NumItems,2) + Container(100).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(100).NumItems,2) + Container(100).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(1000-WidgetAction-5)]</onclick>
 			</item>
 			<item>
@@ -1851,14 +1811,6 @@
 				<property name="ArtLogo1">$INFO[Container(1006).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(1006).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(1006).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(100).NumItems,2) + Container(100).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(100).NumItems,2) + Container(100).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(100).NumItems,2) + Container(100).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(100).NumItems,2) + Container(100).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(100).NumItems,2) + Container(100).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(1000-WidgetAction-6)]</onclick>
 			</item>
 			<item>
@@ -1898,14 +1850,6 @@
 				<property name="ArtLogo1">$INFO[Container(1007).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(1007).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(1007).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(100).NumItems,2) + Container(100).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(100).NumItems,2) + Container(100).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(100).NumItems,2) + Container(100).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(100).NumItems,2) + Container(100).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(100).NumItems,2) + Container(100).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(1000-WidgetAction-7)]</onclick>
 			</item>
 			<item>
@@ -1945,14 +1889,6 @@
 				<property name="ArtLogo1">$INFO[Container(1008).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(1008).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(1008).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(100).NumItems,2) + Container(100).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(100).NumItems,2) + Container(100).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(100).NumItems,2) + Container(100).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(100).NumItems,2) + Container(100).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(100).NumItems,2) + Container(100).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(1000-WidgetAction-8)]</onclick>
 			</item>
 		</content>
@@ -1997,14 +1933,6 @@
 				<property name="ArtLogo1">$INFO[Container(2001).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(2001).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(2001).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(200).NumItems,2) + Container(200).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(200).NumItems,2) + Container(200).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(200).NumItems,2) + Container(200).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(200).NumItems,2) + Container(200).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(200).NumItems,2) + Container(200).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(2000-WidgetAction-1)]</onclick>
 			</item>
 			<item>
@@ -2044,14 +1972,6 @@
 				<property name="ArtLogo1">$INFO[Container(2002).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(2002).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(2002).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(200).NumItems,2) + Container(200).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(200).NumItems,2) + Container(200).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(200).NumItems,2) + Container(200).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(200).NumItems,2) + Container(200).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(200).NumItems,2) + Container(200).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(2000-WidgetAction-2)]</onclick>
 			</item>
 			<item>
@@ -2091,14 +2011,6 @@
 				<property name="ArtLogo1">$INFO[Container(2003).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(2003).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(2003).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(200).NumItems,2) + Container(200).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(200).NumItems,2) + Container(200).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(200).NumItems,2) + Container(200).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(200).NumItems,2) + Container(200).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(200).NumItems,2) + Container(200).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(2000-WidgetAction-3)]</onclick>
 			</item>
 			<item>
@@ -2138,14 +2050,6 @@
 				<property name="ArtLogo1">$INFO[Container(2004).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(2004).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(2004).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(200).NumItems,2) + Container(200).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(200).NumItems,2) + Container(200).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(200).NumItems,2) + Container(200).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(200).NumItems,2) + Container(200).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(200).NumItems,2) + Container(200).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(2000-WidgetAction-4)]</onclick>
 			</item>
 			<item>
@@ -2185,14 +2089,6 @@
 				<property name="ArtLogo1">$INFO[Container(2005).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(2005).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(2005).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(200).NumItems,2) + Container(200).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(200).NumItems,2) + Container(200).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(200).NumItems,2) + Container(200).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(200).NumItems,2) + Container(200).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(200).NumItems,2) + Container(200).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(2000-WidgetAction-5)]</onclick>
 			</item>
 			<item>
@@ -2232,14 +2128,6 @@
 				<property name="ArtLogo1">$INFO[Container(2006).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(2006).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(2006).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(200).NumItems,2) + Container(200).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(200).NumItems,2) + Container(200).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(200).NumItems,2) + Container(200).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(200).NumItems,2) + Container(200).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(200).NumItems,2) + Container(200).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(2000-WidgetAction-6)]</onclick>
 			</item>
 			<item>
@@ -2279,14 +2167,6 @@
 				<property name="ArtLogo1">$INFO[Container(2007).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(2007).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(2007).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(200).NumItems,2) + Container(200).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(200).NumItems,2) + Container(200).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(200).NumItems,2) + Container(200).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(200).NumItems,2) + Container(200).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(200).NumItems,2) + Container(200).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(2000-WidgetAction-7)]</onclick>
 			</item>
 			<item>
@@ -2326,14 +2206,6 @@
 				<property name="ArtLogo1">$INFO[Container(2008).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(2008).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(2008).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(200).NumItems,2) + Container(200).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(200).NumItems,2) + Container(200).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(200).NumItems,2) + Container(200).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(200).NumItems,2) + Container(200).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(200).NumItems,2) + Container(200).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(2000-WidgetAction-8)]</onclick>
 			</item>
 		</content>
@@ -2378,14 +2250,6 @@
 				<property name="ArtLogo1">$INFO[Container(3001).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(3001).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(3001).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(300).NumItems,2) + Container(300).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(300).NumItems,2) + Container(300).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(300).NumItems,2) + Container(300).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(300).NumItems,2) + Container(300).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(300).NumItems,2) + Container(300).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(3000-WidgetAction-1)]</onclick>
 			</item>
 			<item>
@@ -2425,14 +2289,6 @@
 				<property name="ArtLogo1">$INFO[Container(3002).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(3002).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(3002).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(300).NumItems,2) + Container(300).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(300).NumItems,2) + Container(300).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(300).NumItems,2) + Container(300).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(300).NumItems,2) + Container(300).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(300).NumItems,2) + Container(300).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(3000-WidgetAction-2)]</onclick>
 			</item>
 			<item>
@@ -2472,14 +2328,6 @@
 				<property name="ArtLogo1">$INFO[Container(3003).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(3003).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(3003).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(300).NumItems,2) + Container(300).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(300).NumItems,2) + Container(300).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(300).NumItems,2) + Container(300).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(300).NumItems,2) + Container(300).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(300).NumItems,2) + Container(300).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(3000-WidgetAction-3)]</onclick>
 			</item>
 			<item>
@@ -2519,14 +2367,6 @@
 				<property name="ArtLogo1">$INFO[Container(3004).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(3004).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(3004).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(300).NumItems,2) + Container(300).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(300).NumItems,2) + Container(300).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(300).NumItems,2) + Container(300).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(300).NumItems,2) + Container(300).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(300).NumItems,2) + Container(300).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(3000-WidgetAction-4)]</onclick>
 			</item>
 			<item>
@@ -2566,14 +2406,6 @@
 				<property name="ArtLogo1">$INFO[Container(3005).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(3005).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(3005).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(300).NumItems,2) + Container(300).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(300).NumItems,2) + Container(300).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(300).NumItems,2) + Container(300).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(300).NumItems,2) + Container(300).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(300).NumItems,2) + Container(300).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(3000-WidgetAction-5)]</onclick>
 			</item>
 			<item>
@@ -2613,14 +2445,6 @@
 				<property name="ArtLogo1">$INFO[Container(3006).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(3006).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(3006).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(300).NumItems,2) + Container(300).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(300).NumItems,2) + Container(300).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(300).NumItems,2) + Container(300).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(300).NumItems,2) + Container(300).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(300).NumItems,2) + Container(300).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(3000-WidgetAction-6)]</onclick>
 			</item>
 			<item>
@@ -2660,14 +2484,6 @@
 				<property name="ArtLogo1">$INFO[Container(3007).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(3007).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(3007).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(300).NumItems,2) + Container(300).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(300).NumItems,2) + Container(300).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(300).NumItems,2) + Container(300).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(300).NumItems,2) + Container(300).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(300).NumItems,2) + Container(300).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(3000-WidgetAction-7)]</onclick>
 			</item>
 			<item>
@@ -2707,14 +2523,6 @@
 				<property name="ArtLogo1">$INFO[Container(3008).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(3008).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(3008).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(300).NumItems,2) + Container(300).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(300).NumItems,2) + Container(300).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(300).NumItems,2) + Container(300).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(300).NumItems,2) + Container(300).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(300).NumItems,2) + Container(300).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(3000-WidgetAction-8)]</onclick>
 			</item>
 		</content>
@@ -2759,14 +2567,6 @@
 				<property name="ArtLogo1">$INFO[Container(4001).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(4001).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(4001).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(400).NumItems,2) + Container(400).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(400).NumItems,2) + Container(400).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(400).NumItems,2) + Container(400).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(400).NumItems,2) + Container(400).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(400).NumItems,2) + Container(400).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(4000-WidgetAction-1)]</onclick>
 			</item>
 			<item>
@@ -2806,14 +2606,6 @@
 				<property name="ArtLogo1">$INFO[Container(4002).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(4002).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(4002).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(400).NumItems,2) + Container(400).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(400).NumItems,2) + Container(400).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(400).NumItems,2) + Container(400).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(400).NumItems,2) + Container(400).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(400).NumItems,2) + Container(400).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(4000-WidgetAction-2)]</onclick>
 			</item>
 			<item>
@@ -2853,14 +2645,6 @@
 				<property name="ArtLogo1">$INFO[Container(4003).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(4003).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(4003).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(400).NumItems,2) + Container(400).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(400).NumItems,2) + Container(400).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(400).NumItems,2) + Container(400).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(400).NumItems,2) + Container(400).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(400).NumItems,2) + Container(400).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(4000-WidgetAction-3)]</onclick>
 			</item>
 			<item>
@@ -2900,14 +2684,6 @@
 				<property name="ArtLogo1">$INFO[Container(4004).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(4004).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(4004).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(400).NumItems,2) + Container(400).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(400).NumItems,2) + Container(400).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(400).NumItems,2) + Container(400).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(400).NumItems,2) + Container(400).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(400).NumItems,2) + Container(400).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(4000-WidgetAction-4)]</onclick>
 			</item>
 			<item>
@@ -2947,14 +2723,6 @@
 				<property name="ArtLogo1">$INFO[Container(4005).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(4005).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(4005).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(400).NumItems,2) + Container(400).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(400).NumItems,2) + Container(400).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(400).NumItems,2) + Container(400).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(400).NumItems,2) + Container(400).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(400).NumItems,2) + Container(400).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(4000-WidgetAction-5)]</onclick>
 			</item>
 			<item>
@@ -2994,14 +2762,6 @@
 				<property name="ArtLogo1">$INFO[Container(4006).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(4006).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(4006).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(400).NumItems,2) + Container(400).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(400).NumItems,2) + Container(400).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(400).NumItems,2) + Container(400).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(400).NumItems,2) + Container(400).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(400).NumItems,2) + Container(400).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(4000-WidgetAction-6)]</onclick>
 			</item>
 			<item>
@@ -3041,14 +2801,6 @@
 				<property name="ArtLogo1">$INFO[Container(4007).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(4007).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(4007).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(400).NumItems,2) + Container(400).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(400).NumItems,2) + Container(400).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(400).NumItems,2) + Container(400).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(400).NumItems,2) + Container(400).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(400).NumItems,2) + Container(400).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(4000-WidgetAction-7)]</onclick>
 			</item>
 			<item>
@@ -3088,14 +2840,6 @@
 				<property name="ArtLogo1">$INFO[Container(4008).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(4008).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(4008).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(400).NumItems,2) + Container(400).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(400).NumItems,2) + Container(400).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(400).NumItems,2) + Container(400).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(400).NumItems,2) + Container(400).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(400).NumItems,2) + Container(400).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(4000-WidgetAction-8)]</onclick>
 			</item>
 		</content>
@@ -3140,14 +2884,6 @@
 				<property name="ArtLogo1">$INFO[Container(5001).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(5001).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(5001).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(500).NumItems,2) + Container(500).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(500).NumItems,2) + Container(500).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(500).NumItems,2) + Container(500).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(500).NumItems,2) + Container(500).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(500).NumItems,2) + Container(500).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(5000-WidgetAction-1)]</onclick>
 			</item>
 			<item>
@@ -3187,14 +2923,6 @@
 				<property name="ArtLogo1">$INFO[Container(5002).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(5002).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(5002).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(500).NumItems,2) + Container(500).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(500).NumItems,2) + Container(500).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(500).NumItems,2) + Container(500).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(500).NumItems,2) + Container(500).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(500).NumItems,2) + Container(500).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(5000-WidgetAction-2)]</onclick>
 			</item>
 			<item>
@@ -3234,14 +2962,6 @@
 				<property name="ArtLogo1">$INFO[Container(5003).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(5003).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(5003).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(500).NumItems,2) + Container(500).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(500).NumItems,2) + Container(500).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(500).NumItems,2) + Container(500).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(500).NumItems,2) + Container(500).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(500).NumItems,2) + Container(500).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(5000-WidgetAction-3)]</onclick>
 			</item>
 			<item>
@@ -3281,14 +3001,6 @@
 				<property name="ArtLogo1">$INFO[Container(5004).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(5004).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(5004).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(500).NumItems,2) + Container(500).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(500).NumItems,2) + Container(500).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(500).NumItems,2) + Container(500).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(500).NumItems,2) + Container(500).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(500).NumItems,2) + Container(500).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(5000-WidgetAction-4)]</onclick>
 			</item>
 			<item>
@@ -3328,14 +3040,6 @@
 				<property name="ArtLogo1">$INFO[Container(5005).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(5005).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(5005).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(500).NumItems,2) + Container(500).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(500).NumItems,2) + Container(500).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(500).NumItems,2) + Container(500).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(500).NumItems,2) + Container(500).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(500).NumItems,2) + Container(500).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(5000-WidgetAction-5)]</onclick>
 			</item>
 			<item>
@@ -3375,14 +3079,6 @@
 				<property name="ArtLogo1">$INFO[Container(5006).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(5006).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(5006).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(500).NumItems,2) + Container(500).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(500).NumItems,2) + Container(500).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(500).NumItems,2) + Container(500).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(500).NumItems,2) + Container(500).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(500).NumItems,2) + Container(500).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(5000-WidgetAction-6)]</onclick>
 			</item>
 			<item>
@@ -3422,14 +3118,6 @@
 				<property name="ArtLogo1">$INFO[Container(5007).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(5007).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(5007).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(500).NumItems,2) + Container(500).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(500).NumItems,2) + Container(500).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(500).NumItems,2) + Container(500).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(500).NumItems,2) + Container(500).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(500).NumItems,2) + Container(500).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(5000-WidgetAction-7)]</onclick>
 			</item>
 			<item>
@@ -3469,14 +3157,6 @@
 				<property name="ArtLogo1">$INFO[Container(5008).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(5008).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(5008).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(500).NumItems,2) + Container(500).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(500).NumItems,2) + Container(500).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(500).NumItems,2) + Container(500).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(500).NumItems,2) + Container(500).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(500).NumItems,2) + Container(500).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(5000-WidgetAction-8)]</onclick>
 			</item>
 		</content>
@@ -3521,14 +3201,6 @@
 				<property name="ArtLogo1">$INFO[Container(6001).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(6001).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(6001).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(600).NumItems,2) + Container(600).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(600).NumItems,2) + Container(600).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(600).NumItems,2) + Container(600).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(600).NumItems,2) + Container(600).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(600).NumItems,2) + Container(600).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(6000-WidgetAction-1)]</onclick>
 			</item>
 			<item>
@@ -3568,14 +3240,6 @@
 				<property name="ArtLogo1">$INFO[Container(6002).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(6002).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(6002).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(600).NumItems,2) + Container(600).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(600).NumItems,2) + Container(600).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(600).NumItems,2) + Container(600).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(600).NumItems,2) + Container(600).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(600).NumItems,2) + Container(600).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(6000-WidgetAction-2)]</onclick>
 			</item>
 			<item>
@@ -3615,14 +3279,6 @@
 				<property name="ArtLogo1">$INFO[Container(6003).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(6003).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(6003).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(600).NumItems,2) + Container(600).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(600).NumItems,2) + Container(600).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(600).NumItems,2) + Container(600).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(600).NumItems,2) + Container(600).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(600).NumItems,2) + Container(600).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(6000-WidgetAction-3)]</onclick>
 			</item>
 			<item>
@@ -3662,14 +3318,6 @@
 				<property name="ArtLogo1">$INFO[Container(6004).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(6004).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(6004).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(600).NumItems,2) + Container(600).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(600).NumItems,2) + Container(600).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(600).NumItems,2) + Container(600).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(600).NumItems,2) + Container(600).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(600).NumItems,2) + Container(600).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(6000-WidgetAction-4)]</onclick>
 			</item>
 			<item>
@@ -3709,14 +3357,6 @@
 				<property name="ArtLogo1">$INFO[Container(6005).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(6005).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(6005).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(600).NumItems,2) + Container(600).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(600).NumItems,2) + Container(600).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(600).NumItems,2) + Container(600).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(600).NumItems,2) + Container(600).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(600).NumItems,2) + Container(600).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(6000-WidgetAction-5)]</onclick>
 			</item>
 			<item>
@@ -3756,14 +3396,6 @@
 				<property name="ArtLogo1">$INFO[Container(6006).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(6006).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(6006).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(600).NumItems,2) + Container(600).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(600).NumItems,2) + Container(600).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(600).NumItems,2) + Container(600).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(600).NumItems,2) + Container(600).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(600).NumItems,2) + Container(600).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(6000-WidgetAction-6)]</onclick>
 			</item>
 			<item>
@@ -3803,14 +3435,6 @@
 				<property name="ArtLogo1">$INFO[Container(6007).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(6007).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(6007).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(600).NumItems,2) + Container(600).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(600).NumItems,2) + Container(600).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(600).NumItems,2) + Container(600).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(600).NumItems,2) + Container(600).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(600).NumItems,2) + Container(600).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(6000-WidgetAction-7)]</onclick>
 			</item>
 			<item>
@@ -3850,14 +3474,6 @@
 				<property name="ArtLogo1">$INFO[Container(6008).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(6008).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(6008).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(600).NumItems,2) + Container(600).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(600).NumItems,2) + Container(600).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(600).NumItems,2) + Container(600).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(600).NumItems,2) + Container(600).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(600).NumItems,2) + Container(600).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(6000-WidgetAction-8)]</onclick>
 			</item>
 		</content>
@@ -3902,14 +3518,6 @@
 				<property name="ArtLogo1">$INFO[Container(7001).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(7001).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(7001).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(700).NumItems,2) + Container(700).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(700).NumItems,2) + Container(700).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(700).NumItems,2) + Container(700).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(700).NumItems,2) + Container(700).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(700).NumItems,2) + Container(700).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(7000-WidgetAction-1)]</onclick>
 			</item>
 			<item>
@@ -3949,14 +3557,6 @@
 				<property name="ArtLogo1">$INFO[Container(7002).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(7002).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(7002).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(700).NumItems,2) + Container(700).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(700).NumItems,2) + Container(700).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(700).NumItems,2) + Container(700).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(700).NumItems,2) + Container(700).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(700).NumItems,2) + Container(700).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(7000-WidgetAction-2)]</onclick>
 			</item>
 			<item>
@@ -3996,14 +3596,6 @@
 				<property name="ArtLogo1">$INFO[Container(7003).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(7003).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(7003).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(700).NumItems,2) + Container(700).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(700).NumItems,2) + Container(700).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(700).NumItems,2) + Container(700).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(700).NumItems,2) + Container(700).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(700).NumItems,2) + Container(700).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(7000-WidgetAction-3)]</onclick>
 			</item>
 			<item>
@@ -4043,14 +3635,6 @@
 				<property name="ArtLogo1">$INFO[Container(7004).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(7004).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(7004).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(700).NumItems,2) + Container(700).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(700).NumItems,2) + Container(700).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(700).NumItems,2) + Container(700).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(700).NumItems,2) + Container(700).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(700).NumItems,2) + Container(700).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(7000-WidgetAction-4)]</onclick>
 			</item>
 			<item>
@@ -4090,14 +3674,6 @@
 				<property name="ArtLogo1">$INFO[Container(7005).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(7005).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(7005).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(700).NumItems,2) + Container(700).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(700).NumItems,2) + Container(700).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(700).NumItems,2) + Container(700).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(700).NumItems,2) + Container(700).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(700).NumItems,2) + Container(700).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(7000-WidgetAction-5)]</onclick>
 			</item>
 			<item>
@@ -4137,14 +3713,6 @@
 				<property name="ArtLogo1">$INFO[Container(7006).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(7006).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(7006).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(700).NumItems,2) + Container(700).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(700).NumItems,2) + Container(700).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(700).NumItems,2) + Container(700).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(700).NumItems,2) + Container(700).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(700).NumItems,2) + Container(700).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(7000-WidgetAction-6)]</onclick>
 			</item>
 			<item>
@@ -4184,14 +3752,6 @@
 				<property name="ArtLogo1">$INFO[Container(7007).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(7007).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(7007).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(700).NumItems,2) + Container(700).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(700).NumItems,2) + Container(700).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(700).NumItems,2) + Container(700).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(700).NumItems,2) + Container(700).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(700).NumItems,2) + Container(700).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(7000-WidgetAction-7)]</onclick>
 			</item>
 			<item>
@@ -4231,14 +3791,6 @@
 				<property name="ArtLogo1">$INFO[Container(7008).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(7008).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(7008).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(700).NumItems,2) + Container(700).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(700).NumItems,2) + Container(700).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(700).NumItems,2) + Container(700).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(700).NumItems,2) + Container(700).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(700).NumItems,2) + Container(700).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(7000-WidgetAction-8)]</onclick>
 			</item>
 		</content>
@@ -4283,14 +3835,6 @@
 				<property name="ArtLogo1">$INFO[Container(8001).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(8001).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(8001).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(800).NumItems,2) + Container(800).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(800).NumItems,2) + Container(800).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(800).NumItems,2) + Container(800).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(800).NumItems,2) + Container(800).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(800).NumItems,2) + Container(800).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(8000-WidgetAction-1)]</onclick>
 			</item>
 			<item>
@@ -4330,14 +3874,6 @@
 				<property name="ArtLogo1">$INFO[Container(8002).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(8002).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(8002).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(800).NumItems,2) + Container(800).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(800).NumItems,2) + Container(800).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(800).NumItems,2) + Container(800).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(800).NumItems,2) + Container(800).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(800).NumItems,2) + Container(800).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(8000-WidgetAction-2)]</onclick>
 			</item>
 			<item>
@@ -4377,14 +3913,6 @@
 				<property name="ArtLogo1">$INFO[Container(8003).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(8003).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(8003).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(800).NumItems,2) + Container(800).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(800).NumItems,2) + Container(800).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(800).NumItems,2) + Container(800).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(800).NumItems,2) + Container(800).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(800).NumItems,2) + Container(800).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(8000-WidgetAction-3)]</onclick>
 			</item>
 			<item>
@@ -4424,14 +3952,6 @@
 				<property name="ArtLogo1">$INFO[Container(8004).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(8004).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(8004).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(800).NumItems,2) + Container(800).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(800).NumItems,2) + Container(800).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(800).NumItems,2) + Container(800).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(800).NumItems,2) + Container(800).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(800).NumItems,2) + Container(800).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(8000-WidgetAction-4)]</onclick>
 			</item>
 			<item>
@@ -4471,14 +3991,6 @@
 				<property name="ArtLogo1">$INFO[Container(8005).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(8005).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(8005).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(800).NumItems,2) + Container(800).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(800).NumItems,2) + Container(800).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(800).NumItems,2) + Container(800).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(800).NumItems,2) + Container(800).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(800).NumItems,2) + Container(800).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(8000-WidgetAction-5)]</onclick>
 			</item>
 			<item>
@@ -4518,14 +4030,6 @@
 				<property name="ArtLogo1">$INFO[Container(8006).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(8006).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(8006).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(800).NumItems,2) + Container(800).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(800).NumItems,2) + Container(800).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(800).NumItems,2) + Container(800).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(800).NumItems,2) + Container(800).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(800).NumItems,2) + Container(800).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(8000-WidgetAction-6)]</onclick>
 			</item>
 			<item>
@@ -4565,14 +4069,6 @@
 				<property name="ArtLogo1">$INFO[Container(8007).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(8007).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(8007).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(800).NumItems,2) + Container(800).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(800).NumItems,2) + Container(800).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(800).NumItems,2) + Container(800).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(800).NumItems,2) + Container(800).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(800).NumItems,2) + Container(800).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(8000-WidgetAction-7)]</onclick>
 			</item>
 			<item>
@@ -4612,14 +4108,6 @@
 				<property name="ArtLogo1">$INFO[Container(8008).ListItemPosition(0).Art(clearlogo)]</property>
 				<property name="ArtLogo2">$INFO[Container(8008).ListItemPosition(1).Art(clearlogo)]</property>
 				<property name="ArtLogo3">$INFO[Container(8008).ListItemPosition(2).Art(clearlogo)]</property>
-				<onclick condition="String.IsEqual(Container(800).NumItems,2) + Container(800).Row(2)">SetProperty(FocusRow,1_2)</onclick>
-				<onclick condition="String.IsEqual(Container(800).NumItems,2) + Container(800).Row(3)">SetProperty(FocusRow,2_2)</onclick>
-				<onclick condition="Integer.IsGreater(Container(800).NumItems,2) + Container(800).Row(1)">SetProperty(FocusRow,1_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(800).NumItems,2) + Container(800).Row(2)">SetProperty(FocusRow,2_3)</onclick>
-				<onclick condition="Integer.IsGreater(Container(800).NumItems,2) + Container(800).Row(3)">SetProperty(FocusRow,3_3)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159])">SetProperty(ForceViewType,wide,Home)</onclick>
-				<onclick condition="String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">SetProperty(ForceViewType,poster,Home)</onclick>
-				<onclick condition="!String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31159]) + !String.IsEqual(Container($PARAM[ID]).ListItem.Property(WidgetStyle),$LOCALIZE[31160])">ClearProperty(ForceViewType,Home)</onclick>
 				<onclick>$INFO[Skin.String(8000-WidgetAction-8)]</onclick>
 			</item>
 		</content>
