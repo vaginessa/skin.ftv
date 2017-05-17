@@ -1923,8 +1923,8 @@
 		<value condition="String.Contains(ListItem.Premiered,/20)">20</value>
 	</variable>
 	<variable name="SimilarVideos">
-		<value condition="[String.IsEqual(ListItem.DBTYPE,tvshow) | String.IsEqual(ListItem.DBTYPE,episode)] + !String.IsEmpty(Window(home).Property(TVShowID))">plugin://script.skin.helper.service/?action=similarmedia&amp;imdbid=$INFO[Window(home).Property(TVShowID)]&amp;limit=40</value>
-		<value condition="String.IsEqual(ListItem.DBTYPE,movie) + !String.IsEmpty(ListItem.IMDBNumber)">plugin://script.skin.helper.service/?action=similarmedia&amp;imdbid=$INFO[ListItem.IMDBNumber]&amp;limit=40</value>
+		<value condition="[String.IsEqual(ListItem.DBTYPE,tvshow) | String.IsEqual(ListItem.DBTYPE,episode)] + !String.IsEmpty(ListItem.IMDBNumber)">plugin://script.skin.helper.service/?action=similarshows&amp;imdbid=$INFO[ListItem.IMDBNumber]&amp;limit=40</value>
+		<value condition="String.IsEqual(ListItem.DBTYPE,movie) + !String.IsEmpty(ListItem.IMDBNumber)">plugin://script.skin.helper.service/?action=similar&amp;mediatype=movies&amp;imdbid=$INFO[ListItem.IMDBNumber]&amp;limit=40</value>
 	</variable>
 	<variable name="HeadingLabel">
 		<value condition="!String.IsEqual(Container.FolderName,$LOCALIZE[369]) + !String.IsEmpty(Container.FolderName)">$INFO[Container.FolderName]</value>

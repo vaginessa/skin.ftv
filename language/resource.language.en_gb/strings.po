@@ -1038,3 +1038,7 @@ msgstr ""
 msgctxt "#31250"
 msgid "Configure various game settings."
 msgstr ""
+
+msgctxt "#31251"
+msgid "Watchlist"
+msgstr ""

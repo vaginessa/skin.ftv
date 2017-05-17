@@ -84,7 +84,7 @@
 				<height>28</height>
 				<font>Med20</font>
 				<textcolor>ffbcbcbc</textcolor>
-				<label>$INFO[Window(home).Property(PercentRemaining)]</label>
+				<label>$VAR[PercentRemaining]</label>
 				<visible>ListItem.IsResumable</visible>
 			</control>
 			<control type="progress">
@@ -222,9 +222,9 @@
 					<top>2</top>
 					<width>147</width>
 					<height>24</height>
-					<texture>$INFO[Window(home).Property(TVShowRating),rating/rating,.png]</texture>
+					<texture>$INFO[ListItem.UserRating,rating/rating,.png]</texture>
 					<aspectratio align="left">keep</aspectratio>
-					<visible>!String.IsEmpty(Window(home).Property(TVShowRating)) + String.IsEmpty(ListItem.Rating) + !String.IsEqual(ListItem.DBTYPE,episode)</visible>
+					<visible>!String.IsEmpty(ListItem.UserRating) + String.IsEmpty(ListItem.Rating) + !String.IsEqual(ListItem.DBTYPE,episode)</visible>
 				</control>
 				<control type="image">
 					<top>4</top>

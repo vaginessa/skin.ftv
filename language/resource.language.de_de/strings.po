@@ -49,20 +49,20 @@ msgid "Apps"
 msgstr "Apps"
 
 msgctxt "#31102"
-msgid "Clear all[CR]Bookmarks"
-msgstr "Alle Lesezeichzen[CR]löschen"
+msgid "Text Search"
+msgstr "Textsuche"
 
 msgctxt "#31103"
-msgid "Artwork[CR]Downloader"
-msgstr "Artwork[CR]Downloader"
+msgid "Artwork Downloader"
+msgstr "Artwork Downloader"
 
 msgctxt "#31104"
-msgid "Cinema[CR]Experience"
-msgstr "Cinema[CR]Experience"
+msgid "Cinema Experience"
+msgstr "Cinema Experience"
 
 msgctxt "#31000"
 msgid "Audio Options"
-msgstr "Audio Optionen"
+msgstr "Audio-Optionen"
 
 msgctxt "#31007"
 msgid "System music files"
@@ -152,7 +152,7 @@ msgstr "Blende Vorschau ungesehener Episoden aus, um Spoiler zu vermeiden"
 
 msgctxt "#31023"
 msgid "Widget Type"
-msgstr "Widget Typ"
+msgstr "Widget-Typ"
 
 msgctxt "#31034"
 msgid ""
@@ -172,7 +172,7 @@ msgstr "Stellt Fanart der Medien als Hintergrundbild dar."
 
 msgctxt "#31024"
 msgid "Widget Name"
-msgstr "Widget Name"
+msgstr "Widget-Name"
 
 msgctxt "#31038"
 msgid "Select your scrapers preferred certification county."
@@ -188,71 +188,71 @@ msgstr "Debug Info aktivieren.[CR]Nützlich für die Meldung von Fehlern."
 
 msgctxt "#31025"
 msgid "Widget Path"
-msgstr "Widget Pfad"
+msgstr "Widget-Pfad"
 
 msgctxt "#31026"
 msgid "Overview"
 msgstr "Übersicht"
 
 msgctxt "#31043"
-msgid "Turn Off[CR]Randomise"
-msgstr "Zufallswiedergabe[CR]abschalten"
+msgid "Turn Off Randomise"
+msgstr "Zufallswiedergabe abschalten"
 
 msgctxt "#31029"
 msgid "Addon Details"
-msgstr "Addon Details"
+msgstr "Addon-Details"
 
 msgctxt "#31045"
-msgid "Turn On[CR]Randomise"
-msgstr "Zufallswiedergabe[CR]einschalten"
+msgid "Turn On Randomise"
+msgstr "Zufallswiedergabe einschalten"
 
 msgctxt "#31046"
-msgid "Turn Off[CR]Shuffle All"
-msgstr "Zufallswiedergabe alle[CR]abschalten"
+msgid "Turn Off Shuffle All"
+msgstr "Zufallswiedergabe alle abschalten"
 
 msgctxt "#31033"
-msgid "Launch[CR]Now"
-msgstr "Jetzt[CR]starten"
+msgid "Launch Now"
+msgstr "Jetzt starten"
 
 msgctxt "#31037"
-msgid "Rollback[CR]Addon"
-msgstr "Addon[CR]zurücksetzen"
+msgid "Rollback Addon"
+msgstr "Addon zurücksetzen"
 
 msgctxt "#31041"
 msgid "Debug grid"
-msgstr "Debug Gitter
+msgstr "Debug-Gitter
 
 msgctxt "#31042"
 msgid "Debug labels"
-msgstr "Debug Bezeichnungen"
+msgstr "Debug-Bezeichnungen"
 
 msgctxt "#31044"
 msgid "Local subtitle found!"
 msgstr "Lokaler Untertitel verfügbar!"
 
 msgctxt "#31052"
-msgid "Turn On[CR]Shuffle All"
-msgstr "Zufallswiedergabe alle[CR]einschalten"
+msgid "Turn On Shuffle All"
+msgstr "Zufallswiedergabe einschalten"
 
 msgctxt "#31053"
-msgid "Turn Off[CR]Repeat"
-msgstr "Wiederholung[CR]einschalten"
+msgid "Turn Off Repeat"
+msgstr "Wiederholung einschalten"
 
 msgctxt "#31054"
-msgid "Repeat[CR]This Item"
-msgstr "Dieses Element[CR]wiederholen"
+msgid "Repeat This Item"
+msgstr "Dieses Element wiederholen"
 
 msgctxt "#31055"
-msgid "Turn On[CR]Repeat All"
-msgstr "Alle[CR]wiederholen"
+msgid "Turn On Repeat All"
+msgstr "Alle wiederholen"
 
 msgctxt "#31056"
 msgid "Move, copy and delete your files with KODI's built-in file manager."
 msgstr "Verschiebe, kopiere und lösche Dateien mit KODIs eingebautem Dateimanager"
 
 msgctxt "#31057"
-msgid "Watch[CR]Again"
-msgstr "Erneut[CR]ansehen"
+msgid "Watch Again"
+msgstr "Erneut ansehen"
 
 msgctxt "#31058"
 msgid "Today's weather:"
@@ -260,19 +260,19 @@ msgstr "Heutiges Wetter:"
 
 msgctxt "#31059"
 msgid "Tonight's weather:"
-msgstr "Heute Nacht:"
+msgstr "Nächtliches Wetter:"
 
 msgctxt "#31060"
 msgid "Play Now"
 msgstr "Jetzt abspielen"
 
 msgctxt "#31050"
-msgid "Show[CR]Changelog"
-msgstr "Changelog[CR]anzeigen"
+msgid "Show Changelog"
+msgstr "Changelog anzeigen"
 
 msgctxt "#31047"
 msgid "Visualisation Presets"
-msgstr "Visualisierungspresets"
+msgstr "Visualisierungs-Voreinstellungen"
 
 msgctxt "#31048"
 msgid "Playlist Options"
@@ -287,12 +287,12 @@ msgid "Settings can be accessed from the Shutdown menu or by rebooting XBMC!"
 msgstr "Einstellungen können vom Ausschaltmenü oder durch einen Neustart aufgerufen werden!"
 
 msgctxt "#31062"
-msgid "Choose[CR]Thumb"
-msgstr "Vorschau[CR]auswählen"
+msgid "Choose Thumb"
+msgstr "Vorschau auswählen"
 
 msgctxt "#31067"
-msgid "Choose[CR]Fanart"
-msgstr "Fanart[CR]auswählen"
+msgid "Choose Fanart"
+msgstr "Fanart auswählen"
 
 msgctxt "#31068"
 msgid "IP"
@@ -319,12 +319,12 @@ msgid "Next episode"
 msgstr "Nächste Episode"
 
 msgctxt "#31074"
-msgid "Browse[CR]TV Show"
-msgstr "Serien[CR]durchsehen"
+msgid "Browse TV Show"
+msgstr "Serien durchsehen"
 
 msgctxt "#31075"
-msgid "Watch[CR]Trailer"
-msgstr "Trailer[CR]ansehen"
+msgid "Play Trailer"
+msgstr "Trailer ansehen"
 
 msgctxt "#31076"
 msgid "Cast and Role"
@@ -340,30 +340,30 @@ msgstr "Keine Einträge zu diesem Titel vorhanden."
 
 msgctxt "#31079"
 msgid "Movie Widget"
-msgstr "Film Widget"
+msgstr "Film-Widget"
 
 msgctxt "#31080"
 msgid "TV Show Widget"
-msgstr "Serien Widget"
+msgstr "Serien-Widget"
 
 msgctxt "#31081"
 msgid "Music Widget"
-msgstr "Musik Widget"
+msgstr "Musik-Widget"
 
 msgctxt "#31082"
 msgid "Videos Widget"
-msgstr "Video Widget"
+msgstr "Video-Widget"
 
 msgctxt "#31083"
 msgid "Programs Widget"
-msgstr "Programm Widget"
+msgstr "Programm-Widget"
 
 msgctxt "#31084"
 msgid "Pictures Widget"
-msgstr "Bilder Widget"
+msgstr "Bilder-Widget"
 
 msgctxt "#31085"
-msgid "Shutdown[CR]Menu"
+msgid "Shutdown Menu"
 msgstr "Ausschaltmenü"
 
 msgctxt "#31086"
@@ -371,24 +371,24 @@ msgid "Sorted by"
 msgstr "Sortierung"
 
 msgctxt "#31087"
-msgid "Music[CR]Files"
-msgstr "Musik-[CR]Dateien"
+msgid "Music Files"
+msgstr "Musik-Dateien"
 
 msgctxt "#31088"
-msgid "Current[CR]Playlist"
-msgstr "Aktuelle[CR]Wiedergabeliste"
+msgid "Current Playlist"
+msgstr "Aktuelle Wiedergabeliste"
 
 msgctxt "#31089"
-msgid "View[CR]Options"
-msgstr "Anzeige-[CR]optionen"
+msgid "View Options"
+msgstr "Anzeige- Optionen"
 
 msgctxt "#31090"
-msgid "Update[CR]Library"
-msgstr "Bibliothek[CR]aktualisieren"
+msgid "Update Library"
+msgstr "Bibliothek aktualisieren"
 
 msgctxt "#31091"
-msgid "Stop[CR]scanning"
-msgstr "Scanning[CR]abbrechen"
+msgid "Stop scanning"
+msgstr "Scan abbrechen"
 
 msgctxt "#31092"
 msgid "Sort By"
@@ -399,32 +399,32 @@ msgid "Filter By"
 msgstr "Filter"
 
 msgctxt "#31094"
-msgid "Save[CR]Playlist"
-msgstr "Wiedergabeliste[CR]speichern"
+msgid "Save Playlist"
+msgstr "Wiedergabeliste speichern"
 
 msgctxt "#31095"
-msgid "Clear[CR]Playlist"
-msgstr "Wiedergabeliste[CR]löschen"
+msgid "Clear Playlist"
+msgstr "Wiedergabeliste löschen"
 
 msgctxt "#31096"
 msgid "Your Songs"
 msgstr "Musik"
 
 msgctxt "#31097"
-msgid "Music[CR]Library"
-msgstr "Musik-[CR]Bibliothek"
+msgid "Music Library"
+msgstr "Musik-Bibliothek"
 
 msgctxt "#31098"
 msgid "Your Photos"
 msgstr "Bilder"
 
 msgctxt "#31099"
-msgid "Start[CR]Slideshow"
-msgstr "Diashow[CR]starten"
+msgid "Start Slideshow"
+msgstr "Diashow starten"
 
 msgctxt "#31061"
 msgid "Enable Horizontal home layout"
-msgstr "Aktiviere horizontales Home Layout"
+msgstr "Aktiviere horizontales Home-Layout"
 
 msgctxt "#31063"
 msgid "Add-ons"
@@ -452,15 +452,15 @@ msgstr "Jetzt läuft"
 
 msgctxt "#31107"
 msgid "TV Roles"
-msgstr "TV Rollen"
+msgstr "TV-Rollen"
 
 msgctxt "#31108"
 msgid "Known For"
 msgstr "Bekannt aus"
 
 msgctxt "#31109"
-msgid "Watch[CR]Now"
-msgstr "Jetzt[CR]ansehen"
+msgid "Watch Now"
+msgstr "Jetzt ansehen"
 
 msgctxt "#31110"
 msgid "Written by"
@@ -484,9 +484,8 @@ msgstr "Ausschaltmenü anpassen"
 
 msgctxt "#31115"
 msgid ""
-"Change the skin, set language and region, change file listing options and "
-"set up a screensaver."
-msgstr "Ändere den Skin · Wähle Sprache und Region · Ändere Dateilistenoptionen[CR]Setze Bildschirmschoner"
+"Configure your Skin, Region, Control, Screensaver, and Master Lock settings."
+msgstr "Ändere den Skin · Passe die Region an [CR]Konfiguriere den Bildschirmschoner und die Master-Sperre"
 
 msgctxt "#31116"
 msgid "Manage, browse for, install and modify Add-ons."
@@ -494,40 +493,37 @@ msgstr "Organisiere die installierten Addons · Installiere Addons[CR]Passe Addo
 
 msgctxt "#31117"
 msgid ""
-"Manage your video library, set video playback options, change video listing "
-"options and set subtitle fonts."
-msgstr "Organisiere die Video-Bibliothek · Setze die Videoabspieloptionen · Ändere die Videoauflistungsoptionen[CR]Setze Untertitel-Schriftart"
+"Configure the handling and playback settings for Video, Music, and Pictures."
+msgstr "Konfiguriere die Wiedergabeeinstellungen für Videos,[CR]Musik, Bilder, Discs, Sprache und Barrierefreiheit"
 
 msgctxt "#31118"
 msgid ""
-"Manage your music library, set music playback options, change music listing "
-"options, and setup song submission."
-msgstr "Organisiere die Musik-Bibliothek · Setze die Musikabspieloptionen · Ändere die Musikauflistungsoptionen[CR]Konfiguriere die Musikübertragung"
+"Configure the media list display, information, and database settings."
+msgstr "Konfiguriere die Medienquellen und -listen · Passe Datenbankeinstellungen an[CR]Ändere Einstellungen für das Sammeln, Speichern, Anzeigen und Navigieren"
 
 msgctxt "#31119"
-msgid ""
-"Manage your weather addons and set cities to collect weather information."
-msgstr "Organisiere die Wetter-Addons und wähle die Städte zum Sammeln der Wetter-Informationen"
+msgid "Hardware decoding is active"
+msgstr "Hardware-Decodierung ist eingeschaltet"
 
 msgctxt "#31120"
-msgid "Set picture listing options and configure slideshow settings."
-msgstr "Setze Bildauflistungsoptionen · Konfiguriere Diashow"
+msgid "Hardware decoding is inactive"
+msgstr "Hardware-Decodierung ist ausgeschaltet"
 
 msgctxt "#31121"
 msgid ""
 "Setup and calibrate displays, configure audio output, setup remote controls,"
 " set power saving options, enable debugging and setup master lock."
-msgstr "Konfiguriere und kalibriere Bildschirme · Konfiguriere Audioausgabe · Setze Fernbedienungseinstellungen[CR]Setze Energiespar-Optionen · Aktiviere Debugging · Richte die Master-Sperre ein"
+msgstr "Konfiguriere und kalibriere Bildschirme · Konfiguriere Audioausgabe · Setze Fernbedienungseinstellungen · Setze Energiespar-Optionen · Aktiviere Debugging"
 
 msgctxt "#31122"
 msgid ""
 "Setup control of Kodi via UPnP and HTTP, configure file sharing, enable "
 "Zeroconf and configure AirPlay."
-msgstr "Richte Zugriff auf Kodi via UPnP und HTTP ein · Konfiguriere die Dateifreigabe[CR]Aktiviere Zeroconf · Konfiguriere AirPlay"
+msgstr "Richte Zugriff auf Kodi via UPnP und HTTP ein · Konfiguriere die Dateifreigabe[CR]Aktiviere Zeroconf · Konfiguriere AirPlay · Passe den Wetter-Dienst an"
 
 msgctxt "#31123"
 msgid "Profiles, File Manager, System Information and Settings Level."
-msgstr "Profile, Dateimanager, Systeminformationen und Einstellungsebene"
+msgstr "Konfiguriere Profile · Öffne den Dateimanager[CR]Zeige Systeminformationen · Ändere die Einstellungsebene"
 
 msgctxt "#31124"
 msgid ""
@@ -583,7 +579,7 @@ msgstr "Land der Bewertung auswählen"
 
 msgctxt "#31136"
 msgid "DVD Menu"
-msgstr "DVD Menü"
+msgstr "DVD-Menü"
 
 msgctxt "#31137"
 msgid "Video Options"
@@ -602,20 +598,20 @@ msgid "Download Subtitles"
 msgstr "Untertitel herunterladen"
 
 msgctxt "#31141"
-msgid "Jump to"
-msgstr "Springe zu"
+msgid "[LIGHT]Press[/LIGHT] [B]UP[/B] [LIGHT]to cancel.[/LIGHT]"
+msgstr "[LIGHT]Drücke[/LIGHT] [B]nach oben[/B] [LIGHT]um abzubrechen.[/LIGHT]"
 
 msgctxt "#31142"
-msgid "Create New[CR]Bookmark Here"
-msgstr "Hier neues[CR]Lesezeichen erstellen"
+msgid "Enable Fire TV style search"
+msgstr "Schalte die Suche im Fire-TV-Stil ein"
 
 msgctxt "#31143"
-msgid "Set Episode[CR]Bookmark Here"
-msgstr "Hier neues Staffel-[CR]lesezeichen erstellen"
+msgid "Please note: Can only be used with English keyboard layouts"
+msgstr "Bitte beachte: Kann nur mit englischen Tastaturlayouts verwendet werden"
 
 msgctxt "#31144"
-msgid "Clear all[CR]Bookmarks"
-msgstr "Alle Lesezeichen[CR]löschen"
+msgid "Not set!"
+msgstr "Nicht eingestellt!"
 
 msgctxt "#31145"
 msgid "percent remaining"
@@ -643,15 +639,15 @@ msgstr "Blendet die Stop, Abspielen, Pause und andere Bedienelemente aus dem On-
 
 msgctxt "#31151"
 msgid "Creator"
-msgstr "Schöpfer"
+msgstr "Urheber"
 
 msgctxt "#31152"
 msgid "Air Date"
 msgstr "Ausstrahlungsdatum"
 
 msgctxt "#31153"
-msgid "3D Options"
-msgstr "3D Optionen"
+msgid "3D Mode"
+msgstr "3D-Modus"
 
 msgctxt "#31154"
 msgid "Profile"
@@ -659,7 +655,7 @@ msgstr "Profil"
 
 msgctxt "#31155"
 msgid "Build Version"
-msgstr "Build Version"
+msgstr "Build-Version"
 
 msgctxt "#31156"
 msgid "Capacity"
@@ -690,20 +686,20 @@ msgid "Show"
 msgstr "Ansicht"
 
 msgctxt "#31163"
-msgid "Start[CR]Party Mode"
-msgstr "Partymodus[CR]starten"
+msgid "Start Party Mode"
+msgstr "Partymodus starten"
 
 msgctxt "#31164"
 msgid "Next Up"
 msgstr "Es folgt"
 
 msgctxt "#31165"
-msgid "Choose[CR]Art"
-msgstr "Grafik[CR]wählen"
+msgid "Choose Art"
+msgstr "Grafik wählen"
 
 msgctxt "#31166"
-msgid "Open[CR]Visualiser"
-msgstr "Öffne[CR]Visualisierung"
+msgid "Open Visualiser"
+msgstr "Öffne Visualisierung"
 
 msgctxt "#31167"
 msgid "Recently Added Movies"
@@ -803,7 +799,7 @@ msgstr "Musik"
 
 msgctxt "#31191"
 msgid "Video root"
-msgstr "Video Hauptverzeichnis"
+msgstr "Video-Hauptverzeichnis"
 
 msgctxt "#31192"
 msgid "Your Music Videos"
@@ -811,11 +807,11 @@ msgstr "Musikvideos"
 
 msgctxt "#31193"
 msgid "Your Video Add-ons"
-msgstr "Video Addons"
+msgstr "Video-Addons"
 
 msgctxt "#31194"
-msgid "Videos Widget"
-msgstr "Video Widget"
+msgid "Submit"
+msgstr "Absenden"
 
 msgctxt "#31195"
 msgid "Your Add-ons"
@@ -823,4 +819,220 @@ msgstr "Addons"
 
 msgctxt "#31196"
 msgid "Your Android Apps"
-msgstr "Android Apps"
+msgstr "Android-Apps"
+
+msgctxt "#31197"
+msgid "Widget"
+msgstr "Widget"
+
+msgctxt "#31198"
+msgid "View Type"
+msgstr "Ansichtsart"
+
+msgctxt "#31199"
+msgid "Label Overlay"
+msgstr "Label-Overlay"
+
+msgctxt "#31200"
+msgid "Enter Name"
+msgstr "Name eingeben"
+
+msgctxt "#31201"
+msgid "Choose Shortcut"
+msgstr "Shortcut auswählen"
+
+msgctxt "#31202"
+msgid "Widget Action"
+msgstr "Widget-Aktion"
+
+msgctxt "#31203"
+msgid "Square Info"
+msgstr "Square-Info"
+
+msgctxt "#31204"
+msgid "Titles with"
+msgstr "Titel mit"
+
+msgctxt "#31205"
+msgid "Refresh Information"
+msgstr "Informationen aktualisieren"
+
+msgctxt "#31206"
+msgid "Enable Auto-Update"
+msgstr "Auto-Update aktivieren"
+
+msgctxt "#31207"
+msgid "Disable Auto-Update"
+msgstr "Auto-Update deaktivieren"
+
+msgctxt "#31208"
+msgid "Enable Higher Levels"
+msgstr "Höhere Ebenen einschalten"
+
+msgctxt "#31209"
+msgid "Disable Higher Levels"
+msgstr "Höhere Ebenen abschalten"
+
+msgctxt "#31210"
+msgid "Widget Group 1"
+msgstr "Widget-Gruppe 1"
+
+msgctxt "#31211"
+msgid "Widget Group 2"
+msgstr "Widget-Gruppe 2"
+
+msgctxt "#31212"
+msgid "Widget Group 3"
+msgstr "Widget-Gruppe 3"
+
+msgctxt "#31213"
+msgid "Widget Group 4"
+msgstr "Widget-Gruppe 4"
+
+msgctxt "#31214"
+msgid "Widget Group 5"
+msgstr "Widget-Gruppe 5"
+
+msgctxt "#31215"
+msgid "Widget Group 6"
+msgstr "Widget-Gruppe 6"
+
+msgctxt "#31216"
+msgid "Widget Group 7"
+msgstr "Widget-Gruppe 7"
+
+msgctxt "#31217"
+msgid "Widget Group 8"
+msgstr "Widget-Gruppe 8"
+
+msgctxt "#31218"
+msgid "Select Widget Group"
+msgstr "Widget-Gruppe auswählen"
+
+msgctxt "#31219"
+msgid "Customise Widget Group"
+msgstr "Widget-Gruppe anpassen"
+
+msgctxt "#31220"
+msgid "Updating widgets"
+msgstr "Widgets aktualisieren"
+
+msgctxt "#31221"
+msgid "Audio Add-ons"
+msgstr "Audio-Addons"
+
+msgctxt "#31222"
+msgid "Program Add-ons"
+msgstr "Programm-Addons"
+
+msgctxt "#31223"
+msgid "Video Add-ons"
+msgstr "Video-Addons"
+
+msgctxt "#31224"
+msgid "Picture Add-ons"
+msgstr "Bilder-Addons"
+
+msgctxt "#31225"
+msgid "Set keyboard layout"
+msgstr "Tastaturlayout ändern"
+
+msgctxt "#31226"
+msgid "Select the keyboard layout used in Kodi"
+msgstr "Das in Kodi verwendete Tastaturlayout auswählen"
+
+msgctxt "#31227"
+msgid "Air time"
+msgstr "Ausstrahlungszeit"
+
+msgctxt "#31228"
+msgid "Watch"
+msgstr "Ansehen"
+
+msgctxt "#31229"
+msgid "Cancel Next Up"
+msgstr "Abbrechen"
+
+msgctxt "#31230"
+msgid "Sorry, no shows are airing at this time."
+msgstr "Entschuldingung, es werden zur Zeit keine Serien ausgestrahlt."
+
+msgctxt "#31231"
+msgid "Please try again later."
+msgstr "Bitte später erneut versuchen."
+
+msgctxt "#31232"
+msgid "Cast and Role"
+msgstr "Besetzung und Rollen"
+
+msgctxt "#31233"
+msgid "View All Cast"
+msgstr "Zeige vollständige Besetzung"
+
+msgctxt "#31234"
+msgid "Categories"
+msgstr "Kategorien"
+
+msgctxt "#31235"
+msgid "Your Rating"
+msgstr "Deine Bewertung"
+
+msgctxt "#31236"
+msgid "YourRating"
+msgstr "Deine Bewertung"
+
+msgctxt "#31237"
+msgid "Select your rating"
+msgstr "Deine Bewertung auswählen"
+
+msgctxt "#31238"
+msgid "This is your own personal rating and is not shared publicly"
+msgstr "Dies ist deine persönliche Bewertung und wird nicht öffentlich geteilt."
+
+msgctxt "#31239"
+msgid "Press play to resume"
+msgstr "Abspielen drücken um fortzufahren"
+
+msgctxt "#31240"
+msgid "Not rated"
+msgstr "Keine Bewertung"
+
+msgctxt "#31241"
+msgid "I hate it"
+msgstr "Ich hasse es"
+
+msgctxt "#31242"
+msgid "I don't like it"
+msgstr "Ich mag es nicht"
+
+msgctxt "#31243"
+msgid "It's okay"
+msgstr "Es ist okay"
+
+msgctxt "#31244"
+msgid "I like it"
+msgstr "Ich mag es"
+
+msgctxt "#31245"
+msgid "I love it"
+msgstr "Ich liebe es"
+
+msgctxt "#31246"
+msgid "Location"
+msgstr "Ort"
+
+msgctxt "#31247"
+msgid "Media Processing Info"
+msgstr "Media Processing Info"
+
+msgctxt "#31248"
+msgid "Order"
+msgstr "Reihenfolge"
+
+msgctxt "#31249"
+msgid "View add-ons that have recently been updated."
+msgstr "Kürzlich aktualisierte Addons anzeigen"
+
+msgctxt "#31250"
+msgid "Configure various game settings."
+msgstr "Konfiguriere verschiedene Spieleinstellungen"

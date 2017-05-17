@@ -119,13 +119,6 @@
 					</control>
 				</itemlayout>
 				<focusedlayout height="576" width="572">
-					<control type="button">
-						<texturefocus/>
-						<texturenofocus/>
-						<onfocus>SetProperty(ContentEpisodes,1,home)</onfocus>
-						<onfocus condition="!String.IsEmpty(Window(home).Property(ButtonFocus))">ClearProperty(ButtonFocus,home)</onfocus>
-						<onfocus condition="ListItem.IsResumable">SetProperty(PercentRemaining,$VAR[PercentRemaining],home)</onfocus>
-					</control>
 					<control type="group">
 						<animation center="316,288" easing="inout" effect="zoom" end="100" start="85" time="300" tween="sine">Focus</animation>
 						<animation center="316,288" condition="Container(52).OnNext | Container(52).OnPrevious" easing="inout" effect="zoom" end="85" start="100" time="300" tween="sine">UnFocus</animation>
