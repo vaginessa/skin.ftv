@@ -1042,3 +1042,7 @@ msgstr ""
 msgctxt "#31251"
 msgid "Watchlist"
 msgstr ""
+
+msgctxt "#31252"
+msgid "This skin only supports a maximum of 12 home menu items. Please remove some to ensure everything works correctly."
+msgstr ""
