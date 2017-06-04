@@ -291,7 +291,6 @@
 				<focusposition>2</focusposition>
 				<viewtype label="">list</viewtype>
 				<orientation>vertical</orientation>
-				<defaultcontrol>0</defaultcontrol>
 				<scrolltime easing="inout" tween="sine">300</scrolltime>
 				<include>HomeWidgetsAnimation</include>
 				<include>WindowHomeFadeAnimation</include>

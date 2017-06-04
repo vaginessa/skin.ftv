@@ -217,20 +217,7 @@
 					<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
 					<label>31218</label>
 					<label2>$INFO[Container(211).ListItem.Property(widgetName)]</label2>
-					<visible>!String.IsEqual(Container(211).ListItem.Property(defaultID),settings)</visible>
-				</control>
-				<control id="997" type="button">
-					<width>870</width>
-					<height>84</height>
-					<font>Light32</font>
-					<textwidth>790</textwidth>
-					<textoffsetx>40</textoffsetx>
-					<textcolor>DisabledColor</textcolor>
-					<focusedcolor>DisabledColor</focusedcolor>
-					<texturefocus border="3">settings/button_focus.png</texturefocus>
-					<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
-					<label>31218</label>
-					<visible>String.IsEqual(Container(211).ListItem.Property(defaultID),settings)</visible>
+					<enable>String.IsEqual(Container(211).ListItem.Property(defaultID),settings)</enable>
 				</control>
 				<!-- Customise widget group -->
 				<control id="998" type="button">
@@ -253,21 +240,8 @@
 					<onclick condition="String.IsEqual(Container(211).ListItem.Property(widget),widget6)">SetProperty(SubMenu,6000,home)</onclick>
 					<onclick condition="String.IsEqual(Container(211).ListItem.Property(widget),widget7)">SetProperty(SubMenu,7000,home)</onclick>
 					<onclick condition="String.IsEqual(Container(211).ListItem.Property(widget),widget8)">SetProperty(SubMenu,8000,home)</onclick>
-					<visible>String.StartsWith(Container(211).ListItem.Property(widget),widget)</visible>
+					<enable>String.StartsWith(Container(211).ListItem.Property(widget),widget)</enable>
 					<onclick>ActivateWindow(1105)</onclick>
-				</control>
-				<control id="996" type="button">
-					<width>870</width>
-					<height>84</height>
-					<font>Light32</font>
-					<textwidth>790</textwidth>
-					<textoffsetx>40</textoffsetx>
-					<textcolor>DisabledColor</textcolor>
-					<focusedcolor>DisabledColor</focusedcolor>
-					<texturefocus border="3">settings/button_focus.png</texturefocus>
-					<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
-					<label>$LOCALIZE[31219]</label>
-					<visible>!String.StartsWith(Container(211).ListItem.Property(widget),widget)</visible>
 				</control>
 				<!-- Remove -->
 				<control type="button" id="302">
@@ -293,6 +267,7 @@
 					<texturefocus border="3">settings/button_focus.png</texturefocus>
 					<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
 					<label>$ADDON[script.skinshortcuts 32000]</label>
+					<enable>Integer.IsLessOrEqual(Container(211).NumItems,11)</enable>
 				</control>
 			</control>
 			<!-- Button grouplist -->
@@ -345,6 +320,7 @@
 					<onback>RunScript(script.skinshortcuts,type=buildxml&amp;mainmenuID=99&amp;levels=5&amp;group=mainmenu|shutdown)</onback>
 					<onclick>RunScript(script.skinshortcuts,type=buildxml&amp;mainmenuID=99&amp;levels=0&amp;group=mainmenu|shutdown)</onclick>
 					<onclick>Close</onclick>
+					<onunfocus condition="Integer.IsGreater(Container(211).NumItems,12)">RunScript(script.toolbox,info=okdialog,header=$LOCALIZE[14117],text=$LOCALIZE[31252])</onunfocus>
 				</control>
 			</control>
 		</control>
