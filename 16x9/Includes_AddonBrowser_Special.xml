@@ -394,7 +394,7 @@
 					<font>Light26</font>
 					<align>right</align>
 					<textcolor>ff6a6c70</textcolor>
-					<label fallback="N/A">$INFO[Container(51).ListItem.AddonSize]</label>
+					<label fallback="?">$INFO[Container(51).ListItem.AddonSize]</label>
 				</control>
 				<control type="image">
 					<top>128</top>

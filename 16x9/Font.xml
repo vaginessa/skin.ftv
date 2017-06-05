@@ -51,11 +51,6 @@
 			<size>30</size>
 		</font>
 		<font>
-			<name>Reg32</name>
-			<filename>HelveticaNeue.ttf</filename>
-			<size>32</size>
-		</font>
-		<font>
 			<name>Reg28</name>
 			<filename>HelveticaNeue.ttf</filename>
 			<size>28</size>
@@ -79,11 +74,6 @@
 			<name>Reg22</name>
 			<filename>HelveticaNeue.ttf</filename>
 			<size>22</size>
-		</font>
-		<font>
-			<name>Reg20</name>
-			<filename>HelveticaNeue.ttf</filename>
-			<size>20</size>
 		</font>
 		<!-- Light -->
 		<font>
@@ -173,11 +163,6 @@
 			<linespacing>1.06</linespacing>
 		</font>
 		<font>
-			<name>Light27</name>
-			<filename>HelveticaNeue_Lt.ttf</filename>
-			<size>27</size>
-		</font>
-		<font>
 			<name>Light26</name>
 			<filename>HelveticaNeue_Lt.ttf</filename>
 			<size>26</size>
@@ -246,11 +231,6 @@
 		</font>
 		<font>
 			<name>Med32</name>
-			<filename>HelveticaNeue_Med.ttf</filename>
-			<size>32</size>
-		</font>
-		<font>
-			<name>Med32Num</name>
 			<filename>HelveticaNeue_Med.ttf</filename>
 			<size>32</size>
 		</font>
@@ -332,11 +312,6 @@
 			<size>38</size>
 		</font>
 		<font>
-			<name>Bold36</name>
-			<filename>HelveticaNeue_Bold.ttf</filename>
-			<size>36</size>
-		</font>
-		<font>
 			<name>Bold34</name>
 			<filename>HelveticaNeue_Bold.ttf</filename>
 			<size>34</size>
@@ -363,11 +338,6 @@
 			<size>30</size>
 		</font>
 		<font>
-			<name>Bold29</name>
-			<filename>HelveticaNeue_Bold.ttf</filename>
-			<size>29</size>
-		</font>
-		<font>
 			<name>Bold28</name>
 			<filename>HelveticaNeue_Bold.ttf</filename>
 			<size>28</size>
@@ -376,11 +346,6 @@
 			<name>Bold26</name>
 			<filename>HelveticaNeue_Bold.ttf</filename>
 			<size>26</size>
-		</font>
-		<font>
-			<name>Bold24</name>
-			<filename>HelveticaNeue_Bold.ttf</filename>
-			<size>24</size>
 		</font>
 		<font>
 			<name>Bold24Num</name>
@@ -440,11 +405,6 @@
 			<size>30</size>
 		</font>
 		<font>
-			<name>Reg32</name>
-			<filename>Roboto-Regular.ttf</filename>
-			<size>32</size>
-		</font>
-		<font>
 			<name>Reg27</name>
 			<filename>Roboto-Regular.ttf</filename>
 			<size>27</size>
@@ -453,11 +413,6 @@
 			<name>Reg22</name>
 			<filename>Roboto-Regular.ttf</filename>
 			<size>22</size>
-		</font>
-		<font>
-			<name>Reg20</name>
-			<filename>Roboto-Regular.ttf</filename>
-			<size>20</size>
 		</font>
 		<!-- Light -->
 		<font>
@@ -541,11 +496,6 @@
 			<linespacing>1.06</linespacing>
 		</font>
 		<font>
-			<name>Light27</name>
-			<filename>Roboto-Light.ttf</filename>
-			<size>27</size>
-		</font>
-		<font>
 			<name>Light26</name>
 			<filename>Roboto-Light.ttf</filename>
 			<size>26</size>
@@ -615,11 +565,6 @@
 		<font>
 			<name>Med32</name>
 			<filename>Roboto-Medium.ttf</filename>
-			<size>32</size>
-		</font>
-		<font>
-			<name>Med32Num</name>
-			<filename>HelveticaNeue_Med.ttf</filename>
 			<size>32</size>
 		</font>
 		<font>
@@ -700,11 +645,6 @@
 			<size>38</size>
 		</font>
 		<font>
-			<name>Bold36</name>
-			<filename>Roboto-Bold.ttf</filename>
-			<size>36</size>
-		</font>
-		<font>
 			<name>Bold34</name>
 			<filename>Roboto-Bold.ttf</filename>
 			<size>34</size>
@@ -731,11 +671,6 @@
 			<size>30</size>
 		</font>
 		<font>
-			<name>Bold29</name>
-			<filename>Roboto-Bold.ttf</filename>
-			<size>29</size>
-		</font>
-		<font>
 			<name>Bold28</name>
 			<filename>Roboto-Bold.ttf</filename>
 			<size>28</size>
@@ -744,11 +679,6 @@
 			<name>Bold26</name>
 			<filename>Roboto-Bold.ttf</filename>
 			<size>26</size>
-		</font>
-		<font>
-			<name>Bold24</name>
-			<filename>Roboto-Bold.ttf</filename>
-			<size>24</size>
 		</font>
 		<font>
 			<name>Bold24Num</name>
@@ -820,12 +750,6 @@
 			<size>30</size>
 		</font>
 		<font>
-			<name>Reg32</name>
-			<filename>Arial.ttf</filename>
-			<aspect>0.9</aspect>
-			<size>32</size>
-		</font>
-		<font>
 			<name>Reg27</name>
 			<filename>Arial.ttf</filename>
 			<aspect>0.9</aspect>
@@ -836,12 +760,6 @@
 			<filename>Arial.ttf</filename>
 			<aspect>0.9</aspect>
 			<size>22</size>
-		</font>
-		<font>
-			<name>Reg20</name>
-			<filename>Arial.ttf</filename>
-			<aspect>0.9</aspect>
-			<size>20</size>
 		</font>
 		<!-- Light -->
 		<font>
@@ -954,13 +872,6 @@
 			<linespacing>1.06</linespacing>
 		</font>
 		<font>
-			<name>Light27</name>
-			<filename>Arial.ttf</filename>
-			<aspect>0.9</aspect>
-			<style>lighten</style>
-			<size>27</size>
-		</font>
-		<font>
 			<name>Light26</name>
 			<filename>Arial.ttf</filename>
 			<aspect>0.9</aspect>
@@ -1053,11 +964,6 @@
 			<filename>Arial.ttf</filename>
 			<aspect>0.9</aspect>
 			<style>bold</style>
-			<size>32</size>
-		</font>
-		<font>
-			<name>Med32Num</name>
-			<filename>HelveticaNeue_Med.ttf</filename>
 			<size>32</size>
 		</font>
 		<font>
@@ -1164,13 +1070,6 @@
 			<size>38</size>
 		</font>
 		<font>
-			<name>Bold36</name>
-			<filename>Arial.ttf</filename>
-			<aspect>0.9</aspect>
-			<style>bold</style>
-			<size>36</size>
-		</font>
-		<font>
 			<name>Bold34</name>
 			<filename>Arial.ttf</filename>
 			<aspect>0.9</aspect>
@@ -1205,13 +1104,6 @@
 			<size>30</size>
 		</font>
 		<font>
-			<name>Bold29</name>
-			<filename>Arial.ttf</filename>
-			<aspect>0.9</aspect>
-			<style>bold</style>
-			<size>29</size>
-		</font>
-		<font>
 			<name>Bold28</name>
 			<filename>Arial.ttf</filename>
 			<aspect>0.9</aspect>
@@ -1224,13 +1116,6 @@
 			<aspect>0.9</aspect>
 			<style>bold</style>
 			<size>26</size>
-		</font>
-		<font>
-			<name>Bold24</name>
-			<filename>Arial.ttf</filename>
-			<aspect>0.9</aspect>
-			<style>bold</style>
-			<size>24</size>
 		</font>
 		<font>
 			<name>Bold24Num</name>

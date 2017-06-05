@@ -62,16 +62,6 @@
 		<bordertexture border="2">dialogs/Empty.png</bordertexture>
 		<bordersize>-52</bordersize>
 	</include>
-	<!-- Heights -->
-	<include name="Height325">
-		<height>325</height>
-	</include>
-	<include name="Height319">
-		<height>319</height>
-	</include>
-	<include name="Height283">
-		<height>283</height>
-	</include>
 	<!-- Widths -->
 	<include name="Width195">
 		<width>195</width>

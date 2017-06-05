@@ -884,45 +884,6 @@
 		<value condition="Control.HasFocus(211)">$INFO[Container(211).ListItem.Property(Fanart)]</value>
 		<value condition="Control.HasFocus(231)">$INFO[Container(231).ListItem.Property(Fanart)]</value>
 	</variable>
-	<variable name="SearchHeadingLabel">
-		<value condition="Control.HasFocus(111)">$LOCALIZE[342]</value>
-		<value condition="Control.HasFocus(121)">$LOCALIZE[20343]</value>
-		<value condition="Control.HasFocus(131)">$LOCALIZE[33054]</value>
-		<value condition="Control.HasFocus(141)">$LOCALIZE[20360]</value>
-		<value condition="Control.HasFocus(151)">$LOCALIZE[20389]</value>
-		<value condition="Control.HasFocus(161)">$LOCALIZE[133]</value>
-		<value condition="Control.HasFocus(171)">$LOCALIZE[132]</value>
-		<value condition="Control.HasFocus(181)">$LOCALIZE[134]</value>
-		<value condition="Control.HasFocus(211)">$LOCALIZE[31071]</value>
-		<value condition="Control.HasFocus(221)">$LOCALIZE[0]</value>
-		<value condition="Control.HasFocus(231)">$LOCALIZE[20348]</value>
-	</variable>
-	<variable name="SearchCurrentItem">
-		<value condition="Control.HasFocus(111)">$INFO[Container(111).CurrentItem]</value>
-		<value condition="Control.HasFocus(121)">$INFO[Container(121).CurrentItem]</value>
-		<value condition="Control.HasFocus(131)">$INFO[Container(131).CurrentItem]</value>
-		<value condition="Control.HasFocus(141)">$INFO[Container(141).CurrentItem]</value>
-		<value condition="Control.HasFocus(151)">$INFO[Container(151).CurrentItem]</value>
-		<value condition="Control.HasFocus(161)">$INFO[Container(161).CurrentItem]</value>
-		<value condition="Control.HasFocus(171)">$INFO[Container(171).CurrentItem]</value>
-		<value condition="Control.HasFocus(181)">$INFO[Container(181).CurrentItem]</value>
-		<value condition="Control.HasFocus(211)">$INFO[Container(211).CurrentItem]</value>
-		<value condition="Control.HasFocus(221)">$INFO[Container(221).CurrentItem]</value>
-		<value condition="Control.HasFocus(231)">$INFO[Container(231).CurrentItem]</value>
-	</variable>
-	<variable name="SearchNumItems">
-		<value condition="Control.HasFocus(111)">$INFO[Container(111).NumItems]</value>
-		<value condition="Control.HasFocus(121)">$INFO[Container(121).NumItems]</value>
-		<value condition="Control.HasFocus(131)">$INFO[Container(131).NumItems]</value>
-		<value condition="Control.HasFocus(141)">$INFO[Container(141).NumItems]</value>
-		<value condition="Control.HasFocus(151)">$INFO[Container(151).NumItems]</value>
-		<value condition="Control.HasFocus(161)">$INFO[Container(161).NumItems]</value>
-		<value condition="Control.HasFocus(171)">$INFO[Container(171).NumItems]</value>
-		<value condition="Control.HasFocus(181)">$INFO[Container(181).NumItems]</value>
-		<value condition="Control.HasFocus(211)">$INFO[Container(211).NumItems]</value>
-		<value condition="Control.HasFocus(221)">$INFO[Container(221).NumItems]</value>
-		<value condition="Control.HasFocus(231)">$INFO[Container(231).NumItems]</value>
-	</variable>
 	<variable name="SearchDuration">
 		<value condition="String.IsEqual(Container(100).ListItem.Property(Duration),1)">1 $LOCALIZE[31004]</value>
 		<value condition="String.IsEqual(Container(100).ListItem.Property(Duration),2)">2 $LOCALIZE[31147]</value>

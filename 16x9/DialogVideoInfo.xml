@@ -412,7 +412,7 @@
 					<ondown condition="Control.IsVisible(50)">50</ondown>
 					<font>Med24</font>
 					<label>$VAR[VideoInfoButton8]</label>
-					<altlabel>Browse[CR]TV Show</altlabel>
+					<altlabel>31074</altlabel>
 					<textoffsetx>28</textoffsetx>
 					<textcolor>ffdadada</textcolor>
 					<focusedcolor>ff222222</focusedcolor>
@@ -512,7 +512,7 @@
 					<onclick condition="String.IsEqual(ListItem.DBTYPE,tvshow)">RunScript(script.artwork.downloader, mode=gui, mediatype=tvshow, dbid=$INFO[ListItem.DBID])</onclick>
 					<onclick condition="String.IsEqual(ListItem.DBTYPE,movie)">RunScript(script.artwork.downloader, mode=gui, mediatype=movie, dbid=$INFO[ListItem.DBID])</onclick>
 					<font>Med24</font>
-					<label>Artwork Downloader</label>
+					<label>31103</label>
 					<textoffsetx>28</textoffsetx>
 					<textcolor>ffdadada</textcolor>
 					<focusedcolor>ff222222</focusedcolor>
