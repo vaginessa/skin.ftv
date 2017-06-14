@@ -1597,7 +1597,7 @@
 		<value>$LOCALIZE[31015]</value>
 	</variable>
 	<variable name="AddonSettingsDefaultButton">
-		<value condition="!ControlGroup(2).HasFocus + !ControlGroup(9000).HasFocus">ffffaf37</value>
+		<value condition="!ControlGroup(5).HasFocus + !ControlGroup(9000).HasFocus">ffffaf37</value>
 		<value>ffffffff</value>
 	</variable>
 	<variable name="ProfileSettingsLoginButton">

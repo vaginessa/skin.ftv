@@ -1,3 +1,7 @@
+4.0.1
+
+Updated DialogAddonSettings.xml
+
 4.0.0
 
 Changed duration variables for Leia changes
@@ -166,7 +170,7 @@ Added busy icon when buffering
 
 2.3.3
 
-Fixed and cleaned up 'Global search info' script 
+Fixed and cleaned up 'Global search info' script
 Updated 'Global search' script layout
 
 2.3.2
@@ -187,7 +191,7 @@ Added better home widget customisation (thanks to sualfred)
 Remove properties and use absolute labels
 Fixed widget sorting problem
 Fixed textboxes
-Fixed Addon Browser focus problem 
+Fixed Addon Browser focus problem
 Fixed 'Extended Info' More button
 
 2.2.20
