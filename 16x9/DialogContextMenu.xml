@@ -13,7 +13,7 @@
 			<include>DialogAnimation</include>
 			<centerleft>50%</centerleft>
 			<top>540</top>
-			<width>500</width>
+			<width>540</width>
 			<height>760</height>
 			<!-- Animations to keep menu centrally aligned -->
 			<animation effect="slide" end="0,-38" time="0" condition="Control.IsVisible(1001)">Conditional</animation>
@@ -39,7 +39,7 @@
 			<!-- Grouplist template -->
 			<control type="grouplist" id="996">
 				<centerleft>50%</centerleft>
-				<width>500</width>
+				<width>100%</width>
 				<height max="760">auto</height>
 				<itemgap>0</itemgap>
 			</control>
@@ -47,12 +47,13 @@
 			<control type="button" id="1000">
 				<left>-5</left>
 				<bottom>0</bottom>
-				<width>500</width>
+				<width>100%</width>
 				<height>76</height>
 				<align>center</align>
 				<aligny>top</aligny>
 				<font>MedUpper24</font>
 				<textoffsety>27</textoffsety>
+				<textwidth>460</textwidth>
 			</control>
 		</control>
 	</controls>

@@ -4,9 +4,17 @@
 		<defaultID>script.globalsearch</defaultID>
 		<label>137</label>
 		<label2>Custom shortcut</label2>
-		<icon />
+		<icon>DefaultShortcut.png</icon>
 		<thumb />
 		<action>RunScript(script.globalsearch)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>Watchlist</label>
+		<label2>Custom item</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb />
+		<action>noop</action>
 	</shortcut>
 	<shortcut>
 		<defaultID>movies</defaultID>
@@ -50,7 +58,7 @@
 	</shortcut>
 	<shortcut>
 		<defaultID>programs</defaultID>
-		<label>31101</label>
+		<label>$SKIN[31101|skin.ftv|Apps]</label>
 		<label2>Custom shortcut</label2>
 		<icon>DefaultProgram.png</icon>
 		<thumb />
@@ -58,7 +66,7 @@
 	</shortcut>
 	<shortcut>
 		<defaultID>pictures</defaultID>
-		<label>31100</label>
+		<label>$SKIN[31100|skin.ftv|Photos]</label>
 		<label2>Common Shortcut</label2>
 		<icon>DefaultPicture.png</icon>
 		<thumb />
