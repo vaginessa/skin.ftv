@@ -14,7 +14,7 @@
 			<control type="image">
 			<width>636</width>
 			<height>223</height>
-				<texture border="48">views/shadow_fo.png</texture>
+			<texture border="48">views/shadow_fo.png</texture>
 			</control>
 			<control type="image">
 				<left>48</left>

@@ -319,7 +319,7 @@ msgid "Next episode"
 msgstr ""
 
 msgctxt "#31074"
-msgid "Browse TV Show"
+msgid "Browse[CR]TV Show"
 msgstr ""
 
 msgctxt "#31075"
