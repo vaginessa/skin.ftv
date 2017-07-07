@@ -440,7 +440,7 @@
 				<effect easing="inout" end="500,0" start="0,0" time="200" tween="sine" type="slide"/>
 			</animation>
 			<control type="group">
-				<animation condition="!String.IsEmpty(Container.FolderPath) + !String.EndsWith(Container.FolderPath,/)" delay="200" easing="inout" effect="slide" end="480,0" reversible="true" start="0,0" time="400" tween="sine">Conditional</animation>
+				<animation condition="Container.Content(addons)" delay="200" easing="inout" effect="slide" end="480,0" reversible="true" start="0,0" time="400" tween="sine">Conditional</animation>
 				<control type="image">
 					<left>78</left>
 					<width>879</width>
@@ -775,7 +775,7 @@
 				<width>40</width>
 				<height>480</height>
 				<texture>settings/shadow.png</texture>
-				<visible>!String.EndsWith(Container.FolderPath,/)</visible>
+				<visible>Container.Content(addons)</visible>
 				<animation easing="inout" effect="fade" end="100" start="0" time="0" tween="sine">VisibleChange</animation>
 			</control>
 			<control type="label">
