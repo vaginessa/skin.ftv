@@ -1046,3 +1046,11 @@ msgstr ""
 msgctxt "#31252"
 msgid "This skin only supports a maximum of 12 home menu items. Please remove some to ensure everything works correctly."
 msgstr ""
+
+msgctxt "#31253"
+msgid "No items found in Your Favourites"
+msgstr ""
+
+msgctxt "#31254"
+msgid "When you add Favourites they will appear here"
+msgstr ""
