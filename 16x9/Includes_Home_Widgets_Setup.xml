@@ -50,7 +50,7 @@
 				<control type="label">
 					<left>11</left>
 					<top>269</top>
-					<width>286</width>
+					<width>290</width>
 					<height>28</height>
 					<font>Bold28</font>
 					<scroll>false</scroll>
@@ -115,7 +115,7 @@
 				<control type="label">
 					<left>11</left>
 					<top>269</top>
-					<width>286</width>
+					<width>290</width>
 					<height>28</height>
 					<font>Bold28</font>
 					<scroll>false</scroll>
@@ -180,7 +180,7 @@
 				<control type="label">
 					<left>11</left>
 					<top>269</top>
-					<width>286</width>
+					<width>290</width>
 					<height>28</height>
 					<font>Bold28</font>
 					<scroll>false</scroll>
@@ -245,7 +245,7 @@
 				<control type="label">
 					<left>11</left>
 					<top>269</top>
-					<width>286</width>
+					<width>290</width>
 					<height>28</height>
 					<font>Bold28</font>
 					<scroll>false</scroll>
@@ -315,7 +315,7 @@
 				<control type="label">
 					<left>11</left>
 					<top>269</top>
-					<width>286</width>
+					<width>290</width>
 					<height>28</height>
 					<font>Bold28</font>
 					<scroll>false</scroll>
@@ -381,7 +381,7 @@
 				<control type="label">
 					<left>11</left>
 					<top>269</top>
-					<width>286</width>
+					<width>290</width>
 					<height>28</height>
 					<font>Bold28</font>
 					<scroll>false</scroll>
@@ -447,7 +447,7 @@
 				<control type="label">
 					<left>11</left>
 					<top>269</top>
-					<width>286</width>
+					<width>290</width>
 					<height>28</height>
 					<font>Bold28</font>
 					<scroll>false</scroll>
@@ -513,7 +513,7 @@
 				<control type="label">
 					<left>11</left>
 					<top>269</top>
-					<width>286</width>
+					<width>290</width>
 					<height>28</height>
 					<font>Bold28</font>
 					<scroll>false</scroll>
@@ -760,6 +760,367 @@
 					<visible>!Control.HasFocus(99) + !String.IsEmpty(ListItem.Property(InfoLabel4))</visible>
 					<animation effect="fade" end="0" start="100" time="0">Focus</animation>
 					<animation center="auto" easing="inout" effect="fade" end="100" start="0" time="220" tween="sine">UnFocus</animation>
+				</control>
+			</control>
+		</control>
+	</include>
+	<!-- Home Favourites Itemlayout -->
+	<include name="HomeFavouritesItemlayout">
+		<control type="group">
+			<control type="group">
+				<left>273</left>
+				<control type="image">
+					<width>318</width>
+					<height>334</height>
+					<bordersize>0,13,10,13</bordersize>
+					<aspectratio align="center">scale</aspectratio>
+					<texture background="true">common/default_empty.png</texture>
+					<bordertexture border="16,30,16,18">home/image_shadow_small_nf.png</bordertexture>
+				</control>
+				<control type="image">
+					<width>318</width>
+					<height>334</height>
+					<bordersize>0,13,10,13</bordersize>
+					<colordiffuse>ff212121</colordiffuse>
+					<aspectratio align="center">stretch</aspectratio>
+					<texture background="true" fallback="views/square_fallback.png">$INFO[ListItem.Property(Icon1)]</texture>
+				</control>
+				<control type="image">
+					<width>318</width>
+					<height>334</height>
+					<bordersize>0,13,10,13</bordersize>
+					<aspectratio align="center">keep</aspectratio>
+					<texture background="true" fallback="views/square_fallback.png">$INFO[ListItem.Property(Icon1)]</texture>
+				</control>
+				<control type="image">
+					<top>13</top>
+					<width>308</width>
+					<height>308</height>
+					<texture border="2">views/season_overlay.png</texture>
+				</control>
+				<control type="label">
+					<left>11</left>
+					<top>269</top>
+					<width>290</width>
+					<height>28</height>
+					<font>Bold28</font>
+					<scroll>false</scroll>
+					<textcolor>ffffffff</textcolor>
+					<shadowcolor>88000000</shadowcolor>
+					<label>$INFO[ListItem.Property(InfoLabel1)]</label>
+				</control>
+			</control>
+			<control type="group">
+				<left>604</left>
+				<visible>!String.IsEmpty(ListItem.Property(InfoLabel2))</visible>
+				<control type="image">
+					<width>318</width>
+					<height>334</height>
+					<bordersize>0,13,10,13</bordersize>
+					<aspectratio align="center">scale</aspectratio>
+					<texture background="true">common/default_empty.png</texture>
+					<bordertexture border="16,30,16,18">home/image_shadow_small_nf.png</bordertexture>
+				</control>
+				<control type="image">
+					<width>318</width>
+					<height>334</height>
+					<bordersize>0,13,10,13</bordersize>
+					<colordiffuse>ff212121</colordiffuse>
+					<aspectratio align="center">stretch</aspectratio>
+					<texture background="true" fallback="views/square_fallback.png">$INFO[ListItem.Property(Icon2)]</texture>
+				</control>
+				<control type="image">
+					<width>318</width>
+					<height>334</height>
+					<bordersize>0,13,10,13</bordersize>
+					<aspectratio align="center">keep</aspectratio>
+					<texture background="true" fallback="views/square_fallback.png">$INFO[ListItem.Property(Icon2)]</texture>
+				</control>
+				<control type="image">
+					<top>13</top>
+					<width>308</width>
+					<height>308</height>
+					<texture border="2">views/season_overlay.png</texture>
+				</control>
+				<control type="label">
+					<left>11</left>
+					<top>269</top>
+					<width>290</width>
+					<height>28</height>
+					<font>Bold28</font>
+					<scroll>false</scroll>
+					<textcolor>ffffffff</textcolor>
+					<shadowcolor>88000000</shadowcolor>
+					<label>$INFO[ListItem.Property(InfoLabel2)]</label>
+				</control>
+			</control>
+			<control type="group">
+				<left>935</left>
+				<visible>!String.IsEmpty(ListItem.Property(InfoLabel3))</visible>
+				<control type="image">
+					<width>318</width>
+					<height>334</height>
+					<bordersize>0,13,10,13</bordersize>
+					<aspectratio align="center">scale</aspectratio>
+					<texture background="true">common/default_empty.png</texture>
+					<bordertexture border="16,30,16,18">home/image_shadow_small_nf.png</bordertexture>
+				</control>
+				<control type="image">
+					<width>318</width>
+					<height>334</height>
+					<bordersize>0,13,10,13</bordersize>
+					<colordiffuse>ff212121</colordiffuse>
+					<aspectratio align="center">stretch</aspectratio>
+					<texture background="true" fallback="views/square_fallback.png">$INFO[ListItem.Property(Icon3)]</texture>
+				</control>
+				<control type="image">
+					<width>318</width>
+					<height>334</height>
+					<bordersize>0,13,10,13</bordersize>
+					<aspectratio align="center">keep</aspectratio>
+					<texture background="true" fallback="views/square_fallback.png">$INFO[ListItem.Property(Icon3)]</texture>
+				</control>
+				<control type="image">
+					<top>13</top>
+					<width>308</width>
+					<height>308</height>
+					<texture border="2">views/season_overlay.png</texture>
+				</control>
+				<control type="label">
+					<left>11</left>
+					<top>269</top>
+					<width>290</width>
+					<height>28</height>
+					<font>Bold28</font>
+					<scroll>false</scroll>
+					<textcolor>ffffffff</textcolor>
+					<shadowcolor>88000000</shadowcolor>
+					<label>$INFO[ListItem.Property(InfoLabel3)]</label>
+				</control>
+			</control>
+			<control type="group">
+				<left>1266</left>
+				<visible>!String.IsEmpty(ListItem.Property(InfoLabel4))</visible>
+				<control type="image">
+					<width>318</width>
+					<height>334</height>
+					<bordersize>0,13,10,13</bordersize>
+					<aspectratio align="center">scale</aspectratio>
+					<texture background="true">common/default_empty.png</texture>
+					<bordertexture border="16,30,16,18">home/image_shadow_small_nf.png</bordertexture>
+				</control>
+				<control type="image">
+					<width>318</width>
+					<height>334</height>
+					<bordersize>0,13,10,13</bordersize>
+					<colordiffuse>ff212121</colordiffuse>
+					<aspectratio align="center">stretch</aspectratio>
+					<texture background="true" fallback="views/square_fallback.png">$INFO[ListItem.Property(Icon4)]</texture>
+				</control>
+				<control type="image">
+					<width>318</width>
+					<height>334</height>
+					<bordersize>0,13,10,13</bordersize>
+					<aspectratio align="center">keep</aspectratio>
+					<texture background="true" fallback="views/square_fallback.png">$INFO[ListItem.Property(Icon4)]</texture>
+				</control>
+				<control type="image">
+					<top>13</top>
+					<width>308</width>
+					<height>308</height>
+					<texture border="2">views/season_overlay.png</texture>
+				</control>
+				<control type="label">
+					<left>11</left>
+					<top>269</top>
+					<width>290</width>
+					<height>28</height>
+					<font>Bold28</font>
+					<scroll>false</scroll>
+					<textcolor>ffffffff</textcolor>
+					<shadowcolor>88000000</shadowcolor>
+					<label>$INFO[ListItem.Property(InfoLabel4)]</label>
+				</control>
+			</control>
+		</control>
+	</include>
+	<!-- Home Favourites Focusedlayout -->
+	<include name="HomeFavouritesFocusedlayout">
+		<control type="group">
+			<visible>String.IsEqual(ListItem.Property(WidgetStyle),$LOCALIZE[31203]) | String.IsEmpty(ListItem.Property(WidgetStyle))</visible>
+			<control type="group">
+				<left>273</left>
+				<control type="image">
+					<width>318</width>
+					<height>334</height>
+					<bordersize>0,13,10,13</bordersize>
+					<aspectratio align="center">scale</aspectratio>
+					<texture background="true">common/default_empty.png</texture>
+					<bordertexture border="16,30,16,18">home/image_shadow_small_nf.png</bordertexture>
+				</control>
+				<control type="image">
+					<width>318</width>
+					<height>334</height>
+					<bordersize>0,13,10,13</bordersize>
+					<colordiffuse>ff212121</colordiffuse>
+					<aspectratio align="center">stretch</aspectratio>
+					<texture background="true" fallback="views/square_fallback.png">$INFO[ListItem.Property(Icon1)]</texture>
+				</control>
+				<control type="image">
+					<width>318</width>
+					<height>334</height>
+					<bordersize>0,13,10,13</bordersize>
+					<aspectratio align="center">keep</aspectratio>
+					<texture background="true" fallback="views/square_fallback.png">$INFO[ListItem.Property(Icon1)]</texture>
+				</control>
+				<control type="image">
+					<top>13</top>
+					<width>308</width>
+					<height>308</height>
+					<texture border="2">views/season_overlay.png</texture>
+				</control>
+				<control type="label">
+					<left>11</left>
+					<top>269</top>
+					<width>290</width>
+					<height>28</height>
+					<font>Bold28</font>
+					<scroll>false</scroll>
+					<textcolor>ffffffff</textcolor>
+					<shadowcolor>88000000</shadowcolor>
+					<label>$INFO[ListItem.Property(InfoLabel1)]</label>
+				</control>
+			</control>
+			<control type="group">
+				<left>604</left>
+				<visible>!String.IsEmpty(ListItem.Property(InfoLabel2))</visible>
+				<control type="image">
+					<width>318</width>
+					<height>334</height>
+					<bordersize>0,13,10,13</bordersize>
+					<aspectratio align="center">scale</aspectratio>
+					<texture background="true">common/default_empty.png</texture>
+					<bordertexture border="16,30,16,18">home/image_shadow_small_nf.png</bordertexture>
+				</control>
+				<control type="image">
+					<width>318</width>
+					<height>334</height>
+					<bordersize>0,13,10,13</bordersize>
+					<colordiffuse>ff212121</colordiffuse>
+					<aspectratio align="center">stretch</aspectratio>
+					<texture background="true" fallback="views/square_fallback.png">$INFO[ListItem.Property(Icon2)]</texture>
+				</control>
+				<control type="image">
+					<width>318</width>
+					<height>334</height>
+					<bordersize>0,13,10,13</bordersize>
+					<aspectratio align="center">keep</aspectratio>
+					<texture background="true" fallback="views/square_fallback.png">$INFO[ListItem.Property(Icon2)]</texture>
+				</control>
+				<control type="image">
+					<top>13</top>
+					<width>308</width>
+					<height>308</height>
+					<texture border="2">views/season_overlay.png</texture>
+				</control>
+				<control type="label">
+					<left>11</left>
+					<top>269</top>
+					<width>290</width>
+					<height>28</height>
+					<font>Bold28</font>
+					<scroll>false</scroll>
+					<textcolor>ffffffff</textcolor>
+					<shadowcolor>88000000</shadowcolor>
+					<label>$INFO[ListItem.Property(InfoLabel2)]</label>
+				</control>
+			</control>
+			<control type="group">
+				<left>935</left>
+				<visible>!String.IsEmpty(ListItem.Property(InfoLabel3))</visible>
+				<control type="image">
+					<width>318</width>
+					<height>334</height>
+					<bordersize>0,13,10,13</bordersize>
+					<aspectratio align="center">scale</aspectratio>
+					<texture background="true">common/default_empty.png</texture>
+					<bordertexture border="16,30,16,18">home/image_shadow_small_nf.png</bordertexture>
+				</control>
+				<control type="image">
+					<width>318</width>
+					<height>334</height>
+					<bordersize>0,13,10,13</bordersize>
+					<colordiffuse>ff212121</colordiffuse>
+					<aspectratio align="center">stretch</aspectratio>
+					<texture background="true" fallback="views/square_fallback.png">$INFO[ListItem.Property(Icon3)]</texture>
+				</control>
+				<control type="image">
+					<width>318</width>
+					<height>334</height>
+					<bordersize>0,13,10,13</bordersize>
+					<aspectratio align="center">keep</aspectratio>
+					<texture background="true" fallback="views/square_fallback.png">$INFO[ListItem.Property(Icon3)]</texture>
+				</control>
+				<control type="image">
+					<top>13</top>
+					<width>308</width>
+					<height>308</height>
+					<texture border="2">views/season_overlay.png</texture>
+				</control>
+				<control type="label">
+					<left>11</left>
+					<top>269</top>
+					<width>290</width>
+					<height>28</height>
+					<font>Bold28</font>
+					<scroll>false</scroll>
+					<textcolor>ffffffff</textcolor>
+					<shadowcolor>88000000</shadowcolor>
+					<label>$INFO[ListItem.Property(InfoLabel3)]</label>
+				</control>
+			</control>
+			<control type="group">
+				<left>1266</left>
+				<visible>!String.IsEmpty(ListItem.Property(InfoLabel4))</visible>
+				<control type="image">
+					<width>318</width>
+					<height>334</height>
+					<bordersize>0,13,10,13</bordersize>
+					<aspectratio align="center">scale</aspectratio>
+					<texture background="true">common/default_empty.png</texture>
+					<bordertexture border="16,30,16,18">home/image_shadow_small_nf.png</bordertexture>
+				</control>
+				<control type="image">
+					<width>318</width>
+					<height>334</height>
+					<bordersize>0,13,10,13</bordersize>
+					<colordiffuse>ff212121</colordiffuse>
+					<aspectratio align="center">stretch</aspectratio>
+					<texture background="true" fallback="views/square_fallback.png">$INFO[ListItem.Property(Icon4)]</texture>
+				</control>
+				<control type="image">
+					<width>318</width>
+					<height>334</height>
+					<bordersize>0,13,10,13</bordersize>
+					<aspectratio align="center">keep</aspectratio>
+					<texture background="true" fallback="views/square_fallback.png">$INFO[ListItem.Property(Icon4)]</texture>
+				</control>
+				<control type="image">
+					<top>13</top>
+					<width>308</width>
+					<height>308</height>
+					<texture border="2">views/season_overlay.png</texture>
+				</control>
+				<control type="label">
+					<left>11</left>
+					<top>269</top>
+					<width>290</width>
+					<height>28</height>
+					<font>Bold28</font>
+					<scroll>false</scroll>
+					<textcolor>ffffffff</textcolor>
+					<shadowcolor>88000000</shadowcolor>
+					<label>$INFO[ListItem.Property(InfoLabel4)]</label>
 				</control>
 			</control>
 		</control>

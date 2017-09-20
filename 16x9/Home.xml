@@ -297,12 +297,12 @@
 				<visible>String.IsEqual(Container(99).ListItem.Property(widget),favourites)</visible>
 				<animation condition="true" effect="slide" end="-304,0">Conditional</animation>
 				<itemlayout height="370" width="2000">
-					<include>HomeSquareInfoItemlayout</include>
+					<include>HomeFavouritesItemlayout</include>
 				</itemlayout>
 				<focusedlayout height="370" width="2000">
 					<control type="group">
 						<animation center="142,167" condition="true" effect="zoom" end="132" start="100" time="0">Conditional</animation>
-						<include>HomeSquareInfoFocusedlayout</include>
+						<include>HomeFavouritesFocusedlayout</include>
 					</control>
 				</focusedlayout>
 				<include>FavouritesContent</include>
