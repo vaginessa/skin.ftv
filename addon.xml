@@ -18,10 +18,10 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
-		<summary lang="en">Skin based on the Fire TV UI</summary>
+		<summary lang="en">Skin based on the original Fire TV UI</summary>
 		<disclaimer lang="en">Does not support: Mouse, Touch, Live TV</disclaimer>
-		<description lang="en">Brings the Fire TV user interface to Kodi.[CR]Special thanks to the following people:[CR]Unfledged[CR]Mesoptier[CR]'Black[CR]marcelveldt</description>
-		<news>Official release of fTV the Fire TV skin</news>
+		<description lang="en">Brings the original Fire TV user interface to Kodi.[CR]Special thanks to the following people:[CR]Unfledged[CR]Mesoptier[CR]'Black[CR]marcelveldt</description>
+		<news>Official release of fTV</news>
 		<assets>
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>
@@ -31,6 +31,7 @@
 			<screenshot>resources/screenshot-04.jpg</screenshot>
 			<screenshot>resources/screenshot-05.jpg</screenshot>
 			<screenshot>resources/screenshot-06.jpg</screenshot>
+			<screenshot>resources/screenshot-07.jpg</screenshot>
 		</assets>
 	</extension>
 </addon>

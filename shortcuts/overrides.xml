@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <overrides>
+	<doNotShareMenu />
 	<widget label="1036">favourites</widget>
 	<widget label="10508">weather</widget>
 	<widget label="31210">widget1</widget>

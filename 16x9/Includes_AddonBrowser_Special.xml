@@ -85,6 +85,13 @@
 							<texture border="2">views/season_overlay.png</texture>
 							<visible>!ListItem.IsParentFolder + !String.Contains(ListItem.Icon,Default)</visible>
 						</control>
+						<control type="image">
+							<top>48</top>
+							<width>480</width>
+							<height>480</height>
+							<texture border="2">views/season_overlay.png</texture>
+							<visible>!ListItem.IsParentFolder</visible>
+						</control>
 						<control type="label">
 							<left>18</left>
 							<top>447</top>
@@ -145,7 +152,7 @@
 							<width>480</width>
 							<height>480</height>
 							<texture border="2">views/season_overlay.png</texture>
-							<visible>!ListItem.IsParentFolder + !String.Contains(ListItem.Icon,Default)</visible>
+							<visible>!ListItem.IsParentFolder</visible>
 						</control>
 						<control type="label">
 							<left>18</left>

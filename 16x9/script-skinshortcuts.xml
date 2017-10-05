@@ -317,8 +317,8 @@
 					<textoffsetx>23</textoffsetx>
 					<textoffsety>27</textoffsety>
 					<label>186</label>
-					<onback>RunScript(script.skinshortcuts,type=buildxml&amp;mainmenuID=99&amp;levels=0&amp;group=mainmenu|shutdown)</onback>
-					<onclick>RunScript(script.skinshortcuts,type=buildxml&amp;mainmenuID=99&amp;levels=0&amp;group=mainmenu|shutdown)</onclick>
+					<onback>RunScript(script.skinshortcuts,type=buildxml&amp;mainmenuID=99&amp;group=mainmenu|shutdown)</onback>
+					<onclick>RunScript(script.skinshortcuts,type=buildxml&amp;mainmenuID=99&amp;group=mainmenu|shutdown)</onclick>
 					<onclick>Close</onclick>
 					<onunfocus condition="Integer.IsGreater(Container(211).NumItems,12)">RunScript(script.toolbox,info=okdialog,header=$LOCALIZE[14117],text=$LOCALIZE[31252])</onunfocus>
 				</control>
