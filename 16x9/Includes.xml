@@ -9,6 +9,7 @@
 	<include file="Includes_AddonBrowser_Default.xml"/>
 	<include file="Includes_AddonBrowser_Special.xml"/>
 	<include file="Includes_DialogSelect_Default.xml"/>
+	<include file="Includes_DialogSelect_Game.xml"/>
 	<include file="Includes_DialogSelect_Special.xml"/>
 	<include file="Include_DialogSettings_Default.xml"/>
 	<include file="Include_DialogSettings_OSDSettings.xml"/>
@@ -24,6 +25,7 @@
 	<include file="ForcedViewtype60.xml"/>
 	<include file="ForcedViewtype61.xml"/>
 	<include file="script-skinshortcuts-includes.xml"/>
+	<include file="script-skinshortcuts-includes-default.xml"/>
 	<!-- Fullscreen dimensions -->
 	<include name="FullscreenDimensions">
 		<left>0</left>

@@ -34,7 +34,7 @@
 	</shortcut>
 	<shortcut>
 		<defaultID>videos</defaultID>
-		<label>10006</label>
+		<label>3</label>
 		<label2>Common Shortcut</label2>
 		<icon>DefaultVideo.png</icon>
 		<thumb />
@@ -42,7 +42,7 @@
 	</shortcut>
 	<shortcut>
 		<defaultID>music</defaultID>
-		<label>10005</label>
+		<label>2</label>
 		<label2>Common Shortcut</label2>
 		<icon>DefaultMusicAlbums.png</icon>
 		<thumb />

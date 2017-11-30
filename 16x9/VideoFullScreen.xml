@@ -5,7 +5,7 @@
 	<onload>SetProperty(RefreshCastList,true,Home)</onload>
 	<controls>
 		<control id="99" type="group">
-			<visible>String.IsEmpty(Window(home).Property(ShowXRay))</visible>
+			<visible>!Player.HasGame + String.IsEmpty(Window(home).Property(ShowXRay))</visible>
 			<!-- Cast -->
 			<control id="99" type="fixedlist">
 				<left>90</left>
