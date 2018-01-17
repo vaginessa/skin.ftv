@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
 	id="skin.ftv"
-	version="4.3.3"
+	version="4.4.0"
 	name="fTV"
 	provider-name="Hitcher">
 	<requires>
@@ -20,7 +20,7 @@
 		<summary lang="en">Skin based on the Fire TV UI</summary>
 		<disclaimer lang="en">Does not support: Mouse, Touch, Live TV</disclaimer>
 		<description lang="en">Brings the Fire TV user interface to Kodi.[CR]Special thanks to the following people:[CR]Unfledged[CR]Mesoptier[CR]'Black[CR]marcelveldt</description>
-		<news>Add Trakt support</news>
+		<news>Redesign for Global Search</news>
 		<assets>
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>
