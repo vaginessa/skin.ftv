@@ -717,7 +717,7 @@
 		<value>$LOCALIZE[31141]</value>
 	</variable>
 	<variable name="SearchEditColor">
-		<value condition="Control.HasFocus(300)">ffffc24b</value>
+		<value condition="Control.HasFocus(300)">ffeba136</value>
 		<value>ffdadada</value>
 	</variable>
 	<variable name="1000-SortBy-1">
