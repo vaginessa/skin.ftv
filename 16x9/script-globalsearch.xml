@@ -535,7 +535,7 @@
 							<font>Bold44</font>
 							<textcolor>ffffffff</textcolor>
 							<shadowcolor>88000000</shadowcolor>
-							<label>$VAR[SearchEpisodeValue]</label>
+							<label>$VAR[EpisodeValue]</label>
 						</control>
 						<control type="image">
 							<top>48</top>
@@ -613,7 +613,7 @@
 							<font>Bold44</font>
 							<textcolor>ffffffff</textcolor>
 							<shadowcolor>88000000</shadowcolor>
-							<label>$VAR[SearchEpisodeValue]</label>
+							<label>$VAR[EpisodeValue]</label>
 						</control>
 						<control type="image">
 							<top>48</top>
