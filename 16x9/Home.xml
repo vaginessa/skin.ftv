@@ -22,9 +22,9 @@
 			<!-- Main list -->
 			<control id="99" type="list">
 				<left>84</left>
-				<top>111</top>
+				<top>78</top>
 				<width>284</width>
-				<height>942</height>
+				<height>1016</height>
 				<onup>noop</onup>
 				<onup>SetProperty(Movement,1)</onup>
 				<ondown>noop</ondown>
@@ -198,32 +198,34 @@
 			</control>
 			<control type="image">
 				<left>0</left>
-				<top>-706</top>
+				<top>-770</top>
 				<width>1920</width>
 				<height>1858</height>
 				<aspectratio>stretch</aspectratio>
 				<texture border="2" diffuse="special://skin/extras/backgrounds/diffuse.png">special://skin/extras/backgrounds/default.png</texture>
 				<animation condition="Container(99).Row(0)" effect="slide" end="0,0" time="200">Conditional</animation>
-				<animation condition="Container(99).Row(1)" effect="slide" end="0,65" time="200">Conditional</animation>
-				<animation condition="Container(99).Row(2)" effect="slide" end="0,130" time="200">Conditional</animation>
-				<animation condition="Container(99).Row(3)" effect="slide" end="0,195" time="200">Conditional</animation>
-				<animation condition="Container(99).Row(4)" effect="slide" end="0,260" time="200">Conditional</animation>
-				<animation condition="Container(99).Row(5)" effect="slide" end="0,325" time="200">Conditional</animation>
-				<animation condition="Container(99).Row(6)" effect="slide" end="0,390" time="200">Conditional</animation>
-				<animation condition="Container(99).Row(7)" effect="slide" end="0,455" time="200">Conditional</animation>
-				<animation condition="Container(99).Row(8)" effect="slide" end="0,520" time="200">Conditional</animation>
-				<animation condition="Container(99).Row(9)" effect="slide" end="0,585" time="200">Conditional</animation>
-				<animation condition="Container(99).Row(10)" effect="slide" end="0,650" time="200">Conditional</animation>
-				<animation condition="Container(99).Row(11)" effect="slide" end="0,715" time="200">Conditional</animation>
-				<animation condition="String.IsEqual(Container(99).NumItems,10)" effect="slide" end="0,33" time="0">Conditional</animation>
-				<animation condition="String.IsEqual(Container(99).NumItems,9)" effect="slide" end="0,66" time="0">Conditional</animation>
-				<animation condition="String.IsEqual(Container(99).NumItems,8)" effect="slide" end="0,99" time="0">Conditional</animation>
-				<animation condition="String.IsEqual(Container(99).NumItems,7)" effect="slide" end="0,132" time="0">Conditional</animation>
-				<animation condition="String.IsEqual(Container(99).NumItems,6)" effect="slide" end="0,165" time="0">Conditional</animation>
-				<animation condition="String.IsEqual(Container(99).NumItems,5)" effect="slide" end="0,198" time="0">Conditional</animation>
-				<animation condition="String.IsEqual(Container(99).NumItems,4)" effect="slide" end="0,231" time="0">Conditional</animation>
-				<animation condition="String.IsEqual(Container(99).NumItems,3)" effect="slide" end="0,264" time="0">Conditional</animation>
-				<animation condition="String.IsEqual(Container(99).NumItems,2)" effect="slide" end="0,297" time="0">Conditional</animation>
+				<animation condition="Container(99).Row(1)" effect="slide" end="0,60" time="200">Conditional</animation>
+				<animation condition="Container(99).Row(2)" effect="slide" end="0,119" time="200">Conditional</animation>
+				<animation condition="Container(99).Row(3)" effect="slide" end="0,179" time="200">Conditional</animation>
+				<animation condition="Container(99).Row(4)" effect="slide" end="0,238" time="200">Conditional</animation>
+				<animation condition="Container(99).Row(5)" effect="slide" end="0,298" time="200">Conditional</animation>
+				<animation condition="Container(99).Row(6)" effect="slide" end="0,358" time="200">Conditional</animation>
+				<animation condition="Container(99).Row(7)" effect="slide" end="0,417" time="200">Conditional</animation>
+				<animation condition="Container(99).Row(8)" effect="slide" end="0,477" time="200">Conditional</animation>
+				<animation condition="Container(99).Row(9)" effect="slide" end="0,536" time="200">Conditional</animation>
+				<animation condition="Container(99).Row(10)" effect="slide" end="0,596" time="200">Conditional</animation>
+				<animation condition="Container(99).Row(11)" effect="slide" end="0,655" time="200">Conditional</animation>
+				<animation condition="Container(99).Row(12)" effect="slide" end="0,715" time="200">Conditional</animation>
+				<animation condition="String.IsEqual(Container(99).NumItems,11)" effect="slide" end="0,30" time="0">Conditional</animation>
+				<animation condition="String.IsEqual(Container(99).NumItems,10)" effect="slide" end="0,60" time="0">Conditional</animation>
+				<animation condition="String.IsEqual(Container(99).NumItems,9)" effect="slide" end="0,90" time="0">Conditional</animation>
+				<animation condition="String.IsEqual(Container(99).NumItems,8)" effect="slide" end="0,120" time="0">Conditional</animation>
+				<animation condition="String.IsEqual(Container(99).NumItems,7)" effect="slide" end="0,150" time="0">Conditional</animation>
+				<animation condition="String.IsEqual(Container(99).NumItems,6)" effect="slide" end="0,180" time="0">Conditional</animation>
+				<animation condition="String.IsEqual(Container(99).NumItems,5)" effect="slide" end="0,210" time="0">Conditional</animation>
+				<animation condition="String.IsEqual(Container(99).NumItems,4)" effect="slide" end="0,240" time="0">Conditional</animation>
+				<animation condition="String.IsEqual(Container(99).NumItems,3)" effect="slide" end="0,270" time="0">Conditional</animation>
+				<animation condition="String.IsEqual(Container(99).NumItems,2)" effect="slide" end="0,300" time="0">Conditional</animation>
 				<animation condition="String.IsEqual(Container(99).NumItems,1)" effect="slide" end="0,330" time="0">Conditional</animation>
 			</control>
 			<!-- List Item #1 sub menu -->

@@ -17,9 +17,9 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
-		<summary lang="en">Skin based on the Fire TV UI</summary>
-		<disclaimer lang="en">Does not support: Mouse, Touch, Live TV</disclaimer>
-		<description lang="en">Brings the Fire TV user interface to Kodi.[CR]Special thanks to the following people:[CR]Unfledged[CR]Mesoptier[CR]'Black[CR]marcelveldt</description>
+		<summary lang="en_GB">Skin based on the Fire TV UI</summary>
+		<disclaimer lang="en_GB">Does not support: Mouse, Touch, Live TV</disclaimer>
+		<description lang="en_GB">Brings the Fire TV user interface to Kodi.[CR]Special thanks to the following people:[CR]Unfledged[CR]Mesoptier[CR]'Black[CR]marcelveldt</description>
 		<news>Redesign for Global Search</news>
 		<assets>
 			<icon>resources/icon.png</icon>

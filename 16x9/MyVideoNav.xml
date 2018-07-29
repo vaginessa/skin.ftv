@@ -507,7 +507,7 @@
 						<font>Med24</font>
 						<aligny>bottom</aligny>
 						<textcolor>ffbebebe</textcolor>
-						<label>$VAR[DurationMinutes]</label>
+						<label>$INFO[ListItem.Duration(mins),, $LOCALIZE[31147]]</label>
 						<visible>!String.IsEmpty(ListItem.Duration)</visible>
 					</control>
 					<control type="label">

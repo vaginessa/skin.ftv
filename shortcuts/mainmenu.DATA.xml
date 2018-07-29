@@ -14,7 +14,7 @@
 		<label2>Custom item</label2>
 		<icon>DefaultShortcut.png</icon>
 		<thumb />
-		<visible>!System.GetBool(gamesgeneral.enable) + [Library.HasContent(Movies) | Library.HasContent(TVShows)]</visible>
+		<visible>Library.HasContent(Movies) | Library.HasContent(TVShows)</visible>
 		<action>noop</action>
 	</shortcut>
 	<shortcut>

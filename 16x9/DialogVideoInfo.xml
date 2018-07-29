@@ -190,7 +190,7 @@
 					<font>Light32</font>
 					<aligny>bottom</aligny>
 					<textcolor>ffbebebe</textcolor>
-					<label>$VAR[Duration] </label>
+					<label>$VAR[DurationHours]$VAR[DurationSpacing]$VAR[DurationMins] </label>
 					<visible>!String.IsEmpty(ListItem.Duration)</visible>
 				</control>
 				<control type="image">

@@ -49,6 +49,7 @@
 				<textcolor>ff505153</textcolor>
 				<focusedcolor>$VAR[AddonSettingsDefaultButton]</focusedcolor>
 				<texturefocus border="3">settings/button_focus.png</texturefocus>
+				<alttexturefocus border="3">settings/button_focus.png</alttexturefocus>
 				<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
 				<pulseonselect>false</pulseonselect>
 			</control>
