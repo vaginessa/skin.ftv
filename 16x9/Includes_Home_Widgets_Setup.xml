@@ -1144,14 +1144,14 @@
 					<width>58</width>
 					<height>58</height>
 					<texture>views/OverlayHD.png</texture>
-					<visible>Integer.IsGreater(ListItem.Property(VideoResolution1),719) + !Integer.IsEqual(ListItem.Property(VideoResolution1),4K)</visible>
+					<visible>Integer.IsGreater(ListItem.Property(VideoResolution1),719) + !String.IsEqual(ListItem.Property(VideoResolution1),4K)</visible>
 				</control>
 				<control type="image">
 					<top>13</top>
 					<width>58</width>
 					<height>58</height>
 					<texture>views/Overlay4K.png</texture>
-					<visible>Integer.IsEqual(ListItem.Property(VideoResolution1),4K)</visible>
+					<visible>String.IsEqual(ListItem.Property(VideoResolution1),4K)</visible>
 				</control>
 				<control type="image">
 					<top>13</top>
@@ -1185,14 +1185,14 @@
 					<width>58</width>
 					<height>58</height>
 					<texture>views/OverlayHD.png</texture>
-					<visible>Integer.IsGreater(ListItem.Property(VideoResolution2),719) + !Integer.IsEqual(ListItem.Property(VideoResolution2),4K)</visible>
+					<visible>Integer.IsGreater(ListItem.Property(VideoResolution2),719) + !String.IsEqual(ListItem.Property(VideoResolution2),4K)</visible>
 				</control>
 				<control type="image">
 					<top>13</top>
 					<width>58</width>
 					<height>58</height>
 					<texture>views/Overlay4K.png</texture>
-					<visible>Integer.IsEqual(ListItem.Property(VideoResolution2),4K)</visible>
+					<visible>String.IsEqual(ListItem.Property(VideoResolution2),4K)</visible>
 				</control>
 				<control type="image">
 					<top>13</top>
@@ -1226,14 +1226,14 @@
 					<width>58</width>
 					<height>58</height>
 					<texture>views/OverlayHD.png</texture>
-					<visible>Integer.IsGreater(ListItem.Property(VideoResolution3),719) + !Integer.IsEqual(ListItem.Property(VideoResolution3),4K)</visible>
+					<visible>Integer.IsGreater(ListItem.Property(VideoResolution3),719) + !String.IsEqual(ListItem.Property(VideoResolution3),4K)</visible>
 				</control>
 				<control type="image">
 					<top>13</top>
 					<width>58</width>
 					<height>58</height>
 					<texture>views/Overlay4K.png</texture>
-					<visible>Integer.IsEqual(ListItem.Property(VideoResolution3),4K)</visible>
+					<visible>String.IsEqual(ListItem.Property(VideoResolution3),4K)</visible>
 				</control>
 				<control type="image">
 					<top>13</top>
@@ -1267,14 +1267,14 @@
 					<width>58</width>
 					<height>58</height>
 					<texture>views/OverlayHD.png</texture>
-					<visible>Integer.IsGreater(ListItem.Property(VideoResolution4),719) + !Integer.IsEqual(ListItem.Property(VideoResolution4),4K)</visible>
+					<visible>Integer.IsGreater(ListItem.Property(VideoResolution4),719) + !String.IsEqual(ListItem.Property(VideoResolution4),4K)</visible>
 				</control>
 				<control type="image">
 					<top>13</top>
 					<width>58</width>
 					<height>58</height>
 					<texture>views/Overlay4K.png</texture>
-					<visible>Integer.IsEqual(ListItem.Property(VideoResolution4),4K)</visible>
+					<visible>String.IsEqual(ListItem.Property(VideoResolution4),4K)</visible>
 				</control>
 				<control type="image">
 					<top>13</top>
@@ -1308,14 +1308,14 @@
 					<width>58</width>
 					<height>58</height>
 					<texture>views/OverlayHD.png</texture>
-					<visible>Integer.IsGreater(ListItem.Property(VideoResolution5),719) + !Integer.IsEqual(ListItem.Property(VideoResolution5),4K)</visible>
+					<visible>Integer.IsGreater(ListItem.Property(VideoResolution5),719) + !String.IsEqual(ListItem.Property(VideoResolution5),4K)</visible>
 				</control>
 				<control type="image">
 					<top>13</top>
 					<width>58</width>
 					<height>58</height>
 					<texture>views/Overlay4K.png</texture>
-					<visible>Integer.IsEqual(ListItem.Property(VideoResolution5),4K)</visible>
+					<visible>String.IsEqual(ListItem.Property(VideoResolution5),4K)</visible>
 				</control>
 				<control type="image">
 					<top>13</top>
@@ -1349,14 +1349,14 @@
 					<width>58</width>
 					<height>58</height>
 					<texture>views/OverlayHD.png</texture>
-					<visible>Integer.IsGreater(ListItem.Property(VideoResolution6),719) + !Integer.IsEqual(ListItem.Property(VideoResolution6),4K)</visible>
+					<visible>Integer.IsGreater(ListItem.Property(VideoResolution6),719) + !String.IsEqual(ListItem.Property(VideoResolution6),4K)</visible>
 				</control>
 				<control type="image">
 					<top>13</top>
 					<width>58</width>
 					<height>58</height>
 					<texture>views/Overlay4K.png</texture>
-					<visible>Integer.IsEqual(ListItem.Property(VideoResolution6),4K)</visible>
+					<visible>String.IsEqual(ListItem.Property(VideoResolution6),4K)</visible>
 				</control>
 				<control type="image">
 					<top>13</top>
@@ -1395,14 +1395,14 @@
 					<width>58</width>
 					<height>58</height>
 					<texture>views/OverlayHD.png</texture>
-					<visible>Integer.IsGreater(ListItem.Property(VideoResolution1),719) + !Integer.IsEqual(ListItem.Property(VideoResolution1),4K)</visible>
+					<visible>Integer.IsGreater(ListItem.Property(VideoResolution1),719) + !String.IsEqual(ListItem.Property(VideoResolution1),4K)</visible>
 				</control>
 				<control type="image">
 					<top>13</top>
 					<width>58</width>
 					<height>58</height>
 					<texture>views/Overlay4K.png</texture>
-					<visible>Integer.IsEqual(ListItem.Property(VideoResolution1),4K)</visible>
+					<visible>String.IsEqual(ListItem.Property(VideoResolution1),4K)</visible>
 				</control>
 				<control type="image">
 					<top>13</top>
@@ -1437,14 +1437,14 @@
 					<width>58</width>
 					<height>58</height>
 					<texture>views/OverlayHD.png</texture>
-					<visible>Integer.IsGreater(ListItem.Property(VideoResolution2),719) + !Integer.IsEqual(ListItem.Property(VideoResolution2),4K)</visible>
+					<visible>Integer.IsGreater(ListItem.Property(VideoResolution2),719) + !String.IsEqual(ListItem.Property(VideoResolution2),4K)</visible>
 				</control>
 				<control type="image">
 					<top>13</top>
 					<width>58</width>
 					<height>58</height>
 					<texture>views/Overlay4K.png</texture>
-					<visible>Integer.IsEqual(ListItem.Property(VideoResolution2),4K)</visible>
+					<visible>String.IsEqual(ListItem.Property(VideoResolution2),4K)</visible>
 				</control>
 				<control type="image">
 					<top>13</top>
@@ -1479,14 +1479,14 @@
 					<width>58</width>
 					<height>58</height>
 					<texture>views/OverlayHD.png</texture>
-					<visible>Integer.IsGreater(ListItem.Property(VideoResolution3),719) + !Integer.IsEqual(ListItem.Property(VideoResolution3),4K)</visible>
+					<visible>Integer.IsGreater(ListItem.Property(VideoResolution3),719) + !String.IsEqual(ListItem.Property(VideoResolution3),4K)</visible>
 				</control>
 				<control type="image">
 					<top>13</top>
 					<width>58</width>
 					<height>58</height>
 					<texture>views/Overlay4K.png</texture>
-					<visible>Integer.IsEqual(ListItem.Property(VideoResolution3),4K)</visible>
+					<visible>String.IsEqual(ListItem.Property(VideoResolution3),4K)</visible>
 				</control>
 				<control type="image">
 					<top>13</top>
@@ -1521,14 +1521,14 @@
 					<width>58</width>
 					<height>58</height>
 					<texture>views/OverlayHD.png</texture>
-					<visible>Integer.IsGreater(ListItem.Property(VideoResolution4),719) + !Integer.IsEqual(ListItem.Property(VideoResolution4),4K)</visible>
+					<visible>Integer.IsGreater(ListItem.Property(VideoResolution4),719) + !String.IsEqual(ListItem.Property(VideoResolution4),4K)</visible>
 				</control>
 				<control type="image">
 					<top>13</top>
 					<width>58</width>
 					<height>58</height>
 					<texture>views/Overlay4K.png</texture>
-					<visible>Integer.IsEqual(ListItem.Property(VideoResolution4),4K)</visible>
+					<visible>String.IsEqual(ListItem.Property(VideoResolution4),4K)</visible>
 				</control>
 				<control type="image">
 					<top>13</top>
@@ -1563,14 +1563,14 @@
 					<width>58</width>
 					<height>58</height>
 					<texture>views/OverlayHD.png</texture>
-					<visible>Integer.IsGreater(ListItem.Property(VideoResolution5),719) + !Integer.IsEqual(ListItem.Property(VideoResolution5),4K)</visible>
+					<visible>Integer.IsGreater(ListItem.Property(VideoResolution5),719) + !String.IsEqual(ListItem.Property(VideoResolution5),4K)</visible>
 				</control>
 				<control type="image">
 					<top>13</top>
 					<width>58</width>
 					<height>58</height>
 					<texture>views/Overlay4K.png</texture>
-					<visible>Integer.IsEqual(ListItem.Property(VideoResolution5),4K)</visible>
+					<visible>String.IsEqual(ListItem.Property(VideoResolution5),4K)</visible>
 				</control>
 				<control type="image">
 					<top>13</top>
@@ -1605,14 +1605,14 @@
 					<width>58</width>
 					<height>58</height>
 					<texture>views/OverlayHD.png</texture>
-					<visible>Integer.IsGreater(ListItem.Property(VideoResolution6),719) + !Integer.IsEqual(ListItem.Property(VideoResolution6),4K)</visible>
+					<visible>Integer.IsGreater(ListItem.Property(VideoResolution6),719) + !String.IsEqual(ListItem.Property(VideoResolution6),4K)</visible>
 				</control>
 				<control type="image">
 					<top>13</top>
 					<width>58</width>
 					<height>58</height>
 					<texture>views/Overlay4K.png</texture>
-					<visible>Integer.IsEqual(ListItem.Property(VideoResolution6),4K)</visible>
+					<visible>String.IsEqual(ListItem.Property(VideoResolution6),4K)</visible>
 				</control>
 				<control type="image">
 					<top>13</top>
@@ -1680,14 +1680,14 @@
 					<width>58</width>
 					<height>58</height>
 					<texture>views/OverlayHD.png</texture>
-					<visible>Integer.IsGreater(ListItem.Property(VideoResolution1),719) + !Integer.IsEqual(ListItem.Property(VideoResolution1),4K)</visible>
+					<visible>Integer.IsGreater(ListItem.Property(VideoResolution1),719) + !String.IsEqual(ListItem.Property(VideoResolution1),4K)</visible>
 				</control>
 				<control type="image">
 					<top>13</top>
 					<width>58</width>
 					<height>58</height>
 					<texture>views/Overlay4K.png</texture>
-					<visible>Integer.IsEqual(ListItem.Property(VideoResolution1),4K)</visible>
+					<visible>String.IsEqual(ListItem.Property(VideoResolution1),4K)</visible>
 				</control>
 				<control type="image">
 					<top>13</top>
@@ -1749,14 +1749,14 @@
 					<width>58</width>
 					<height>58</height>
 					<texture>views/OverlayHD.png</texture>
-					<visible>Integer.IsGreater(ListItem.Property(VideoResolution2),719) + !Integer.IsEqual(ListItem.Property(VideoResolution2),4K)</visible>
+					<visible>Integer.IsGreater(ListItem.Property(VideoResolution2),719) + !String.IsEqual(ListItem.Property(VideoResolution2),4K)</visible>
 				</control>
 				<control type="image">
 					<top>13</top>
 					<width>58</width>
 					<height>58</height>
 					<texture>views/Overlay4K.png</texture>
-					<visible>Integer.IsEqual(ListItem.Property(VideoResolution2),4K)</visible>
+					<visible>String.IsEqual(ListItem.Property(VideoResolution2),4K)</visible>
 				</control>
 				<control type="image">
 					<top>13</top>
@@ -1818,14 +1818,14 @@
 					<width>58</width>
 					<height>58</height>
 					<texture>views/OverlayHD.png</texture>
-					<visible>Integer.IsGreater(ListItem.Property(VideoResolution3),719) + !Integer.IsEqual(ListItem.Property(VideoResolution3),4K)</visible>
+					<visible>Integer.IsGreater(ListItem.Property(VideoResolution3),719) + !String.IsEqual(ListItem.Property(VideoResolution3),4K)</visible>
 				</control>
 				<control type="image">
 					<top>13</top>
 					<width>58</width>
 					<height>58</height>
 					<texture>views/Overlay4K.png</texture>
-					<visible>Integer.IsEqual(ListItem.Property(VideoResolution3),4K)</visible>
+					<visible>String.IsEqual(ListItem.Property(VideoResolution3),4K)</visible>
 				</control>
 				<control type="image">
 					<top>13</top>
@@ -1892,14 +1892,14 @@
 					<width>58</width>
 					<height>58</height>
 					<texture>views/OverlayHD.png</texture>
-					<visible>Integer.IsGreater(ListItem.Property(VideoResolution1),719) + !Integer.IsEqual(ListItem.Property(VideoResolution1),4K)</visible>
+					<visible>Integer.IsGreater(ListItem.Property(VideoResolution1),719) + !String.IsEqual(ListItem.Property(VideoResolution1),4K)</visible>
 				</control>
 				<control type="image">
 					<top>13</top>
 					<width>58</width>
 					<height>58</height>
 					<texture>views/Overlay4K.png</texture>
-					<visible>Integer.IsEqual(ListItem.Property(VideoResolution1),4K)</visible>
+					<visible>String.IsEqual(ListItem.Property(VideoResolution1),4K)</visible>
 				</control>
 				<control type="image">
 					<top>13</top>
@@ -1963,14 +1963,14 @@
 					<width>58</width>
 					<height>58</height>
 					<texture>views/OverlayHD.png</texture>
-					<visible>Integer.IsGreater(ListItem.Property(VideoResolution2),719) + !Integer.IsEqual(ListItem.Property(VideoResolution2),4K)</visible>
+					<visible>Integer.IsGreater(ListItem.Property(VideoResolution2),719) + !String.IsEqual(ListItem.Property(VideoResolution2),4K)</visible>
 				</control>
 				<control type="image">
 					<top>13</top>
 					<width>58</width>
 					<height>58</height>
 					<texture>views/Overlay4K.png</texture>
-					<visible>Integer.IsEqual(ListItem.Property(VideoResolution2),4K)</visible>
+					<visible>String.IsEqual(ListItem.Property(VideoResolution2),4K)</visible>
 				</control>
 				<control type="image">
 					<top>13</top>
@@ -2034,14 +2034,14 @@
 					<width>58</width>
 					<height>58</height>
 					<texture>views/OverlayHD.png</texture>
-					<visible>Integer.IsGreater(ListItem.Property(VideoResolution3),719) + !Integer.IsEqual(ListItem.Property(VideoResolution3),4K)</visible>
+					<visible>Integer.IsGreater(ListItem.Property(VideoResolution3),719) + !String.IsEqual(ListItem.Property(VideoResolution3),4K)</visible>
 				</control>
 				<control type="image">
 					<top>13</top>
 					<width>58</width>
 					<height>58</height>
 					<texture>views/Overlay4K.png</texture>
-					<visible>Integer.IsEqual(ListItem.Property(VideoResolution3),4K)</visible>
+					<visible>String.IsEqual(ListItem.Property(VideoResolution3),4K)</visible>
 				</control>
 				<control type="image">
 					<top>13</top>

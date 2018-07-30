@@ -4,10 +4,8 @@
 	<menucontrol>5000</menucontrol>
 	<backgroundcolor>0xff12161b</backgroundcolor>
 	<defaultcontrol always="true">57</defaultcontrol>
-	<onload condition="Window.Previous(home) + Container.HasParent">Control.Move($VAR[ContainerID],1)</onload>
+	<onload condition="Window.Previous(home) + Container.HasParent">Control.SetFocus($VAR[ContainerID],1,absolute)</onload>
 	<onload condition="!String.Contains(Control.GetLabel(9),*) | String.IsEmpty(Skin.String(PicturesRandom))">Skin.SetString(PicturesRandom,off)</onload>
-	<onunload condition="Window.Next(home)">Control.Move($VAR[ContainerID],$INFO[Container.CurrentItem,-])</onunload>
-	<onunload condition="Window.Next(home) + !Container.HasParent">Control.Move($VAR[ContainerID],1)</onunload>
 	<views>57,56,55</views>
 	<controls>
 		<control id="2" type="button">
