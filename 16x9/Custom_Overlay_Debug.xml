@@ -598,6 +598,16 @@
 				<shadowcolor>FF000000</shadowcolor>
 				<font>font13</font>
 				<align>left</align>
+				<label>GameOSD.xml</label>
+				<visible>Window.IsVisible(GameOSD.xml)</visible>
+			</control>
+			<control type="label">
+				<width>780</width>
+				<height>21</height>
+				<textcolor>FFFF0000</textcolor>
+				<shadowcolor>FF000000</shadowcolor>
+				<font>font13</font>
+				<align>left</align>
 				<label>MusicKaraokeLyrics.xml</label>
 				<visible>Window.IsVisible(MusicKaraokeLyrics.xml)</visible>
 			</control>

@@ -6,14 +6,9 @@
 	<include file="Includes_Keyboard.xml"/>
 	<include file="Includes_Parameters.xml"/>
 	<include file="Includes_Variables.xml"/>
-	<include file="Includes_AddonBrowser_Default.xml"/>
-	<include file="Includes_AddonBrowser_Special.xml"/>
-	<include file="Includes_DialogSelect_Default.xml"/>
-	<include file="Includes_DialogSelect_Game.xml"/>
-	<include file="Includes_DialogSelect_Special.xml"/>
-	<include file="Includes_DialogSelect_VideoOSDSelect.xml"/>
-	<include file="Include_DialogSettings_Default.xml"/>
-	<include file="Include_DialogSettings_OSDSettings.xml"/>
+	<include file="Includes_AddonBrowser.xml"/>
+	<include file="Includes_DialogSelect.xml"/>
+	<include file="Includes_DialogSettings.xml"/>
 	<include file="Includes_Home_Widgets_Setup.xml"/>
 	<include file="Viewtype50.xml"/>
 	<include file="Viewtype51.xml"/>
@@ -79,14 +74,8 @@
 	<include name="Width195">
 		<width>195</width>
 	</include>
-	<include name="Width242">
-		<width>242</width>
-	</include>
 	<include name="Width292">
 		<width>292</width>
-	</include>
-	<include name="Width358">
-		<width>358</width>
 	</include>
 	<include name="Width673">
 		<width>673</width>

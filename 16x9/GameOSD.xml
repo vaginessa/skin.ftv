@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window>
-	<!-- contextmenu -->
-	<defaultcontrol always="true">1000</defaultcontrol>
+	<!-- gameosd -->
+	<defaultcontrol always="true">100</defaultcontrol>
 	<coordinates>
 		<origin x="0" y="0"/>
 	</coordinates>
@@ -16,7 +16,7 @@
 				<centerleft>50%</centerleft>
 				<centertop>50%</centertop>
 				<width>558</width>
-				<height>564</height>
+				<height>816</height>
 				<!-- Dialog background image -->
 				<control type="image">
 					<width>100%</width>
@@ -35,15 +35,15 @@
 					<label>35221</label>
 				</control>
 				<!-- Grouplist template -->
-				<control type="grouplist" id="1000">
+				<control type="grouplist" id="100">
 					<top>60</top>
 					<width>100%</width>
-					<height>504</height>
+					<height>756</height>
 					<itemgap>0</itemgap>
 					<onup>noop</onup>
 					<ondown>noop</ondown>
 					<!-- Resume button -->
-					<control type="button" id="1001">
+					<control type="button" id="101">
 						<width>100%</width>
 						<height>84</height>
 						<font>Light32</font>
@@ -57,7 +57,7 @@
 						<onclick>Play</onclick>
 					</control>
 					<!-- Reset button -->
-					<control type="button" id="1002">
+					<control type="button" id="102">
 						<width>100%</width>
 						<height>84</height>
 						<font>Light32</font>
@@ -66,12 +66,11 @@
 						<focusedcolor>ffffaf37</focusedcolor>
 						<texturefocus border="3">settings/button_focus.png</texturefocus>
 						<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
-						<label>10035</label>
-						<label2>Select + B</label2>
+						<label>13007</label>
 						<onclick>PlayerControl(Reset)</onclick>
 					</control>
 					<!-- Stop button -->
-					<control type="button" id="1003">
+					<control type="button" id="103">
 						<width>100%</width>
 						<height>84</height>
 						<font>Light32</font>
@@ -84,8 +83,22 @@
 						<texturefocus border="3">settings/button_focus.png</texturefocus>
 						<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
 					</control>
+					<!-- Volume button -->
+					<control type="button" id="104">
+						<width>100%</width>
+						<height>84</height>
+						<font>Light32</font>
+						<textoffsetx>40</textoffsetx>
+						<textcolor>ff505153</textcolor>
+						<focusedcolor>ffffaf37</focusedcolor>
+						<texturefocus border="3">settings/button_focus.png</texturefocus>
+						<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
+						<label>13376</label>
+						<label2>Select + Right Stick</label2>
+						<onclick>ActivateWindow(GameVolume)</onclick>
+					</control>
 					<!-- Video filter button -->
-					<control type="button" id="1004">
+					<control type="button" id="105">
 						<width>100%</width>
 						<height>84</height>
 						<font>Light32</font>
@@ -97,8 +110,8 @@
 						<label>230</label>
 						<onclick>ActivateWindow(GameVideoFilter)</onclick>
 					</control>
-					<!-- View mode button -->
-					<control type="button" id="1005">
+					<!-- Stretch mode button -->
+					<control type="button" id="106">
 						<width>100%</width>
 						<height>84</height>
 						<font>Light32</font>
@@ -107,11 +120,11 @@
 						<focusedcolor>ffffaf37</focusedcolor>
 						<texturefocus border="3">settings/button_focus.png</texturefocus>
 						<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
-						<label>629</label>
+						<label>35233</label>
 						<onclick>ActivateWindow(GameViewMode)</onclick>
 					</control>
-					<!-- Input settings button -->
-					<control type="button" id="1006">
+					<!-- Controller button -->
+					<control type="button" id="107">
 						<width>100%</width>
 						<height>84</height>
 						<font>Light32</font>
@@ -120,8 +133,34 @@
 						<focusedcolor>ffffaf37</focusedcolor>
 						<texturefocus border="3">settings/button_focus.png</texturefocus>
 						<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
-						<label>35223</label>
-						<onclick>ActivateWindow(gamecontrollers)</onclick>
+						<label>35227</label>
+						<onclick>ActivateWindow(GameVideoRotation)</onclick>
+					</control>
+					<!-- Rotation button -->
+					<control type="button" id="108">
+						<width>100%</width>
+						<height>84</height>
+						<font>Light32</font>
+						<textoffsetx>40</textoffsetx>
+						<textcolor>ff505153</textcolor>
+						<focusedcolor>ffffaf37</focusedcolor>
+						<texturefocus border="3">settings/button_focus.png</texturefocus>
+						<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
+						<label>35234</label>
+						<onclick>ActivateWindow(GameControllers)</onclick>
+					</control>
+					<!-- Advanced settings button -->
+					<control type="button" id="109">
+						<width>100%</width>
+						<height>84</height>
+						<font>Light32</font>
+						<textoffsetx>40</textoffsetx>
+						<textcolor>ff505153</textcolor>
+						<focusedcolor>ffffaf37</focusedcolor>
+						<texturefocus border="3">settings/button_focus.png</texturefocus>
+						<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
+						<label>35226</label>
+						<onclick>ActivateWindow(GameAdvancedSettings)</onclick>
 					</control>
 				</control>
 			</control>
