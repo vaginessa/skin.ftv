@@ -4,7 +4,7 @@
 	<backgroundcolor>0xff12161b</backgroundcolor>
 	<onload>Dialog.Close(all,true)</onload>
 	<defaultcontrol always="true">9000</defaultcontrol>
-	<onload>Control.SetFocus(9000,0,absolute)</onload>
+	<onload condition="Window.Previous(home)">Control.SetFocus(9000,0,absolute)</onload>
 	<controls>
 		<control type="group">
 			<animation condition="Window.Previous(home)" delay="250" effect="fade" end="100" start="0" time="200">WindowOpen</animation>

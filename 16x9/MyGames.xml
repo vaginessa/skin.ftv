@@ -5,6 +5,7 @@
 	<backgroundcolor>0xff12161b</backgroundcolor>
 	<defaultcontrol always="true">55</defaultcontrol>
 	<onload condition="Window.Previous(home) + Container.HasParent">Control.SetFocus($VAR[ContainerID],1,absolute)</onload>
+	<onload condition="Window.Previous(home) + !Container.HasParent">Control.SetFocus($VAR[ContainerID],0,absolute)</onload>
 	<views>56,55,57</views>
 	<controls>
 		<!-- Fanart -->
