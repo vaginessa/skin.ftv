@@ -582,6 +582,7 @@
 						<height>480</height>
 						<viewmode>$INFO[ListItem.Property(game.viewmode)]</viewmode>
 						<videofilter>$INFO[ListItem.Property(game.videofilter)]</videofilter>
+						<rotation>$INFO[ListItem.Property(game.videorotation)]</rotation>
 					</control>
 					<control type="image">
 						<left>-48</left>
@@ -627,6 +628,7 @@
 						<height>480</height>
 						<viewmode>$INFO[ListItem.Property(game.viewmode)]</viewmode>
 						<videofilter>$INFO[ListItem.Property(game.videofilter)]</videofilter>
+						<rotation>$INFO[ListItem.Property(game.videorotation)]</rotation>
 					</control>
 					<control type="image">
 						<top>48</top>

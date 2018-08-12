@@ -123,7 +123,7 @@
 						<label>35233</label>
 						<onclick>ActivateWindow(GameViewMode)</onclick>
 					</control>
-					<!-- Controller button -->
+					<!-- Rotation button -->
 					<control type="button" id="107">
 						<width>100%</width>
 						<height>84</height>
@@ -136,7 +136,7 @@
 						<label>35227</label>
 						<onclick>ActivateWindow(GameVideoRotation)</onclick>
 					</control>
-					<!-- Rotation button -->
+					<!-- Controller button -->
 					<control type="button" id="108">
 						<width>100%</width>
 						<height>84</height>
