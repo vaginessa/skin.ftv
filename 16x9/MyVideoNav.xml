@@ -190,7 +190,7 @@
 					<width>47</width>
 					<height>23</height>
 					<texture>views/tvdb.png</texture>
-					<visible>!String.IsEmpty(ListItem.Rating)</visible>
+					<visible>!String.IsEmpty(Listitem.Rating(tvdb))</visible>
 				</control>
 				<control type="label">
 					<top>-13</top>
@@ -396,14 +396,14 @@
 						<width>48</width>
 						<height>23</height>
 						<texture>views/imdb.png</texture>
-						<visible>!String.IsEmpty(ListItem.Rating) + !Container.Content(tvshows)</visible>
+						<visible>!String.IsEmpty(Listitem.Rating(imdb))</visible>
 					</control>
 					<control type="image">
 						<top>3</top>
 						<width>47</width>
 						<height>23</height>
 						<texture>views/tvdb.png</texture>
-						<visible>!String.IsEmpty(ListItem.Rating) + Container.Content(tvshows)</visible>
+						<visible>!String.IsEmpty(Listitem.Rating(tvdb))</visible>
 					</control>
 					<control type="label">
 						<top>-8</top>

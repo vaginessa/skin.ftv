@@ -3,6 +3,7 @@
 	<!-- musicplaylisteditor -->
 	<backgroundcolor>0xff12161b</backgroundcolor>
 	<defaultcontrol always="true">6</defaultcontrol>
+	<views>50</views>
 	<controls>
 		<!-- Heading -->
 		<control type="label">
